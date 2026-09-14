@@ -216,3 +216,96 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ---------------------------------------------------------------------------
+# Secrets & credentials (defence in depth — never commit these)
+# ---------------------------------------------------------------------------
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+*.crt
+*.cer
+*.der
+*.gpg
+*.asc
+id_rsa*
+id_ed25519*
+.netrc
+.npmrc
+.pypirc
+credentials
+credentials.*
+secrets.*
+*.secret
+*_secret*
+*.token
+.aws/
+.azure/
+.gcloud/
+.kube/
+.ssh/
+service-account*.json
+client_secret*.json
+
+# ---------------------------------------------------------------------------
+# Operating system
+# ---------------------------------------------------------------------------
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+Icon?
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+# Linux
+*~
+.directory
+.Trash-*
+
+# ---------------------------------------------------------------------------
+# Editors & IDEs
+# ---------------------------------------------------------------------------
+.idea/
+.vscode/
+!.vscode/settings.json
+!.vscode/extensions.json
+*.code-workspace
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*.swn
+.history/
+
+# ---------------------------------------------------------------------------
+# Jupyter
+# ---------------------------------------------------------------------------
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+.jupyter/
+.virtual_documents/
+
+# ---------------------------------------------------------------------------
+# Project-specific
+# ---------------------------------------------------------------------------
+# Synthea run output, if ever generated inside this repo instead of synthea/
+output/
+# Scratch / temp
+tmp/
+temp/
+*.tmp
+*.bak
+*.orig

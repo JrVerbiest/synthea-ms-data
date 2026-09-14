@@ -1,0 +1,1239 @@
+START,STOP,PATIENT,ENCOUNTER,SYSTEM,CODE,DESCRIPTION
+1984-04-12,,3c4b499b-090b-c6fa-28d7-b56c6056d0a2,3c4b499b-090b-c6fa-2b34-40c9cf7ba1a4,http://snomed.info/sct,24700007,Multiple Sclerosis
+2010-05-12,,595f9fb9-fcf0-e5bc-239a-e86a96db6211,595f9fb9-fcf0-e5bc-fcb4-7e97167cde33,http://snomed.info/sct,24700007,Multiple Sclerosis
+1983-05-03,,72b5373b-e9f1-db2d-6c43-4506fb4b3e3f,72b5373b-e9f1-db2d-6477-8ea89ac5e542,http://snomed.info/sct,24700007,Multiple Sclerosis
+2005-08-09,,c4d5d909-433c-fccf-5984-4213b88417cb,c4d5d909-433c-fccf-ecdb-cc91105aa169,http://snomed.info/sct,24700007,Multiple Sclerosis
+2009-09-20,,f1f05592-2511-92df-6f3e-c64ac3152b26,f1f05592-2511-92df-4480-39e06cfe7594,http://snomed.info/sct,24700007,Multiple Sclerosis
+1984-03-06,,552461fe-485c-659e-a02a-3f43b6f4d209,552461fe-485c-659e-8d7f-5ce23ca8ff94,http://snomed.info/sct,24700007,Multiple Sclerosis
+2008-03-21,,5393ea7f-1fea-4064-9df4-460a2f662d07,5393ea7f-1fea-4064-feaf-0e96075687ff,http://snomed.info/sct,24700007,Multiple Sclerosis
+2005-08-09,,c4d5d909-433c-fccf-5984-4213b88417cb,c4d5d909-433c-fccf-ecdb-cc91105aa169,http://snomed.info/sct,37796009,Migraine
+2006-01-03,,5c9f20d5-8361-b331-9267-5303ca5b136a,5c9f20d5-8361-b331-a06f-ff6fbeeca6e8,http://snomed.info/sct,24700007,Multiple Sclerosis
+2010-05-12,,595f9fb9-fcf0-e5bc-239a-e86a96db6211,595f9fb9-fcf0-e5bc-fcb4-7e97167cde33,http://snomed.info/sct,890601000000107,Hypercholesterolemia
+2009-09-20,,f1f05592-2511-92df-6f3e-c64ac3152b26,f1f05592-2511-92df-4480-39e06cfe7594,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1984-04-12,,3c4b499b-090b-c6fa-28d7-b56c6056d0a2,3c4b499b-090b-c6fa-2b34-40c9cf7ba1a4,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2006-01-03,,5c9f20d5-8361-b331-9267-5303ca5b136a,5c9f20d5-8361-b331-a06f-ff6fbeeca6e8,http://snomed.info/sct,38822007,Cystitis
+2005-08-09,,c4d5d909-433c-fccf-5984-4213b88417cb,c4d5d909-433c-fccf-ecdb-cc91105aa169,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2008-03-21,,5393ea7f-1fea-4064-9df4-460a2f662d07,5393ea7f-1fea-4064-feaf-0e96075687ff,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2006-01-03,,5c9f20d5-8361-b331-9267-5303ca5b136a,5c9f20d5-8361-b331-a06f-ff6fbeeca6e8,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2010-05-12,,595f9fb9-fcf0-e5bc-239a-e86a96db6211,595f9fb9-fcf0-e5bc-fcb4-7e97167cde33,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1985-05-15,,288427c5-ee03-f47e-6872-def5772f427c,288427c5-ee03-f47e-7a6b-ef0f14caa621,http://snomed.info/sct,24700007,Multiple Sclerosis
+1985-05-15,,288427c5-ee03-f47e-6872-def5772f427c,288427c5-ee03-f47e-7a6b-ef0f14caa621,http://snomed.info/sct,257551009,Infection
+1989-11-17,,7a58a941-bd27-086e-d622-38e5917d0df5,7a58a941-bd27-086e-a083-ff3239856326,http://snomed.info/sct,24700007,Multiple Sclerosis
+1985-05-15,,288427c5-ee03-f47e-6872-def5772f427c,288427c5-ee03-f47e-7a6b-ef0f14caa621,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1989-11-17,,7a58a941-bd27-086e-d622-38e5917d0df5,7a58a941-bd27-086e-a083-ff3239856326,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2003-01-03,,eed8a921-eac8-0778-4113-255f4e35506a,eed8a921-eac8-0778-4062-763da026e253,http://snomed.info/sct,24700007,Multiple Sclerosis
+2003-01-03,,eed8a921-eac8-0778-4113-255f4e35506a,eed8a921-eac8-0778-4062-763da026e253,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1984-03-06,,552461fe-485c-659e-a02a-3f43b6f4d209,552461fe-485c-659e-8d7f-5ce23ca8ff94,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2003-01-03,,eed8a921-eac8-0778-4113-255f4e35506a,eed8a921-eac8-0778-bcc8-cdf4bc035dcf,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2005-08-09,,c4d5d909-433c-fccf-5984-4213b88417cb,c4d5d909-433c-fccf-89d5-31484c11040e,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1984-03-06,,552461fe-485c-659e-a02a-3f43b6f4d209,552461fe-485c-659e-013b-44ed8d3a8022,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2009-09-20,,f1f05592-2511-92df-6f3e-c64ac3152b26,f1f05592-2511-92df-1cb3-3b9ab8a3d4b0,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2008-03-21,,5393ea7f-1fea-4064-9df4-460a2f662d07,5393ea7f-1fea-4064-013e-1f3a5f2a034f,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1983-05-03,,72b5373b-e9f1-db2d-6c43-4506fb4b3e3f,72b5373b-e9f1-db2d-6477-8ea89ac5e542,http://snomed.info/sct,59621000,Essential hypertension
+1983-05-03,,72b5373b-e9f1-db2d-6c43-4506fb4b3e3f,72b5373b-e9f1-db2d-6477-8ea89ac5e542,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2003-01-03,,eed8a921-eac8-0778-4113-255f4e35506a,eed8a921-eac8-0778-a677-6e0243c6293f,http://snomed.info/sct,343601000000105,Secondary progressive multiple sclerosis
+1984-04-12,,3c4b499b-090b-c6fa-28d7-b56c6056d0a2,3c4b499b-090b-c6fa-4ab6-cd801e70fb2a,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1989-11-17,,7a58a941-bd27-086e-d622-38e5917d0df5,7a58a941-bd27-086e-54ff-896f43a0d1c0,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2006-01-03,,5c9f20d5-8361-b331-9267-5303ca5b136a,5c9f20d5-8361-b331-73b9-742777988cfd,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2010-05-12,,595f9fb9-fcf0-e5bc-239a-e86a96db6211,595f9fb9-fcf0-e5bc-f5fe-da16e0f5adc9,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1985-05-15,,288427c5-ee03-f47e-6872-def5772f427c,288427c5-ee03-f47e-31f4-bf007ece52f9,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2006-01-03,,5c9f20d5-8361-b331-9267-5303ca5b136a,5c9f20d5-8361-b331-336a-0170a4cb0213,http://snomed.info/sct,343601000000105,Secondary progressive multiple sclerosis
+2010-05-12,,595f9fb9-fcf0-e5bc-239a-e86a96db6211,595f9fb9-fcf0-e5bc-17d4-b4be22e9683e,http://snomed.info/sct,343601000000105,Secondary progressive multiple sclerosis
+1983-05-03,,72b5373b-e9f1-db2d-6c43-4506fb4b3e3f,72b5373b-e9f1-db2d-b873-a323f113dd32,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1983-05-03,,72b5373b-e9f1-db2d-6c43-4506fb4b3e3f,72b5373b-e9f1-db2d-53de-e7ac32308460,http://snomed.info/sct,343601000000105,Secondary progressive multiple sclerosis
+2023-04-14,,a35dfdc9-1d97-63e0-a0b6-3e97b6fd5fe1,a35dfdc9-1d97-63e0-bd0b-0dab694e94f2,http://snomed.info/sct,24700007,Multiple Sclerosis
+2023-04-14,,a35dfdc9-1d97-63e0-a0b6-3e97b6fd5fe1,a35dfdc9-1d97-63e0-bd0b-0dab694e94f2,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2025-11-12,,42616746-f8f2-a25b-c36e-668ff41528e9,42616746-f8f2-a25b-56f3-bf3645e60a5d,http://snomed.info/sct,24700007,Multiple Sclerosis
+2025-11-12,,42616746-f8f2-a25b-c36e-668ff41528e9,42616746-f8f2-a25b-56f3-bf3645e60a5d,http://snomed.info/sct,37796009,Migraine
+2025-11-12,,42616746-f8f2-a25b-c36e-668ff41528e9,42616746-f8f2-a25b-56f3-bf3645e60a5d,http://snomed.info/sct,428700003,Primary progressive multiple sclerosis
+2022-07-11,,96c54863-c359-ca32-7899-2fb31ab8ea65,96c54863-c359-ca32-9a50-eccd811d5b5d,http://snomed.info/sct,24700007,Multiple Sclerosis
+2022-07-11,,96c54863-c359-ca32-7899-2fb31ab8ea65,96c54863-c359-ca32-9a50-eccd811d5b5d,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2023-04-14,,a35dfdc9-1d97-63e0-a0b6-3e97b6fd5fe1,a35dfdc9-1d97-63e0-9cdf-8025147c0bf0,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2022-07-11,,96c54863-c359-ca32-7899-2fb31ab8ea65,96c54863-c359-ca32-ad1d-12f030d05f59,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1998-05-05,,31b5fe0c-a493-9438-7ac6-b3c7cdd723c4,31b5fe0c-a493-9438-ed86-3a67ce54787b,http://snomed.info/sct,24700007,Multiple Sclerosis
+1998-05-05,,31b5fe0c-a493-9438-7ac6-b3c7cdd723c4,31b5fe0c-a493-9438-ed86-3a67ce54787b,http://snomed.info/sct,59621000,Essential hypertension
+1998-05-05,,31b5fe0c-a493-9438-7ac6-b3c7cdd723c4,31b5fe0c-a493-9438-ed86-3a67ce54787b,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1998-05-05,,31b5fe0c-a493-9438-7ac6-b3c7cdd723c4,31b5fe0c-a493-9438-cb88-9043e0b44092,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1998-03-14,,171a2edf-e42a-364e-6b06-0c17b5af82b5,171a2edf-e42a-364e-387d-d017449f9e95,http://snomed.info/sct,24700007,Multiple Sclerosis
+1998-03-14,,171a2edf-e42a-364e-6b06-0c17b5af82b5,171a2edf-e42a-364e-387d-d017449f9e95,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1998-03-14,,171a2edf-e42a-364e-6b06-0c17b5af82b5,171a2edf-e42a-364e-3522-cf7c9dfea565,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2004-08-16,,59d21b6d-ef06-1497-4b9c-19918733d3f6,59d21b6d-ef06-1497-9a30-662c28794a61,http://snomed.info/sct,24700007,Multiple Sclerosis
+2004-08-16,,59d21b6d-ef06-1497-4b9c-19918733d3f6,59d21b6d-ef06-1497-9a30-662c28794a61,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2009-06-20,,1a4f7487-d2e6-408c-44a8-ca456c6e38bb,1a4f7487-d2e6-408c-b9ee-ed98ffd5c8d5,http://snomed.info/sct,24700007,Multiple Sclerosis
+2009-06-20,,1a4f7487-d2e6-408c-44a8-ca456c6e38bb,1a4f7487-d2e6-408c-b9ee-ed98ffd5c8d5,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2004-08-16,,59d21b6d-ef06-1497-4b9c-19918733d3f6,59d21b6d-ef06-1497-272a-b85162402b44,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2022-08-07,,33627b4d-7b0d-6388-a832-f5fa07a9e8ef,33627b4d-7b0d-6388-cc22-3fe09a17ad29,http://snomed.info/sct,24700007,Multiple Sclerosis
+2022-08-07,,33627b4d-7b0d-6388-a832-f5fa07a9e8ef,33627b4d-7b0d-6388-cc22-3fe09a17ad29,http://snomed.info/sct,428700003,Primary progressive multiple sclerosis
+2009-06-20,,1a4f7487-d2e6-408c-44a8-ca456c6e38bb,1a4f7487-d2e6-408c-bfba-59862a58ba03,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2001-05-29,,f1c177e7-2945-c20d-0d7f-673ce7ef53d0,f1c177e7-2945-c20d-0f4e-eafb4c3af9e5,http://snomed.info/sct,24700007,Multiple Sclerosis
+2001-05-29,,f1c177e7-2945-c20d-0d7f-673ce7ef53d0,f1c177e7-2945-c20d-0f4e-eafb4c3af9e5,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2001-05-29,,f1c177e7-2945-c20d-0d7f-673ce7ef53d0,f1c177e7-2945-c20d-8e7d-4f30571ffcdd,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1996-05-20,,b149bbe2-a604-d60b-ae87-22c88fe33bf6,b149bbe2-a604-d60b-78d1-9723e221219b,http://snomed.info/sct,24700007,Multiple Sclerosis
+1996-05-20,,b149bbe2-a604-d60b-ae87-22c88fe33bf6,b149bbe2-a604-d60b-78d1-9723e221219b,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1996-05-20,,b149bbe2-a604-d60b-ae87-22c88fe33bf6,b149bbe2-a604-d60b-f499-b7ecb526d917,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1973-07-29,,40e66c47-f6e8-c2e7-6be6-dbc4b4fabe8d,40e66c47-f6e8-c2e7-7a4e-9518a9ff2269,http://snomed.info/sct,24700007,Multiple Sclerosis
+1973-07-29,,40e66c47-f6e8-c2e7-6be6-dbc4b4fabe8d,40e66c47-f6e8-c2e7-7a4e-9518a9ff2269,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1973-07-29,,40e66c47-f6e8-c2e7-6be6-dbc4b4fabe8d,40e66c47-f6e8-c2e7-e40c-04654836b63a,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1977-03-29,,0c1e1add-0fb2-9ad8-d9fb-22dd45ab41e3,0c1e1add-0fb2-9ad8-3f99-99d953a5ee02,http://snomed.info/sct,24700007,Multiple Sclerosis
+1977-03-29,,0c1e1add-0fb2-9ad8-d9fb-22dd45ab41e3,0c1e1add-0fb2-9ad8-3f99-99d953a5ee02,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1972-04-11,,b23188ac-9529-2450-e0b7-58adb2b38de6,b23188ac-9529-2450-13b0-f08009c84557,http://snomed.info/sct,24700007,Multiple Sclerosis
+1972-04-11,,b23188ac-9529-2450-e0b7-58adb2b38de6,b23188ac-9529-2450-13b0-f08009c84557,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1972-04-11,,b23188ac-9529-2450-e0b7-58adb2b38de6,b23188ac-9529-2450-e727-dea5418eaf20,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2019-10-15,,27f086db-83a1-15ce-2b44-0c6c29dbaf6a,27f086db-83a1-15ce-2cf4-1268702ff46c,http://snomed.info/sct,24700007,Multiple Sclerosis
+2019-10-15,,27f086db-83a1-15ce-2b44-0c6c29dbaf6a,27f086db-83a1-15ce-2cf4-1268702ff46c,http://snomed.info/sct,257556004,Surgery
+2019-10-15,,27f086db-83a1-15ce-2b44-0c6c29dbaf6a,27f086db-83a1-15ce-2cf4-1268702ff46c,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2019-10-15,,27f086db-83a1-15ce-2b44-0c6c29dbaf6a,27f086db-83a1-15ce-eead-9b053cfa4ea7,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2015-02-05,,1a4972ee-0166-fe57-b29d-5c39026f83b0,1a4972ee-0166-fe57-d3e2-44ff561e6bb5,http://snomed.info/sct,24700007,Multiple Sclerosis
+2015-02-05,,1a4972ee-0166-fe57-b29d-5c39026f83b0,1a4972ee-0166-fe57-d3e2-44ff561e6bb5,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2015-02-05,,1a4972ee-0166-fe57-b29d-5c39026f83b0,1a4972ee-0166-fe57-63f1-394dc7cfae47,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2023-12-04,,7ee37e08-323a-9da3-54a6-f9f98f704897,7ee37e08-323a-9da3-50eb-19a24705520e,http://snomed.info/sct,24700007,Multiple Sclerosis
+2023-12-04,,7ee37e08-323a-9da3-54a6-f9f98f704897,7ee37e08-323a-9da3-50eb-19a24705520e,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2023-12-04,,7ee37e08-323a-9da3-54a6-f9f98f704897,7ee37e08-323a-9da3-6d1c-0863ef6cc748,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1997-11-21,,60b5cfed-26c3-727e-abc4-5becb36e3f75,60b5cfed-26c3-727e-c80a-a77c16d02cbc,http://snomed.info/sct,24700007,Multiple Sclerosis
+1997-11-21,,60b5cfed-26c3-727e-abc4-5becb36e3f75,60b5cfed-26c3-727e-c80a-a77c16d02cbc,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1990-01-15,,976e3f24-1d50-efda-229a-1e6d1714f0cd,976e3f24-1d50-efda-0b5f-8d4373e874e8,http://snomed.info/sct,24700007,Multiple Sclerosis
+1990-01-15,,976e3f24-1d50-efda-229a-1e6d1714f0cd,976e3f24-1d50-efda-0b5f-8d4373e874e8,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1997-11-21,,60b5cfed-26c3-727e-abc4-5becb36e3f75,60b5cfed-26c3-727e-120e-ddf147ccf1cd,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1998-01-20,,110f43f1-8470-082d-3cb0-0951f5a68180,110f43f1-8470-082d-7049-d176da7024d1,http://snomed.info/sct,24700007,Multiple Sclerosis
+1998-01-20,,110f43f1-8470-082d-3cb0-0951f5a68180,110f43f1-8470-082d-7049-d176da7024d1,http://snomed.info/sct,257556004,Surgery
+1998-01-20,,110f43f1-8470-082d-3cb0-0951f5a68180,110f43f1-8470-082d-7049-d176da7024d1,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1998-01-20,,110f43f1-8470-082d-3cb0-0951f5a68180,110f43f1-8470-082d-9835-195af3cd90f6,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1990-01-15,,976e3f24-1d50-efda-229a-1e6d1714f0cd,976e3f24-1d50-efda-b49d-f1e7a593fabc,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1990-01-15,,976e3f24-1d50-efda-229a-1e6d1714f0cd,976e3f24-1d50-efda-383b-a09a94626aa4,http://snomed.info/sct,343601000000105,Secondary progressive multiple sclerosis
+1989-06-30,,e95ac678-666f-e6f5-eb76-c0273233acb1,e95ac678-666f-e6f5-05b9-1857981293e6,http://snomed.info/sct,24700007,Multiple Sclerosis
+1989-06-30,,e95ac678-666f-e6f5-eb76-c0273233acb1,e95ac678-666f-e6f5-05b9-1857981293e6,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1989-06-30,,e95ac678-666f-e6f5-eb76-c0273233acb1,e95ac678-666f-e6f5-5f02-f3e3330c9d84,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2022-05-14,,fc35473b-5d19-5b79-2a70-68270e4c31ec,fc35473b-5d19-5b79-156d-0c4839eff6f3,http://snomed.info/sct,24700007,Multiple Sclerosis
+2022-05-14,,fc35473b-5d19-5b79-2a70-68270e4c31ec,fc35473b-5d19-5b79-156d-0c4839eff6f3,http://snomed.info/sct,257551009,Infection
+2022-05-14,,fc35473b-5d19-5b79-2a70-68270e4c31ec,fc35473b-5d19-5b79-156d-0c4839eff6f3,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2022-05-14,,fc35473b-5d19-5b79-2a70-68270e4c31ec,fc35473b-5d19-5b79-7b1b-82c89eb1845a,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1996-09-06,,98cf5a0c-d567-51a1-9cb5-a91e6d011996,98cf5a0c-d567-51a1-daa1-494fe9b67b28,http://snomed.info/sct,24700007,Multiple Sclerosis
+1996-09-06,,98cf5a0c-d567-51a1-9cb5-a91e6d011996,98cf5a0c-d567-51a1-daa1-494fe9b67b28,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1996-09-06,,98cf5a0c-d567-51a1-9cb5-a91e6d011996,98cf5a0c-d567-51a1-b1c8-6a91c06c3168,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1993-05-14,,307ab11f-ff8e-63d6-fb00-b97e91b2234e,307ab11f-ff8e-63d6-40b8-6c819b1e5782,http://snomed.info/sct,24700007,Multiple Sclerosis
+1993-05-14,,307ab11f-ff8e-63d6-fb00-b97e91b2234e,307ab11f-ff8e-63d6-40b8-6c819b1e5782,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1993-05-14,,307ab11f-ff8e-63d6-fb00-b97e91b2234e,307ab11f-ff8e-63d6-e39f-8a84cbb821d8,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1993-05-14,,307ab11f-ff8e-63d6-fb00-b97e91b2234e,307ab11f-ff8e-63d6-41c2-a07399709d6a,http://snomed.info/sct,343601000000105,Secondary progressive multiple sclerosis
+2026-08-03,,3a86c2d6-afc7-14f7-8c05-7adc29c2aa19,3a86c2d6-afc7-14f7-682e-cfbe909b6108,http://snomed.info/sct,24700007,Multiple Sclerosis
+2026-08-03,,3a86c2d6-afc7-14f7-8c05-7adc29c2aa19,3a86c2d6-afc7-14f7-682e-cfbe909b6108,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2026-08-03,,3a86c2d6-afc7-14f7-8c05-7adc29c2aa19,3a86c2d6-afc7-14f7-0e9e-dde7eea2d768,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2002-05-23,,ce07a24b-e938-5968-9ecb-78eb1783f5e7,ce07a24b-e938-5968-f8e4-fccc78331b24,http://snomed.info/sct,24700007,Multiple Sclerosis
+2002-05-23,,ce07a24b-e938-5968-9ecb-78eb1783f5e7,ce07a24b-e938-5968-f8e4-fccc78331b24,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2002-05-23,,ce07a24b-e938-5968-9ecb-78eb1783f5e7,ce07a24b-e938-5968-85b0-7d21a07039c9,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2002-05-23,,ce07a24b-e938-5968-9ecb-78eb1783f5e7,ce07a24b-e938-5968-9bfc-e0bef53c3a14,http://snomed.info/sct,343601000000105,Secondary progressive multiple sclerosis
+2016-12-24,,83bcce12-2bef-ed2e-08b3-d6d2696d0746,83bcce12-2bef-ed2e-31fc-928111cf632c,http://snomed.info/sct,24700007,Multiple Sclerosis
+2016-12-24,,83bcce12-2bef-ed2e-08b3-d6d2696d0746,83bcce12-2bef-ed2e-31fc-928111cf632c,http://snomed.info/sct,428700003,Primary progressive multiple sclerosis
+1989-12-24,,7bbaa47e-d029-bf4f-3237-ddd955c0a584,7bbaa47e-d029-bf4f-6589-09d8fab3497f,http://snomed.info/sct,24700007,Multiple Sclerosis
+1989-12-24,,7bbaa47e-d029-bf4f-3237-ddd955c0a584,7bbaa47e-d029-bf4f-6589-09d8fab3497f,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1989-12-24,,7bbaa47e-d029-bf4f-3237-ddd955c0a584,7bbaa47e-d029-bf4f-27e7-26d5fb8989c3,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2022-08-10,,caf40a59-f13e-8109-8d3f-bda4f8e42309,caf40a59-f13e-8109-a04a-5f580c686c71,http://snomed.info/sct,24700007,Multiple Sclerosis
+2022-08-10,,caf40a59-f13e-8109-8d3f-bda4f8e42309,caf40a59-f13e-8109-a04a-5f580c686c71,http://snomed.info/sct,928000,Disorder of musculoskeletal system
+2022-08-10,,caf40a59-f13e-8109-8d3f-bda4f8e42309,caf40a59-f13e-8109-a04a-5f580c686c71,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2022-08-10,,caf40a59-f13e-8109-8d3f-bda4f8e42309,caf40a59-f13e-8109-aafb-dbedfbb6f482,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2022-08-10,,caf40a59-f13e-8109-8d3f-bda4f8e42309,caf40a59-f13e-8109-d16c-abfdd7edd42a,http://snomed.info/sct,343601000000105,Secondary progressive multiple sclerosis
+2008-04-13,,08e7b250-dc1d-5342-b5ee-241c8d9f67a4,08e7b250-dc1d-5342-e0ef-ed5dca4b4d3f,http://snomed.info/sct,24700007,Multiple Sclerosis
+2008-04-13,,08e7b250-dc1d-5342-b5ee-241c8d9f67a4,08e7b250-dc1d-5342-e0ef-ed5dca4b4d3f,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2008-04-13,,08e7b250-dc1d-5342-b5ee-241c8d9f67a4,08e7b250-dc1d-5342-43bd-6ca40216cd04,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2015-03-05,,844bbd88-7a86-edc8-a1c9-72c091cccfbd,844bbd88-7a86-edc8-b0de-653125ad02ff,http://snomed.info/sct,24700007,Multiple Sclerosis
+2015-03-05,,844bbd88-7a86-edc8-a1c9-72c091cccfbd,844bbd88-7a86-edc8-b0de-653125ad02ff,http://snomed.info/sct,428700003,Primary progressive multiple sclerosis
+2008-12-26,,6c8f0d25-5e38-ce5c-2add-8cb09ec415de,6c8f0d25-5e38-ce5c-8ca7-1fde2a87860c,http://snomed.info/sct,24700007,Multiple Sclerosis
+2008-12-26,,6c8f0d25-5e38-ce5c-2add-8cb09ec415de,6c8f0d25-5e38-ce5c-8ca7-1fde2a87860c,http://snomed.info/sct,890601000000107,Hypercholesterolemia
+2008-12-26,,6c8f0d25-5e38-ce5c-2add-8cb09ec415de,6c8f0d25-5e38-ce5c-8ca7-1fde2a87860c,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2008-12-26,,6c8f0d25-5e38-ce5c-2add-8cb09ec415de,6c8f0d25-5e38-ce5c-4c05-beaec4a2774f,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2021-01-27,,ad253694-9d2a-beee-ddfa-516a3f42af6c,ad253694-9d2a-beee-89f5-a30f9de13c93,http://snomed.info/sct,24700007,Multiple Sclerosis
+2021-01-27,,ad253694-9d2a-beee-ddfa-516a3f42af6c,ad253694-9d2a-beee-89f5-a30f9de13c93,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2021-01-27,,ad253694-9d2a-beee-ddfa-516a3f42af6c,ad253694-9d2a-beee-83dc-14712a1aaa9b,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2021-01-27,,ad253694-9d2a-beee-ddfa-516a3f42af6c,ad253694-9d2a-beee-092d-f46a01dd5c73,http://snomed.info/sct,343601000000105,Secondary progressive multiple sclerosis
+1994-02-20,,4a95bdc7-c1f1-8a09-509a-cf6bef54fc75,4a95bdc7-c1f1-8a09-dc38-4377fe7358b5,http://snomed.info/sct,24700007,Multiple Sclerosis
+1994-02-20,,4a95bdc7-c1f1-8a09-509a-cf6bef54fc75,4a95bdc7-c1f1-8a09-dc38-4377fe7358b5,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1994-02-20,,4a95bdc7-c1f1-8a09-509a-cf6bef54fc75,4a95bdc7-c1f1-8a09-a348-847567b2c490,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1980-01-21,,4baf953f-897a-3bf2-4bfd-1cb98984249c,4baf953f-897a-3bf2-14ab-1fb7796a4d25,http://snomed.info/sct,24700007,Multiple Sclerosis
+1980-01-21,,4baf953f-897a-3bf2-4bfd-1cb98984249c,4baf953f-897a-3bf2-14ab-1fb7796a4d25,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1980-01-21,,4baf953f-897a-3bf2-4bfd-1cb98984249c,4baf953f-897a-3bf2-daca-3061064b81a1,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1980-01-21,,4baf953f-897a-3bf2-4bfd-1cb98984249c,4baf953f-897a-3bf2-cccc-247eca2a8428,http://snomed.info/sct,343601000000105,Secondary progressive multiple sclerosis
+2015-04-10,,4754dd83-8d78-e9cf-5b6e-43a263f4b15d,4754dd83-8d78-e9cf-8907-4a9abf7346ec,http://snomed.info/sct,24700007,Multiple Sclerosis
+2015-04-10,,4754dd83-8d78-e9cf-5b6e-43a263f4b15d,4754dd83-8d78-e9cf-8907-4a9abf7346ec,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2015-04-10,,4754dd83-8d78-e9cf-5b6e-43a263f4b15d,4754dd83-8d78-e9cf-7ccb-9a89b96a22a7,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1999-09-03,,006232dd-9560-5c9a-1430-c5ceaacb45c3,006232dd-9560-5c9a-7a5d-b696734b5303,http://snomed.info/sct,24700007,Multiple Sclerosis
+1999-09-03,,006232dd-9560-5c9a-1430-c5ceaacb45c3,006232dd-9560-5c9a-7a5d-b696734b5303,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1999-09-03,,006232dd-9560-5c9a-1430-c5ceaacb45c3,006232dd-9560-5c9a-548d-5f0f30a1ba24,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2018-12-21,,a428e85d-adbb-b923-cf59-56bb34f2841b,a428e85d-adbb-b923-3d8c-ca06f5f8b556,http://snomed.info/sct,24700007,Multiple Sclerosis
+2018-12-21,,a428e85d-adbb-b923-cf59-56bb34f2841b,a428e85d-adbb-b923-3d8c-ca06f5f8b556,http://snomed.info/sct,428700003,Primary progressive multiple sclerosis
+2018-12-21,,a428e85d-adbb-b923-cf59-56bb34f2841b,a428e85d-adbb-b923-2005-060a57e9180a,http://snomed.info/sct,724778008,Progressive relapsing multiple sclerosis
+2002-12-21,,aee8bc70-2c23-21ed-0d03-cc3c5fc379bf,aee8bc70-2c23-21ed-e3d0-ff29d73ad28f,http://snomed.info/sct,24700007,Multiple Sclerosis
+2002-12-21,,aee8bc70-2c23-21ed-0d03-cc3c5fc379bf,aee8bc70-2c23-21ed-e3d0-ff29d73ad28f,http://snomed.info/sct,712823008,Acute Depression
+2002-12-21,,aee8bc70-2c23-21ed-0d03-cc3c5fc379bf,aee8bc70-2c23-21ed-e3d0-ff29d73ad28f,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2002-12-21,,aee8bc70-2c23-21ed-0d03-cc3c5fc379bf,aee8bc70-2c23-21ed-a961-d244d3c562dc,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2012-03-24,,9589dfd6-09ea-113d-ca42-4f09df70f4a9,9589dfd6-09ea-113d-d9d8-70819298104f,http://snomed.info/sct,24700007,Multiple Sclerosis
+2012-03-24,,9589dfd6-09ea-113d-ca42-4f09df70f4a9,9589dfd6-09ea-113d-d9d8-70819298104f,http://snomed.info/sct,890601000000107,Hypercholesterolemia
+2012-03-24,,9589dfd6-09ea-113d-ca42-4f09df70f4a9,9589dfd6-09ea-113d-d9d8-70819298104f,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2012-03-24,,9589dfd6-09ea-113d-ca42-4f09df70f4a9,9589dfd6-09ea-113d-783c-ba8621386b51,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1992-07-23,,86919c2e-6fcc-4756-2a76-c0e31e732109,86919c2e-6fcc-4756-f13b-c393b0ae9954,http://snomed.info/sct,24700007,Multiple Sclerosis
+1992-07-23,,86919c2e-6fcc-4756-2a76-c0e31e732109,86919c2e-6fcc-4756-f13b-c393b0ae9954,http://snomed.info/sct,38822007,Cystitis
+1992-07-23,,86919c2e-6fcc-4756-2a76-c0e31e732109,86919c2e-6fcc-4756-f13b-c393b0ae9954,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1992-07-23,,86919c2e-6fcc-4756-2a76-c0e31e732109,86919c2e-6fcc-4756-a425-0cc9d371a917,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1996-08-11,,957c697d-551f-c277-6a63-83494d857671,957c697d-551f-c277-3cca-1ab8059ccb2a,http://snomed.info/sct,24700007,Multiple Sclerosis
+1996-08-11,,957c697d-551f-c277-6a63-83494d857671,957c697d-551f-c277-3cca-1ab8059ccb2a,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1996-08-11,,957c697d-551f-c277-6a63-83494d857671,957c697d-551f-c277-0a39-79a9f907a8f2,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1998-09-04,,cf2beebb-f66f-7684-6099-312cbb96dbc6,cf2beebb-f66f-7684-a626-70848885788a,http://snomed.info/sct,24700007,Multiple Sclerosis
+1998-09-04,,cf2beebb-f66f-7684-6099-312cbb96dbc6,cf2beebb-f66f-7684-a626-70848885788a,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1998-09-04,,cf2beebb-f66f-7684-6099-312cbb96dbc6,cf2beebb-f66f-7684-d56b-807869609fec,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2010-10-13,,91592d7b-43f9-b288-0255-e44789759a0a,91592d7b-43f9-b288-b2fc-a4dbf5d9c28c,http://snomed.info/sct,24700007,Multiple Sclerosis
+2010-10-13,,91592d7b-43f9-b288-0255-e44789759a0a,91592d7b-43f9-b288-b2fc-a4dbf5d9c28c,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2010-10-13,,91592d7b-43f9-b288-0255-e44789759a0a,91592d7b-43f9-b288-692f-d66a0d4f8c02,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1991-08-07,,6478228d-1f08-7648-ed95-baea6b99fbd8,6478228d-1f08-7648-ef59-ee1f9cd6e7c6,http://snomed.info/sct,24700007,Multiple Sclerosis
+1991-08-07,,6478228d-1f08-7648-ed95-baea6b99fbd8,6478228d-1f08-7648-ef59-ee1f9cd6e7c6,http://snomed.info/sct,128292002,Chronic disease of cardiovascular system
+1991-08-07,,6478228d-1f08-7648-ed95-baea6b99fbd8,6478228d-1f08-7648-ef59-ee1f9cd6e7c6,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1991-08-07,,6478228d-1f08-7648-ed95-baea6b99fbd8,6478228d-1f08-7648-2513-f258d60aad7c,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2016-10-18,,ded16dae-9c87-49c1-ca28-6431e75accdb,ded16dae-9c87-49c1-55d2-2c5325754dbf,http://snomed.info/sct,24700007,Multiple Sclerosis
+2016-10-18,,ded16dae-9c87-49c1-ca28-6431e75accdb,ded16dae-9c87-49c1-55d2-2c5325754dbf,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2016-10-18,,ded16dae-9c87-49c1-ca28-6431e75accdb,ded16dae-9c87-49c1-f337-e442d04a1c9e,http://snomed.info/sct,343601000000105,Secondary progressive multiple sclerosis
+1980-05-17,,98963f73-8377-42bb-0328-9eed0508c96b,98963f73-8377-42bb-62f1-03358379ab51,http://snomed.info/sct,24700007,Multiple Sclerosis
+1980-05-17,,98963f73-8377-42bb-0328-9eed0508c96b,98963f73-8377-42bb-62f1-03358379ab51,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1980-05-17,,98963f73-8377-42bb-0328-9eed0508c96b,98963f73-8377-42bb-52ef-233a27f8cb24,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2008-05-04,,ef06da40-feb8-0eb8-1232-89501a9d3de8,ef06da40-feb8-0eb8-3442-64e7af6e604a,http://snomed.info/sct,24700007,Multiple Sclerosis
+2008-05-04,,ef06da40-feb8-0eb8-1232-89501a9d3de8,ef06da40-feb8-0eb8-3442-64e7af6e604a,http://snomed.info/sct,41368006,Disorder of urinary tract
+2008-05-04,,ef06da40-feb8-0eb8-1232-89501a9d3de8,ef06da40-feb8-0eb8-3442-64e7af6e604a,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2008-05-04,,ef06da40-feb8-0eb8-1232-89501a9d3de8,ef06da40-feb8-0eb8-7fcb-4550f8b13738,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2026-08-22,,201401e6-8466-af54-d088-a97628e4b651,201401e6-8466-af54-9ac4-9b02d880ea29,http://snomed.info/sct,24700007,Multiple Sclerosis
+2026-08-22,,201401e6-8466-af54-d088-a97628e4b651,201401e6-8466-af54-9ac4-9b02d880ea29,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2026-08-22,,201401e6-8466-af54-d088-a97628e4b651,201401e6-8466-af54-5dad-e02cf1cdbcb1,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2026-04-19,,d1bb5af6-de1a-d0de-71e6-2aa79001e49c,d1bb5af6-de1a-d0de-5cd0-6c9d5022762d,http://snomed.info/sct,24700007,Multiple Sclerosis
+2026-04-19,,d1bb5af6-de1a-d0de-71e6-2aa79001e49c,d1bb5af6-de1a-d0de-5cd0-6c9d5022762d,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2026-04-19,,d1bb5af6-de1a-d0de-71e6-2aa79001e49c,d1bb5af6-de1a-d0de-7fc4-281feffe85a8,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1987-06-26,,97ae5dbb-a296-7c39-5b48-7563d72d1d1e,97ae5dbb-a296-7c39-10eb-75c88007a941,http://snomed.info/sct,24700007,Multiple Sclerosis
+1987-06-26,,97ae5dbb-a296-7c39-5b48-7563d72d1d1e,97ae5dbb-a296-7c39-10eb-75c88007a941,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1987-06-26,,97ae5dbb-a296-7c39-5b48-7563d72d1d1e,97ae5dbb-a296-7c39-f38c-c152a16126d0,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2003-04-13,,647d9aab-c629-7f22-8d09-1ce8ac29a58d,647d9aab-c629-7f22-7d98-4a8c5a220f44,http://snomed.info/sct,24700007,Multiple Sclerosis
+2003-04-13,,647d9aab-c629-7f22-8d09-1ce8ac29a58d,647d9aab-c629-7f22-7d98-4a8c5a220f44,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2003-04-13,,647d9aab-c629-7f22-8d09-1ce8ac29a58d,647d9aab-c629-7f22-6211-b413d2b50fa9,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2003-04-13,,647d9aab-c629-7f22-8d09-1ce8ac29a58d,647d9aab-c629-7f22-bfd5-97d90fc21de5,http://snomed.info/sct,343601000000105,Secondary progressive multiple sclerosis
+1988-05-01,,5cd3af8d-6c5b-a875-3b26-7b749efd03ac,5cd3af8d-6c5b-a875-c31f-906e395bafb3,http://snomed.info/sct,24700007,Multiple Sclerosis
+1988-05-01,,5cd3af8d-6c5b-a875-3b26-7b749efd03ac,5cd3af8d-6c5b-a875-c31f-906e395bafb3,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1988-05-01,,5cd3af8d-6c5b-a875-3b26-7b749efd03ac,5cd3af8d-6c5b-a875-e5a2-b1de7f7dce8b,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2002-10-17,,5eb3f6b9-af98-50fc-da1f-951eede3bd47,5eb3f6b9-af98-50fc-6a10-e69e7d2fd929,http://snomed.info/sct,24700007,Multiple Sclerosis
+2002-10-17,,5eb3f6b9-af98-50fc-da1f-951eede3bd47,5eb3f6b9-af98-50fc-6a10-e69e7d2fd929,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2002-10-17,,5eb3f6b9-af98-50fc-da1f-951eede3bd47,5eb3f6b9-af98-50fc-5946-4096ecaff62d,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2025-08-09,,c5b15af9-82ac-a6b8-94f0-b483d51a2d74,c5b15af9-82ac-a6b8-3350-d6fc24d2ac4f,http://snomed.info/sct,24700007,Multiple Sclerosis
+2025-08-09,,c5b15af9-82ac-a6b8-94f0-b483d51a2d74,c5b15af9-82ac-a6b8-3350-d6fc24d2ac4f,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2025-08-09,,c5b15af9-82ac-a6b8-94f0-b483d51a2d74,c5b15af9-82ac-a6b8-85d8-0e77cd2f69ac,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1967-04-11,,078df27f-f693-a4cf-9f23-872b9e3ab3d2,078df27f-f693-a4cf-4a5a-bb9f213f05e0,http://snomed.info/sct,24700007,Multiple Sclerosis
+1967-04-11,,078df27f-f693-a4cf-9f23-872b9e3ab3d2,078df27f-f693-a4cf-4a5a-bb9f213f05e0,http://snomed.info/sct,257551009,Infection
+1967-04-11,,078df27f-f693-a4cf-9f23-872b9e3ab3d2,078df27f-f693-a4cf-4a5a-bb9f213f05e0,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1967-04-11,,078df27f-f693-a4cf-9f23-872b9e3ab3d2,078df27f-f693-a4cf-6882-0bb0f9d9aa11,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1994-07-22,,dae29fb9-a071-4047-f64c-e1fe19316641,dae29fb9-a071-4047-9ca7-d5fcb61ee821,http://snomed.info/sct,24700007,Multiple Sclerosis
+1994-07-22,,dae29fb9-a071-4047-f64c-e1fe19316641,dae29fb9-a071-4047-9ca7-d5fcb61ee821,http://snomed.info/sct,712823008,Acute Depression
+1994-07-22,,dae29fb9-a071-4047-f64c-e1fe19316641,dae29fb9-a071-4047-9ca7-d5fcb61ee821,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1994-07-22,,dae29fb9-a071-4047-f64c-e1fe19316641,dae29fb9-a071-4047-504e-93c84004b290,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2000-03-28,,a7961095-2107-2800-8993-a93dd0a91d95,a7961095-2107-2800-f11a-71b6584ebd8d,http://snomed.info/sct,24700007,Multiple Sclerosis
+2000-03-28,,a7961095-2107-2800-8993-a93dd0a91d95,a7961095-2107-2800-f11a-71b6584ebd8d,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2000-03-28,,a7961095-2107-2800-8993-a93dd0a91d95,a7961095-2107-2800-6d94-aa4983b3e38b,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2002-01-07,,5640de8f-defe-9172-1a18-7a7d394564fc,5640de8f-defe-9172-37ae-705f37771401,http://snomed.info/sct,24700007,Multiple Sclerosis
+2002-01-07,,5640de8f-defe-9172-1a18-7a7d394564fc,5640de8f-defe-9172-37ae-705f37771401,http://snomed.info/sct,1300212001,Allergy Status
+2002-01-07,,5640de8f-defe-9172-1a18-7a7d394564fc,5640de8f-defe-9172-37ae-705f37771401,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2002-01-07,,5640de8f-defe-9172-1a18-7a7d394564fc,5640de8f-defe-9172-ac07-26f297937668,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2026-01-15,,fbcb1e62-c71b-be93-a19f-ab773dff8219,fbcb1e62-c71b-be93-0bfa-aa8c41e89075,http://snomed.info/sct,24700007,Multiple Sclerosis
+2026-01-15,,fbcb1e62-c71b-be93-a19f-ab773dff8219,fbcb1e62-c71b-be93-0bfa-aa8c41e89075,http://snomed.info/sct,890601000000107,Hypercholesterolemia
+2026-01-15,,fbcb1e62-c71b-be93-a19f-ab773dff8219,fbcb1e62-c71b-be93-0bfa-aa8c41e89075,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2026-01-15,,fbcb1e62-c71b-be93-a19f-ab773dff8219,fbcb1e62-c71b-be93-d8af-566ab634cd37,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2025-05-10,,0d23f26d-34ff-f49a-53c8-907986ea04fa,0d23f26d-34ff-f49a-e56a-e41b08c22e84,http://snomed.info/sct,24700007,Multiple Sclerosis
+2025-05-10,,0d23f26d-34ff-f49a-53c8-907986ea04fa,0d23f26d-34ff-f49a-e56a-e41b08c22e84,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1991-03-28,,1c52f358-e04b-774f-ff7a-fb454bafdd51,1c52f358-e04b-774f-961d-44840b4ce708,http://snomed.info/sct,24700007,Multiple Sclerosis
+1991-03-28,,1c52f358-e04b-774f-ff7a-fb454bafdd51,1c52f358-e04b-774f-961d-44840b4ce708,http://snomed.info/sct,428700003,Primary progressive multiple sclerosis
+1991-03-28,,1c52f358-e04b-774f-ff7a-fb454bafdd51,1c52f358-e04b-774f-ad1e-eaa1fa3cd427,http://snomed.info/sct,724778008,Progressive relapsing multiple sclerosis
+2004-06-02,,8b39d546-3e1e-ef33-faa9-061dd7d8dc62,8b39d546-3e1e-ef33-e9c7-42408f08cda8,http://snomed.info/sct,24700007,Multiple Sclerosis
+2004-06-02,,8b39d546-3e1e-ef33-faa9-061dd7d8dc62,8b39d546-3e1e-ef33-e9c7-42408f08cda8,http://snomed.info/sct,38822007,Cystitis
+2004-06-02,,8b39d546-3e1e-ef33-faa9-061dd7d8dc62,8b39d546-3e1e-ef33-e9c7-42408f08cda8,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2004-06-02,,8b39d546-3e1e-ef33-faa9-061dd7d8dc62,8b39d546-3e1e-ef33-7841-52e7ac764357,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1991-07-25,,7f116ec2-58eb-a0d4-2682-7a0738b20b35,7f116ec2-58eb-a0d4-3721-9dc8e3663e9f,http://snomed.info/sct,24700007,Multiple Sclerosis
+1991-07-25,,7f116ec2-58eb-a0d4-2682-7a0738b20b35,7f116ec2-58eb-a0d4-3721-9dc8e3663e9f,http://snomed.info/sct,1300212001,Allergy Status
+1991-07-25,,7f116ec2-58eb-a0d4-2682-7a0738b20b35,7f116ec2-58eb-a0d4-3721-9dc8e3663e9f,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1991-07-25,,7f116ec2-58eb-a0d4-2682-7a0738b20b35,7f116ec2-58eb-a0d4-215b-cd49a200a69a,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1991-07-25,,7f116ec2-58eb-a0d4-2682-7a0738b20b35,7f116ec2-58eb-a0d4-eed9-6092c35079ff,http://snomed.info/sct,343601000000105,Secondary progressive multiple sclerosis
+2000-02-12,,0afc0e1f-71ef-2925-5991-9746ac2b39c7,0afc0e1f-71ef-2925-a609-ec2eef11c223,http://snomed.info/sct,24700007,Multiple Sclerosis
+2000-02-12,,0afc0e1f-71ef-2925-5991-9746ac2b39c7,0afc0e1f-71ef-2925-a609-ec2eef11c223,http://snomed.info/sct,37796009,Migraine
+2000-02-12,,0afc0e1f-71ef-2925-5991-9746ac2b39c7,0afc0e1f-71ef-2925-a609-ec2eef11c223,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2000-02-12,,0afc0e1f-71ef-2925-5991-9746ac2b39c7,0afc0e1f-71ef-2925-4223-facc530376bc,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2000-02-12,,0afc0e1f-71ef-2925-5991-9746ac2b39c7,0afc0e1f-71ef-2925-ff31-9b3010418951,http://snomed.info/sct,343601000000105,Secondary progressive multiple sclerosis
+2025-02-20,,7a332fdd-37fc-ce44-c3ef-52d738ff0793,7a332fdd-37fc-ce44-2e9e-b327a4e16010,http://snomed.info/sct,24700007,Multiple Sclerosis
+2025-02-20,,7a332fdd-37fc-ce44-c3ef-52d738ff0793,7a332fdd-37fc-ce44-2e9e-b327a4e16010,http://snomed.info/sct,38822007,Cystitis
+2025-02-20,,7a332fdd-37fc-ce44-c3ef-52d738ff0793,7a332fdd-37fc-ce44-2e9e-b327a4e16010,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2025-02-20,,7a332fdd-37fc-ce44-c3ef-52d738ff0793,7a332fdd-37fc-ce44-d657-035390b24f63,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2013-12-28,,61adca65-7bfe-93d6-9149-068a3e2ccafb,61adca65-7bfe-93d6-577c-e96853b48ff2,http://snomed.info/sct,24700007,Multiple Sclerosis
+2013-12-28,,61adca65-7bfe-93d6-9149-068a3e2ccafb,61adca65-7bfe-93d6-577c-e96853b48ff2,http://snomed.info/sct,890601000000107,Hypercholesterolemia
+2013-12-28,,61adca65-7bfe-93d6-9149-068a3e2ccafb,61adca65-7bfe-93d6-577c-e96853b48ff2,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2013-12-28,,61adca65-7bfe-93d6-9149-068a3e2ccafb,61adca65-7bfe-93d6-89da-49ea3a254820,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2026-03-15,,64bbde2d-ac62-7a8a-6c73-22aea4ea3132,64bbde2d-ac62-7a8a-d698-51a12a0f9c6c,http://snomed.info/sct,24700007,Multiple Sclerosis
+2026-03-15,,64bbde2d-ac62-7a8a-6c73-22aea4ea3132,64bbde2d-ac62-7a8a-d698-51a12a0f9c6c,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2026-03-15,,64bbde2d-ac62-7a8a-6c73-22aea4ea3132,64bbde2d-ac62-7a8a-902d-8f2e573a211a,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2026-03-15,,64bbde2d-ac62-7a8a-6c73-22aea4ea3132,64bbde2d-ac62-7a8a-2e05-0036d8076d69,http://snomed.info/sct,343601000000105,Secondary progressive multiple sclerosis
+1990-01-04,,e9de4431-5532-6bbd-73fe-c50596f7a834,e9de4431-5532-6bbd-33e4-8bd8f4f47411,http://snomed.info/sct,24700007,Multiple Sclerosis
+1990-01-04,,e9de4431-5532-6bbd-73fe-c50596f7a834,e9de4431-5532-6bbd-33e4-8bd8f4f47411,http://snomed.info/sct,41368006,Disorder of urinary tract
+1990-01-04,,e9de4431-5532-6bbd-73fe-c50596f7a834,e9de4431-5532-6bbd-33e4-8bd8f4f47411,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1990-01-04,,e9de4431-5532-6bbd-73fe-c50596f7a834,e9de4431-5532-6bbd-8b48-e350af438be3,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1988-12-19,,9b8aa92d-b861-91bb-6565-486a566f2324,9b8aa92d-b861-91bb-adb1-a2b02843501f,http://snomed.info/sct,24700007,Multiple Sclerosis
+1988-12-19,,9b8aa92d-b861-91bb-6565-486a566f2324,9b8aa92d-b861-91bb-adb1-a2b02843501f,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1988-12-19,,9b8aa92d-b861-91bb-6565-486a566f2324,9b8aa92d-b861-91bb-916c-26b900f921d0,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2019-02-27,,a95e4b47-e6b0-2cab-c958-78e5919763b6,a95e4b47-e6b0-2cab-a06b-c46576a97313,http://snomed.info/sct,24700007,Multiple Sclerosis
+2019-02-27,,a95e4b47-e6b0-2cab-c958-78e5919763b6,a95e4b47-e6b0-2cab-a06b-c46576a97313,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2019-02-27,,a95e4b47-e6b0-2cab-c958-78e5919763b6,a95e4b47-e6b0-2cab-3212-1c1c36dabdf0,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1998-10-06,,91021a1c-d2cc-0636-eb4b-67caa02e8e5f,91021a1c-d2cc-0636-0bfe-8abe2465f260,http://snomed.info/sct,24700007,Multiple Sclerosis
+1998-10-06,,91021a1c-d2cc-0636-eb4b-67caa02e8e5f,91021a1c-d2cc-0636-0bfe-8abe2465f260,http://snomed.info/sct,428700003,Primary progressive multiple sclerosis
+1998-10-06,,91021a1c-d2cc-0636-eb4b-67caa02e8e5f,91021a1c-d2cc-0636-51f5-0373e8e6d234,http://snomed.info/sct,724778008,Progressive relapsing multiple sclerosis
+2018-03-31,,167bb4aa-e5c5-6ffe-7394-e0cc022ddcc5,167bb4aa-e5c5-6ffe-9879-70460d31a597,http://snomed.info/sct,24700007,Multiple Sclerosis
+2018-03-31,,167bb4aa-e5c5-6ffe-7394-e0cc022ddcc5,167bb4aa-e5c5-6ffe-9879-70460d31a597,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2018-03-31,,167bb4aa-e5c5-6ffe-7394-e0cc022ddcc5,167bb4aa-e5c5-6ffe-dad1-231efb808f21,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1989-09-20,,af208568-907e-6bda-325c-01bda825af1c,af208568-907e-6bda-0921-e058ac5a8eb6,http://snomed.info/sct,24700007,Multiple Sclerosis
+1989-09-20,,af208568-907e-6bda-325c-01bda825af1c,af208568-907e-6bda-0921-e058ac5a8eb6,http://snomed.info/sct,59621000,Essential hypertension
+1989-09-20,,af208568-907e-6bda-325c-01bda825af1c,af208568-907e-6bda-0921-e058ac5a8eb6,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1989-09-20,,af208568-907e-6bda-325c-01bda825af1c,af208568-907e-6bda-f418-af07ff68abb3,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2014-06-07,,dcfbedee-46c2-9331-c379-6943be733642,dcfbedee-46c2-9331-934d-f310f417c74d,http://snomed.info/sct,24700007,Multiple Sclerosis
+2014-06-07,,dcfbedee-46c2-9331-c379-6943be733642,dcfbedee-46c2-9331-934d-f310f417c74d,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2014-06-07,,dcfbedee-46c2-9331-c379-6943be733642,dcfbedee-46c2-9331-1b1a-b7d75c27eddb,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2019-01-26,,84167da1-5b13-2d3d-9205-3b9f875afe89,84167da1-5b13-2d3d-b512-32193c860f87,http://snomed.info/sct,24700007,Multiple Sclerosis
+2019-01-26,,84167da1-5b13-2d3d-9205-3b9f875afe89,84167da1-5b13-2d3d-b512-32193c860f87,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2019-01-26,,84167da1-5b13-2d3d-9205-3b9f875afe89,84167da1-5b13-2d3d-c586-3f5ba6b201d8,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1988-06-24,,74b884c6-cf44-89f7-c0fa-e4e07d98df7d,74b884c6-cf44-89f7-1998-cd681550ad08,http://snomed.info/sct,24700007,Multiple Sclerosis
+1988-06-24,,74b884c6-cf44-89f7-c0fa-e4e07d98df7d,74b884c6-cf44-89f7-1998-cd681550ad08,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1988-06-24,,74b884c6-cf44-89f7-c0fa-e4e07d98df7d,74b884c6-cf44-89f7-8579-588d23185a83,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2026-06-28,,b73186a5-cdcf-1c96-a84e-a56a2bba3e99,b73186a5-cdcf-1c96-191b-e244b689530f,http://snomed.info/sct,24700007,Multiple Sclerosis
+2026-06-28,,b73186a5-cdcf-1c96-a84e-a56a2bba3e99,b73186a5-cdcf-1c96-191b-e244b689530f,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2026-06-28,,b73186a5-cdcf-1c96-a84e-a56a2bba3e99,b73186a5-cdcf-1c96-a5a1-9019f01b1b81,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1977-11-04,,e726fa26-0af8-1b20-5ad1-c62aade8708d,e726fa26-0af8-1b20-f60a-ea584c8f5bd8,http://snomed.info/sct,24700007,Multiple Sclerosis
+1977-11-04,,e726fa26-0af8-1b20-5ad1-c62aade8708d,e726fa26-0af8-1b20-f60a-ea584c8f5bd8,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1977-11-04,,e726fa26-0af8-1b20-5ad1-c62aade8708d,e726fa26-0af8-1b20-2f73-e412b54eb66b,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2019-11-20,,b165e716-3b46-4742-fe88-120b9a72acc9,b165e716-3b46-4742-de30-90fcc64ad391,http://snomed.info/sct,24700007,Multiple Sclerosis
+2019-11-20,,b165e716-3b46-4742-fe88-120b9a72acc9,b165e716-3b46-4742-de30-90fcc64ad391,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2019-11-20,,b165e716-3b46-4742-fe88-120b9a72acc9,b165e716-3b46-4742-f088-2428035242d0,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2022-07-30,,3380c328-ab9a-4be9-ef72-326d684e4775,3380c328-ab9a-4be9-25ec-5891def0438b,http://snomed.info/sct,24700007,Multiple Sclerosis
+2022-07-30,,3380c328-ab9a-4be9-ef72-326d684e4775,3380c328-ab9a-4be9-25ec-5891def0438b,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2022-07-30,,3380c328-ab9a-4be9-ef72-326d684e4775,3380c328-ab9a-4be9-2cde-f26bd3d6af7b,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2003-01-22,,1da91166-2ffc-b21e-9bb7-b8575bed93c8,1da91166-2ffc-b21e-87bd-294010888f2c,http://snomed.info/sct,24700007,Multiple Sclerosis
+2003-01-22,,1da91166-2ffc-b21e-9bb7-b8575bed93c8,1da91166-2ffc-b21e-87bd-294010888f2c,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2003-01-22,,1da91166-2ffc-b21e-9bb7-b8575bed93c8,1da91166-2ffc-b21e-4d95-3b1c1cf10415,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1957-04-17,,8279178d-e14b-b9ba-4bd6-0f2cf933b5d2,8279178d-e14b-b9ba-40fc-1437f3ccc806,http://snomed.info/sct,24700007,Multiple Sclerosis
+1957-04-17,,8279178d-e14b-b9ba-4bd6-0f2cf933b5d2,8279178d-e14b-b9ba-40fc-1437f3ccc806,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1957-04-17,,8279178d-e14b-b9ba-4bd6-0f2cf933b5d2,8279178d-e14b-b9ba-8117-b74204525685,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1957-04-17,,8279178d-e14b-b9ba-4bd6-0f2cf933b5d2,8279178d-e14b-b9ba-d320-3be89461cb99,http://snomed.info/sct,343601000000105,Secondary progressive multiple sclerosis
+2026-03-24,,aef7801a-8203-6a76-a069-c73f94d3837a,aef7801a-8203-6a76-3f05-18ead9efb4f5,http://snomed.info/sct,24700007,Multiple Sclerosis
+2026-03-24,,aef7801a-8203-6a76-a069-c73f94d3837a,aef7801a-8203-6a76-3f05-18ead9efb4f5,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2026-03-24,,aef7801a-8203-6a76-a069-c73f94d3837a,aef7801a-8203-6a76-ae65-96f94712c7d2,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2026-03-24,,aef7801a-8203-6a76-a069-c73f94d3837a,aef7801a-8203-6a76-20ee-eccddc21585a,http://snomed.info/sct,343601000000105,Secondary progressive multiple sclerosis
+2017-05-20,,0630bed8-c3bd-b0ea-6777-3be822f0b24a,0630bed8-c3bd-b0ea-005b-066f9d088405,http://snomed.info/sct,24700007,Multiple Sclerosis
+2017-05-20,,0630bed8-c3bd-b0ea-6777-3be822f0b24a,0630bed8-c3bd-b0ea-005b-066f9d088405,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2017-05-20,,0630bed8-c3bd-b0ea-6777-3be822f0b24a,0630bed8-c3bd-b0ea-5550-88e0833e81ed,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2021-09-10,,b9d1dc56-b480-153f-fbca-10402c469860,b9d1dc56-b480-153f-f77c-9c068d92931d,http://snomed.info/sct,24700007,Multiple Sclerosis
+2021-09-10,,b9d1dc56-b480-153f-fbca-10402c469860,b9d1dc56-b480-153f-f77c-9c068d92931d,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2021-09-10,,b9d1dc56-b480-153f-fbca-10402c469860,b9d1dc56-b480-153f-404e-215b5b88a4d0,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1997-08-04,,808abf74-167e-3855-d6cf-05d4cf6b1ecc,808abf74-167e-3855-0f67-614457de0b33,http://snomed.info/sct,24700007,Multiple Sclerosis
+1997-08-04,,808abf74-167e-3855-d6cf-05d4cf6b1ecc,808abf74-167e-3855-0f67-614457de0b33,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1997-08-04,,808abf74-167e-3855-d6cf-05d4cf6b1ecc,808abf74-167e-3855-15b9-b4b3e2551a2d,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2024-01-20,,e4cb0e77-78b4-eb53-8b2f-60fb85d9610f,e4cb0e77-78b4-eb53-27d9-3afad5813e68,http://snomed.info/sct,24700007,Multiple Sclerosis
+2024-01-20,,e4cb0e77-78b4-eb53-8b2f-60fb85d9610f,e4cb0e77-78b4-eb53-27d9-3afad5813e68,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2024-01-20,,e4cb0e77-78b4-eb53-8b2f-60fb85d9610f,e4cb0e77-78b4-eb53-59a7-6fb70c49a170,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2015-07-07,,29207612-5227-95c3-cdcd-d7085b8e28e1,29207612-5227-95c3-7b10-767b00db3a91,http://snomed.info/sct,24700007,Multiple Sclerosis
+2015-07-07,,29207612-5227-95c3-cdcd-d7085b8e28e1,29207612-5227-95c3-7b10-767b00db3a91,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2015-07-07,,29207612-5227-95c3-cdcd-d7085b8e28e1,29207612-5227-95c3-d10c-b544733946c7,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2015-07-07,,29207612-5227-95c3-cdcd-d7085b8e28e1,29207612-5227-95c3-f6f8-c494ccbe037e,http://snomed.info/sct,343601000000105,Secondary progressive multiple sclerosis
+1996-07-08,,9050e158-3a76-5ff9-e008-1639a626faa8,9050e158-3a76-5ff9-f995-0e2dd72cd196,http://snomed.info/sct,24700007,Multiple Sclerosis
+1996-07-08,,9050e158-3a76-5ff9-e008-1639a626faa8,9050e158-3a76-5ff9-f995-0e2dd72cd196,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1996-07-08,,9050e158-3a76-5ff9-e008-1639a626faa8,9050e158-3a76-5ff9-1ea5-0166792d21ee,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1979-07-09,,06d3d9e3-50fa-cc24-bfd6-2a79b0f7f674,06d3d9e3-50fa-cc24-48f5-5c53fd26f6fe,http://snomed.info/sct,24700007,Multiple Sclerosis
+1979-07-09,,06d3d9e3-50fa-cc24-bfd6-2a79b0f7f674,06d3d9e3-50fa-cc24-48f5-5c53fd26f6fe,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1979-07-09,,06d3d9e3-50fa-cc24-bfd6-2a79b0f7f674,06d3d9e3-50fa-cc24-1668-f893f51e9069,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1979-07-09,,06d3d9e3-50fa-cc24-bfd6-2a79b0f7f674,06d3d9e3-50fa-cc24-b54d-c38eec9cb6b7,http://snomed.info/sct,343601000000105,Secondary progressive multiple sclerosis
+1999-11-01,,feeae14a-d243-b319-e011-7ea0b6fb7e40,feeae14a-d243-b319-55b6-22390574f1a5,http://snomed.info/sct,24700007,Multiple Sclerosis
+1999-11-01,,feeae14a-d243-b319-e011-7ea0b6fb7e40,feeae14a-d243-b319-55b6-22390574f1a5,http://snomed.info/sct,257556004,Surgery
+1999-11-01,,feeae14a-d243-b319-e011-7ea0b6fb7e40,feeae14a-d243-b319-55b6-22390574f1a5,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1999-11-01,,feeae14a-d243-b319-e011-7ea0b6fb7e40,feeae14a-d243-b319-e6d3-aa8e9d5f7d7d,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2026-07-02,,66e05110-c1ad-d649-cd9c-76b375f9e45a,66e05110-c1ad-d649-bac0-01192c80e717,http://snomed.info/sct,24700007,Multiple Sclerosis
+2026-07-02,,66e05110-c1ad-d649-cd9c-76b375f9e45a,66e05110-c1ad-d649-bac0-01192c80e717,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2026-07-02,,66e05110-c1ad-d649-cd9c-76b375f9e45a,66e05110-c1ad-d649-44ea-c0eb7ad6169d,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2016-08-14,,5de58a5c-9c2b-77ad-91f0-1defaab15a81,5de58a5c-9c2b-77ad-cbac-df035ee70d09,http://snomed.info/sct,24700007,Multiple Sclerosis
+2016-08-14,,5de58a5c-9c2b-77ad-91f0-1defaab15a81,5de58a5c-9c2b-77ad-cbac-df035ee70d09,http://snomed.info/sct,84757009,Epilepsy
+2016-08-14,,5de58a5c-9c2b-77ad-91f0-1defaab15a81,5de58a5c-9c2b-77ad-cbac-df035ee70d09,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2016-08-14,,5de58a5c-9c2b-77ad-91f0-1defaab15a81,5de58a5c-9c2b-77ad-f79e-d31e87ba7aad,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1982-03-02,,712ba2d9-0a09-c072-f18a-dfcb62699780,712ba2d9-0a09-c072-5d12-78837e2afbeb,http://snomed.info/sct,24700007,Multiple Sclerosis
+1982-03-02,,712ba2d9-0a09-c072-f18a-dfcb62699780,712ba2d9-0a09-c072-5d12-78837e2afbeb,http://snomed.info/sct,41368006,Disorder of urinary tract
+1982-03-02,,712ba2d9-0a09-c072-f18a-dfcb62699780,712ba2d9-0a09-c072-5d12-78837e2afbeb,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1982-03-02,,712ba2d9-0a09-c072-f18a-dfcb62699780,712ba2d9-0a09-c072-67cc-b821e0458ed7,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2008-10-29,,1d349a07-8618-0e25-09c6-75aad3cc1d3d,1d349a07-8618-0e25-2e1e-e6d67c496d4c,http://snomed.info/sct,24700007,Multiple Sclerosis
+2008-10-29,,1d349a07-8618-0e25-09c6-75aad3cc1d3d,1d349a07-8618-0e25-2e1e-e6d67c496d4c,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2008-10-29,,1d349a07-8618-0e25-09c6-75aad3cc1d3d,1d349a07-8618-0e25-401f-44b30ca1a2cb,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2008-10-29,,1d349a07-8618-0e25-09c6-75aad3cc1d3d,1d349a07-8618-0e25-77c7-b1aa8e4d3f25,http://snomed.info/sct,343601000000105,Secondary progressive multiple sclerosis
+1992-09-11,,d8975e42-d438-5521-8223-22de2d4546e6,d8975e42-d438-5521-d9a6-c8cd83a5eee7,http://snomed.info/sct,24700007,Multiple Sclerosis
+1992-09-11,,d8975e42-d438-5521-8223-22de2d4546e6,d8975e42-d438-5521-d9a6-c8cd83a5eee7,http://snomed.info/sct,41368006,Disorder of urinary tract
+1992-09-11,,d8975e42-d438-5521-8223-22de2d4546e6,d8975e42-d438-5521-d9a6-c8cd83a5eee7,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1992-09-11,,d8975e42-d438-5521-8223-22de2d4546e6,d8975e42-d438-5521-5837-e982520e5cad,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2024-01-17,,618e2996-aeae-8ac8-fa6c-349efd15daf7,618e2996-aeae-8ac8-e1ea-ccc7553cb85a,http://snomed.info/sct,24700007,Multiple Sclerosis
+2024-01-17,,618e2996-aeae-8ac8-fa6c-349efd15daf7,618e2996-aeae-8ac8-e1ea-ccc7553cb85a,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2024-01-17,,618e2996-aeae-8ac8-fa6c-349efd15daf7,618e2996-aeae-8ac8-bd23-32d330bff5c2,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2006-01-17,,1f9bb4e6-b7cc-80d9-c2a8-c98378fed3e8,1f9bb4e6-b7cc-80d9-b8ce-75e9eedbad00,http://snomed.info/sct,24700007,Multiple Sclerosis
+2006-01-17,,1f9bb4e6-b7cc-80d9-c2a8-c98378fed3e8,1f9bb4e6-b7cc-80d9-b8ce-75e9eedbad00,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2006-01-17,,1f9bb4e6-b7cc-80d9-c2a8-c98378fed3e8,1f9bb4e6-b7cc-80d9-ca11-dc93ad4a1741,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2006-01-17,,1f9bb4e6-b7cc-80d9-c2a8-c98378fed3e8,1f9bb4e6-b7cc-80d9-d339-2b12559587f1,http://snomed.info/sct,343601000000105,Secondary progressive multiple sclerosis
+2021-08-14,,49da4a61-a2fa-2125-1619-9a644f5123e9,49da4a61-a2fa-2125-5bab-cf56caaf5d30,http://snomed.info/sct,24700007,Multiple Sclerosis
+2021-08-14,,49da4a61-a2fa-2125-1619-9a644f5123e9,49da4a61-a2fa-2125-5bab-cf56caaf5d30,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2021-08-14,,49da4a61-a2fa-2125-1619-9a644f5123e9,49da4a61-a2fa-2125-cd34-392a61490f22,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2021-04-28,,1050573a-e41d-d125-1268-6b8b4889a6b8,1050573a-e41d-d125-6edd-1a5f451f5644,http://snomed.info/sct,24700007,Multiple Sclerosis
+2021-04-28,,1050573a-e41d-d125-1268-6b8b4889a6b8,1050573a-e41d-d125-6edd-1a5f451f5644,http://snomed.info/sct,428700003,Primary progressive multiple sclerosis
+2025-09-13,,6509de6a-e3d5-d48f-61f9-a6b9c5354c9d,6509de6a-e3d5-d48f-27ac-d3ce6bfd3521,http://snomed.info/sct,24700007,Multiple Sclerosis
+2025-09-13,,6509de6a-e3d5-d48f-61f9-a6b9c5354c9d,6509de6a-e3d5-d48f-27ac-d3ce6bfd3521,http://snomed.info/sct,41368006,Disorder of urinary tract
+2025-09-13,,6509de6a-e3d5-d48f-61f9-a6b9c5354c9d,6509de6a-e3d5-d48f-27ac-d3ce6bfd3521,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2025-09-13,,6509de6a-e3d5-d48f-61f9-a6b9c5354c9d,6509de6a-e3d5-d48f-65ba-38c06f37e79a,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2005-03-17,,4e2356e0-9b05-c644-ee94-36b0a383569b,4e2356e0-9b05-c644-ec1b-a199328bc132,http://snomed.info/sct,24700007,Multiple Sclerosis
+2005-03-17,,4e2356e0-9b05-c644-ee94-36b0a383569b,4e2356e0-9b05-c644-ec1b-a199328bc132,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2005-03-17,,4e2356e0-9b05-c644-ee94-36b0a383569b,4e2356e0-9b05-c644-af74-424e1569ae17,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2023-06-16,,4a2973d2-20a4-f8ad-6daa-24ac634288ac,4a2973d2-20a4-f8ad-d9c3-a41fed7a0b36,http://snomed.info/sct,24700007,Multiple Sclerosis
+2023-06-16,,4a2973d2-20a4-f8ad-6daa-24ac634288ac,4a2973d2-20a4-f8ad-d9c3-a41fed7a0b36,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2023-06-16,,4a2973d2-20a4-f8ad-6daa-24ac634288ac,4a2973d2-20a4-f8ad-3e81-1d0df343ddfd,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2023-06-16,,4a2973d2-20a4-f8ad-6daa-24ac634288ac,4a2973d2-20a4-f8ad-c321-a1ae7ff2e93a,http://snomed.info/sct,343601000000105,Secondary progressive multiple sclerosis
+1984-12-21,,23b2748f-f947-ab16-a59c-ec27c3dc2b88,23b2748f-f947-ab16-ef34-1e3998839f8b,http://snomed.info/sct,24700007,Multiple Sclerosis
+1984-12-21,,23b2748f-f947-ab16-a59c-ec27c3dc2b88,23b2748f-f947-ab16-ef34-1e3998839f8b,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1984-12-21,,23b2748f-f947-ab16-a59c-ec27c3dc2b88,23b2748f-f947-ab16-f217-505a8240cd95,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1955-05-25,,92fb0e68-2998-4a3c-056d-ed2d827e1cf1,92fb0e68-2998-4a3c-0180-fd2f447e8aca,http://snomed.info/sct,24700007,Multiple Sclerosis
+1955-05-25,,92fb0e68-2998-4a3c-056d-ed2d827e1cf1,92fb0e68-2998-4a3c-0180-fd2f447e8aca,http://snomed.info/sct,84757009,Epilepsy
+1955-05-25,,92fb0e68-2998-4a3c-056d-ed2d827e1cf1,92fb0e68-2998-4a3c-0180-fd2f447e8aca,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1955-05-25,,92fb0e68-2998-4a3c-056d-ed2d827e1cf1,92fb0e68-2998-4a3c-91be-2ec69b875323,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2006-07-26,,4a963989-0d8e-f954-2480-88a3908b0581,4a963989-0d8e-f954-40d4-459ed42c45cb,http://snomed.info/sct,24700007,Multiple Sclerosis
+2006-07-26,,4a963989-0d8e-f954-2480-88a3908b0581,4a963989-0d8e-f954-40d4-459ed42c45cb,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2006-07-26,,4a963989-0d8e-f954-2480-88a3908b0581,4a963989-0d8e-f954-3de9-090fbc6066ac,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2003-08-11,,132c9d5f-b75d-6374-6883-32cbe92c9679,132c9d5f-b75d-6374-f268-c89e2d312ade,http://snomed.info/sct,24700007,Multiple Sclerosis
+2003-08-11,,132c9d5f-b75d-6374-6883-32cbe92c9679,132c9d5f-b75d-6374-f268-c89e2d312ade,http://snomed.info/sct,38822007,Cystitis
+2003-08-11,,132c9d5f-b75d-6374-6883-32cbe92c9679,132c9d5f-b75d-6374-f268-c89e2d312ade,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2003-08-11,,132c9d5f-b75d-6374-6883-32cbe92c9679,132c9d5f-b75d-6374-cfa3-9fe3e7086f19,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2010-12-14,,645b3de1-e897-64dd-ef8d-f187dc9d6835,645b3de1-e897-64dd-f806-9f034a262875,http://snomed.info/sct,24700007,Multiple Sclerosis
+2010-12-14,,645b3de1-e897-64dd-ef8d-f187dc9d6835,645b3de1-e897-64dd-f806-9f034a262875,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2010-12-14,,645b3de1-e897-64dd-ef8d-f187dc9d6835,645b3de1-e897-64dd-8e54-2622d9537cd2,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2010-12-14,,645b3de1-e897-64dd-ef8d-f187dc9d6835,645b3de1-e897-64dd-b010-1f17f062d33b,http://snomed.info/sct,343601000000105,Secondary progressive multiple sclerosis
+2026-03-27,,e921b70d-c5cf-33ca-298f-901ebac11dde,e921b70d-c5cf-33ca-8c48-3d65c631fe56,http://snomed.info/sct,24700007,Multiple Sclerosis
+2026-03-27,,e921b70d-c5cf-33ca-298f-901ebac11dde,e921b70d-c5cf-33ca-8c48-3d65c631fe56,http://snomed.info/sct,38822007,Cystitis
+2026-03-27,,e921b70d-c5cf-33ca-298f-901ebac11dde,e921b70d-c5cf-33ca-8c48-3d65c631fe56,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2026-03-27,,e921b70d-c5cf-33ca-298f-901ebac11dde,e921b70d-c5cf-33ca-995b-71f301d6a610,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2026-06-09,,e74027b2-002c-a648-5042-b9fc4f9f80e5,e74027b2-002c-a648-e8ff-548edb50de36,http://snomed.info/sct,24700007,Multiple Sclerosis
+2026-06-09,,e74027b2-002c-a648-5042-b9fc4f9f80e5,e74027b2-002c-a648-e8ff-548edb50de36,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2026-06-09,,e74027b2-002c-a648-5042-b9fc4f9f80e5,e74027b2-002c-a648-22df-3c294bdf072c,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2013-06-17,,ae772ea8-dec6-5f68-b398-2cd2f1ecd97c,ae772ea8-dec6-5f68-bade-370e37ac28c3,http://snomed.info/sct,24700007,Multiple Sclerosis
+2013-06-17,,ae772ea8-dec6-5f68-b398-2cd2f1ecd97c,ae772ea8-dec6-5f68-bade-370e37ac28c3,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2013-06-17,,ae772ea8-dec6-5f68-b398-2cd2f1ecd97c,ae772ea8-dec6-5f68-c49c-87fb19044286,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2016-01-29,,a91dacf0-75bd-e129-4d7f-b757cfc7a12c,a91dacf0-75bd-e129-9a70-1154da873840,http://snomed.info/sct,24700007,Multiple Sclerosis
+2016-01-29,,a91dacf0-75bd-e129-4d7f-b757cfc7a12c,a91dacf0-75bd-e129-9a70-1154da873840,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2016-01-29,,a91dacf0-75bd-e129-4d7f-b757cfc7a12c,a91dacf0-75bd-e129-2186-7b4674e97365,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2016-01-29,,a91dacf0-75bd-e129-4d7f-b757cfc7a12c,a91dacf0-75bd-e129-60cf-19a53e0f0d51,http://snomed.info/sct,343601000000105,Secondary progressive multiple sclerosis
+1972-08-24,,f03f6894-54d8-6ab4-1022-284bd87ff7da,f03f6894-54d8-6ab4-55a9-f5a11a7fa1f9,http://snomed.info/sct,24700007,Multiple Sclerosis
+1972-08-24,,f03f6894-54d8-6ab4-1022-284bd87ff7da,f03f6894-54d8-6ab4-55a9-f5a11a7fa1f9,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1972-08-24,,f03f6894-54d8-6ab4-1022-284bd87ff7da,f03f6894-54d8-6ab4-78f1-39148b7b9597,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1988-11-23,,d9aee469-b9ff-1fc4-2b28-322430471486,d9aee469-b9ff-1fc4-a8fa-39b05adc5b85,http://snomed.info/sct,24700007,Multiple Sclerosis
+1988-11-23,,d9aee469-b9ff-1fc4-2b28-322430471486,d9aee469-b9ff-1fc4-a8fa-39b05adc5b85,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1988-11-23,,d9aee469-b9ff-1fc4-2b28-322430471486,d9aee469-b9ff-1fc4-fe94-4f4a7375402b,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2018-12-06,,0c315089-c68e-98c7-df00-4bccbe4920d7,0c315089-c68e-98c7-0f2b-7a3c494da25c,http://snomed.info/sct,24700007,Multiple Sclerosis
+2018-12-06,,0c315089-c68e-98c7-df00-4bccbe4920d7,0c315089-c68e-98c7-0f2b-7a3c494da25c,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2018-12-06,,0c315089-c68e-98c7-df00-4bccbe4920d7,0c315089-c68e-98c7-c5a0-2bd6440a3864,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1968-01-10,,d9896ece-8362-1da9-0377-0d04938a91b0,d9896ece-8362-1da9-91e4-307e2a754567,http://snomed.info/sct,24700007,Multiple Sclerosis
+1968-01-10,,d9896ece-8362-1da9-0377-0d04938a91b0,d9896ece-8362-1da9-91e4-307e2a754567,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1968-01-10,,d9896ece-8362-1da9-0377-0d04938a91b0,d9896ece-8362-1da9-bbb8-b850c25f1f0a,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1968-01-10,,d9896ece-8362-1da9-0377-0d04938a91b0,d9896ece-8362-1da9-e1c2-03389ddef70f,http://snomed.info/sct,343601000000105,Secondary progressive multiple sclerosis
+2022-08-31,,de6bbe4a-c68e-6c8e-a2ab-8d3d37074f3f,de6bbe4a-c68e-6c8e-292f-9045117be553,http://snomed.info/sct,24700007,Multiple Sclerosis
+2022-08-31,,de6bbe4a-c68e-6c8e-a2ab-8d3d37074f3f,de6bbe4a-c68e-6c8e-292f-9045117be553,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2022-08-31,,de6bbe4a-c68e-6c8e-a2ab-8d3d37074f3f,de6bbe4a-c68e-6c8e-dd35-b23fcee9fc21,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2000-06-11,,0e4a39dc-3819-8d0c-bc32-ca331074db53,0e4a39dc-3819-8d0c-42b9-0f74b51303b7,http://snomed.info/sct,24700007,Multiple Sclerosis
+2000-06-11,,0e4a39dc-3819-8d0c-bc32-ca331074db53,0e4a39dc-3819-8d0c-42b9-0f74b51303b7,http://snomed.info/sct,41368006,Disorder of urinary tract
+2000-06-11,,0e4a39dc-3819-8d0c-bc32-ca331074db53,0e4a39dc-3819-8d0c-42b9-0f74b51303b7,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2000-06-11,,0e4a39dc-3819-8d0c-bc32-ca331074db53,0e4a39dc-3819-8d0c-1640-772ec9f8e7a7,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1972-11-24,,253f603b-b2e7-5730-14ba-e5da5392dc93,253f603b-b2e7-5730-06dd-df2c4fb0dc5f,http://snomed.info/sct,24700007,Multiple Sclerosis
+1972-11-24,,253f603b-b2e7-5730-14ba-e5da5392dc93,253f603b-b2e7-5730-06dd-df2c4fb0dc5f,http://snomed.info/sct,37796009,Migraine
+1972-11-24,,253f603b-b2e7-5730-14ba-e5da5392dc93,253f603b-b2e7-5730-06dd-df2c4fb0dc5f,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1972-11-24,,253f603b-b2e7-5730-14ba-e5da5392dc93,253f603b-b2e7-5730-ce82-34e8993666f9,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2025-11-16,,212e4420-9320-6b35-8970-9e6eac73cc21,212e4420-9320-6b35-8566-cf2c4d2037c3,http://snomed.info/sct,24700007,Multiple Sclerosis
+2025-11-16,,212e4420-9320-6b35-8970-9e6eac73cc21,212e4420-9320-6b35-8566-cf2c4d2037c3,http://snomed.info/sct,257556004,Surgery
+2025-11-16,,212e4420-9320-6b35-8970-9e6eac73cc21,212e4420-9320-6b35-8566-cf2c4d2037c3,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2025-11-16,,212e4420-9320-6b35-8970-9e6eac73cc21,212e4420-9320-6b35-e4af-077e14b9a58b,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2018-09-11,,d70d7fad-3fe4-5c42-d29b-479fa940b61c,d70d7fad-3fe4-5c42-2cd2-550f83caca65,http://snomed.info/sct,24700007,Multiple Sclerosis
+2018-09-11,,d70d7fad-3fe4-5c42-d29b-479fa940b61c,d70d7fad-3fe4-5c42-2cd2-550f83caca65,http://snomed.info/sct,257556004,Surgery
+2018-09-11,,d70d7fad-3fe4-5c42-d29b-479fa940b61c,d70d7fad-3fe4-5c42-2cd2-550f83caca65,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2018-09-11,,d70d7fad-3fe4-5c42-d29b-479fa940b61c,d70d7fad-3fe4-5c42-49a9-e54f5a516d01,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2025-04-27,,88a6e1de-49e8-0df0-fad8-8ba77fd5539b,88a6e1de-49e8-0df0-da23-c883e7e617ad,http://snomed.info/sct,24700007,Multiple Sclerosis
+2025-04-27,,88a6e1de-49e8-0df0-fad8-8ba77fd5539b,88a6e1de-49e8-0df0-da23-c883e7e617ad,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2025-04-27,,88a6e1de-49e8-0df0-fad8-8ba77fd5539b,88a6e1de-49e8-0df0-3ed1-691e36691c76,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2025-04-27,,88a6e1de-49e8-0df0-fad8-8ba77fd5539b,88a6e1de-49e8-0df0-633f-8156d63d50ac,http://snomed.info/sct,343601000000105,Secondary progressive multiple sclerosis
+2013-10-26,,6dd65dfb-896e-eda7-8d46-f76df9b6b78b,6dd65dfb-896e-eda7-8550-60932ec5405f,http://snomed.info/sct,24700007,Multiple Sclerosis
+2013-10-26,,6dd65dfb-896e-eda7-8d46-f76df9b6b78b,6dd65dfb-896e-eda7-8550-60932ec5405f,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2013-10-26,,6dd65dfb-896e-eda7-8d46-f76df9b6b78b,6dd65dfb-896e-eda7-baa6-62f3e3c30f90,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1964-09-15,,fb245ec8-5eeb-5909-a3a7-e16c0aab14bf,fb245ec8-5eeb-5909-b640-ccb7e6b75b2e,http://snomed.info/sct,24700007,Multiple Sclerosis
+1964-09-15,,fb245ec8-5eeb-5909-a3a7-e16c0aab14bf,fb245ec8-5eeb-5909-b640-ccb7e6b75b2e,http://snomed.info/sct,890601000000107,Hypercholesterolemia
+1964-09-15,,fb245ec8-5eeb-5909-a3a7-e16c0aab14bf,fb245ec8-5eeb-5909-b640-ccb7e6b75b2e,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1964-09-15,,fb245ec8-5eeb-5909-a3a7-e16c0aab14bf,fb245ec8-5eeb-5909-ca88-0878e855e651,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1999-07-10,,cd1fa1ca-5f89-59d0-5a9d-98df4309437e,cd1fa1ca-5f89-59d0-f293-9a637692bc29,http://snomed.info/sct,24700007,Multiple Sclerosis
+1999-07-10,,cd1fa1ca-5f89-59d0-5a9d-98df4309437e,cd1fa1ca-5f89-59d0-f293-9a637692bc29,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1999-07-10,,cd1fa1ca-5f89-59d0-5a9d-98df4309437e,cd1fa1ca-5f89-59d0-fc6c-f7f6f7b743e6,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2003-01-24,,cc275ebe-ba99-2448-a89b-f1cbe0140243,cc275ebe-ba99-2448-3df1-83e16dd3429b,http://snomed.info/sct,24700007,Multiple Sclerosis
+2003-01-24,,cc275ebe-ba99-2448-a89b-f1cbe0140243,cc275ebe-ba99-2448-3df1-83e16dd3429b,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2003-01-24,,cc275ebe-ba99-2448-a89b-f1cbe0140243,cc275ebe-ba99-2448-374a-3dd6b86d62d8,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1990-07-03,,2ec57a45-10ac-16f7-699c-2f48dd7a197d,2ec57a45-10ac-16f7-f587-928d4e8384fd,http://snomed.info/sct,24700007,Multiple Sclerosis
+1990-07-03,,2ec57a45-10ac-16f7-699c-2f48dd7a197d,2ec57a45-10ac-16f7-f587-928d4e8384fd,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1990-07-03,,2ec57a45-10ac-16f7-699c-2f48dd7a197d,2ec57a45-10ac-16f7-b684-d2ddcd82d770,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2019-09-22,,3e7625f4-6e13-9098-4ab7-82de7c159907,3e7625f4-6e13-9098-198f-99e8718932be,http://snomed.info/sct,24700007,Multiple Sclerosis
+2019-09-22,,3e7625f4-6e13-9098-4ab7-82de7c159907,3e7625f4-6e13-9098-198f-99e8718932be,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2019-09-22,,3e7625f4-6e13-9098-4ab7-82de7c159907,3e7625f4-6e13-9098-12a5-98e4928e491e,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2013-09-28,,4e25f22f-799d-57ab-51e6-8d8101702a66,4e25f22f-799d-57ab-d239-2239cdb0896d,http://snomed.info/sct,24700007,Multiple Sclerosis
+2013-09-28,,4e25f22f-799d-57ab-51e6-8d8101702a66,4e25f22f-799d-57ab-d239-2239cdb0896d,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2013-09-28,,4e25f22f-799d-57ab-51e6-8d8101702a66,4e25f22f-799d-57ab-15e1-526896603fb1,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1989-08-14,,f17b5c3b-d83c-6fe2-4996-0a5bc811a6d9,f17b5c3b-d83c-6fe2-ff06-f584b7c98566,http://snomed.info/sct,24700007,Multiple Sclerosis
+1989-08-14,,f17b5c3b-d83c-6fe2-4996-0a5bc811a6d9,f17b5c3b-d83c-6fe2-ff06-f584b7c98566,http://snomed.info/sct,712823008,Acute Depression
+1989-08-14,,f17b5c3b-d83c-6fe2-4996-0a5bc811a6d9,f17b5c3b-d83c-6fe2-ff06-f584b7c98566,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1989-08-14,,f17b5c3b-d83c-6fe2-4996-0a5bc811a6d9,f17b5c3b-d83c-6fe2-e586-98be46c76ab8,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2005-07-18,,3112f5f3-2e88-5abd-ac24-b5ec8a7c3413,3112f5f3-2e88-5abd-d075-084536043477,http://snomed.info/sct,24700007,Multiple Sclerosis
+2005-07-18,,3112f5f3-2e88-5abd-ac24-b5ec8a7c3413,3112f5f3-2e88-5abd-d075-084536043477,http://snomed.info/sct,41368006,Disorder of urinary tract
+2005-07-18,,3112f5f3-2e88-5abd-ac24-b5ec8a7c3413,3112f5f3-2e88-5abd-d075-084536043477,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2005-07-18,,3112f5f3-2e88-5abd-ac24-b5ec8a7c3413,3112f5f3-2e88-5abd-40d1-b9d6f0b13796,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1992-03-31,,acafc71f-5b8c-017f-b008-23c66df8491d,acafc71f-5b8c-017f-4fb0-c03e78d00988,http://snomed.info/sct,24700007,Multiple Sclerosis
+1992-03-31,,acafc71f-5b8c-017f-b008-23c66df8491d,acafc71f-5b8c-017f-4fb0-c03e78d00988,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1992-03-31,,acafc71f-5b8c-017f-b008-23c66df8491d,acafc71f-5b8c-017f-bfb4-f13e43b10a30,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2001-04-09,,f9a59a6d-998c-ce39-12b6-6f6f89ce866e,f9a59a6d-998c-ce39-88b0-ea60b460b777,http://snomed.info/sct,24700007,Multiple Sclerosis
+2001-04-09,,f9a59a6d-998c-ce39-12b6-6f6f89ce866e,f9a59a6d-998c-ce39-88b0-ea60b460b777,http://snomed.info/sct,712823008,Acute Depression
+2001-04-09,,f9a59a6d-998c-ce39-12b6-6f6f89ce866e,f9a59a6d-998c-ce39-88b0-ea60b460b777,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2001-04-09,,f9a59a6d-998c-ce39-12b6-6f6f89ce866e,f9a59a6d-998c-ce39-5922-6be44735e406,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1985-11-27,,03368b64-36e2-e031-2e10-10a4bf9ddddc,03368b64-36e2-e031-359a-ffd419fffca8,http://snomed.info/sct,24700007,Multiple Sclerosis
+1985-11-27,,03368b64-36e2-e031-2e10-10a4bf9ddddc,03368b64-36e2-e031-359a-ffd419fffca8,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1985-11-27,,03368b64-36e2-e031-2e10-10a4bf9ddddc,03368b64-36e2-e031-4268-b501b8d799e8,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2025-10-13,,d72d0cc8-e909-8ce7-606f-adb4d517218c,d72d0cc8-e909-8ce7-e3cd-98e72977e285,http://snomed.info/sct,24700007,Multiple Sclerosis
+2025-10-13,,d72d0cc8-e909-8ce7-606f-adb4d517218c,d72d0cc8-e909-8ce7-e3cd-98e72977e285,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2025-10-13,,d72d0cc8-e909-8ce7-606f-adb4d517218c,d72d0cc8-e909-8ce7-1116-045745db4e4d,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2013-10-23,,a3942ba6-2cf0-1b09-354e-c06cde9dbd30,a3942ba6-2cf0-1b09-4af3-33e5ba03d2d3,http://snomed.info/sct,24700007,Multiple Sclerosis
+2013-10-23,,a3942ba6-2cf0-1b09-354e-c06cde9dbd30,a3942ba6-2cf0-1b09-4af3-33e5ba03d2d3,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2013-10-23,,a3942ba6-2cf0-1b09-354e-c06cde9dbd30,a3942ba6-2cf0-1b09-9efe-04a48a0ba65b,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1994-11-17,,2dae7025-c266-5887-1444-bcdc2adaaebf,2dae7025-c266-5887-eeb0-19a6c3ac3943,http://snomed.info/sct,24700007,Multiple Sclerosis
+1994-11-17,,2dae7025-c266-5887-1444-bcdc2adaaebf,2dae7025-c266-5887-eeb0-19a6c3ac3943,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1994-11-17,,2dae7025-c266-5887-1444-bcdc2adaaebf,2dae7025-c266-5887-b0ba-28336495cd40,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1995-05-04,,67289883-b6e8-85d3-6775-a61c479c6554,67289883-b6e8-85d3-6a1e-bcdbae96b070,http://snomed.info/sct,24700007,Multiple Sclerosis
+1995-05-04,,67289883-b6e8-85d3-6775-a61c479c6554,67289883-b6e8-85d3-6a1e-bcdbae96b070,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1995-05-04,,67289883-b6e8-85d3-6775-a61c479c6554,67289883-b6e8-85d3-1bec-a30381e53ae8,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1973-08-18,,89fc67ed-55e8-771f-67ab-ade3d58e9cdf,89fc67ed-55e8-771f-b3b1-da24ffc567bc,http://snomed.info/sct,24700007,Multiple Sclerosis
+1973-08-18,,89fc67ed-55e8-771f-67ab-ade3d58e9cdf,89fc67ed-55e8-771f-b3b1-da24ffc567bc,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1973-08-18,,89fc67ed-55e8-771f-67ab-ade3d58e9cdf,89fc67ed-55e8-771f-c51d-f8e5c2b8ca96,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1996-01-06,,95e9ad10-f7c2-5a1e-84a9-9edf73d8c61a,95e9ad10-f7c2-5a1e-d86f-ae5e2b6e9cbc,http://snomed.info/sct,24700007,Multiple Sclerosis
+1996-01-06,,95e9ad10-f7c2-5a1e-84a9-9edf73d8c61a,95e9ad10-f7c2-5a1e-d86f-ae5e2b6e9cbc,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1996-01-06,,95e9ad10-f7c2-5a1e-84a9-9edf73d8c61a,95e9ad10-f7c2-5a1e-2b4a-e86d7937c8c7,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1996-01-06,,95e9ad10-f7c2-5a1e-84a9-9edf73d8c61a,95e9ad10-f7c2-5a1e-5ff9-58a4491475cd,http://snomed.info/sct,343601000000105,Secondary progressive multiple sclerosis
+2019-09-28,,9e0cca20-6e6b-fdab-e351-519893bd7da0,9e0cca20-6e6b-fdab-b50e-3b9c0531b66b,http://snomed.info/sct,24700007,Multiple Sclerosis
+2019-09-28,,9e0cca20-6e6b-fdab-e351-519893bd7da0,9e0cca20-6e6b-fdab-b50e-3b9c0531b66b,http://snomed.info/sct,73211009,Diabetes mellitus
+2019-09-28,,9e0cca20-6e6b-fdab-e351-519893bd7da0,9e0cca20-6e6b-fdab-b50e-3b9c0531b66b,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2019-09-28,,9e0cca20-6e6b-fdab-e351-519893bd7da0,9e0cca20-6e6b-fdab-c539-79d6a48a5444,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1981-12-19,,8202acf1-c138-0366-3a24-5cb077c71e23,8202acf1-c138-0366-4d89-3b47a1a0c82c,http://snomed.info/sct,24700007,Multiple Sclerosis
+1981-12-19,,8202acf1-c138-0366-3a24-5cb077c71e23,8202acf1-c138-0366-4d89-3b47a1a0c82c,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1981-12-19,,8202acf1-c138-0366-3a24-5cb077c71e23,8202acf1-c138-0366-aee5-e5648cb9ae8e,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1976-05-28,,58e8092c-7069-bba7-a958-5cf3ae5f01cd,58e8092c-7069-bba7-81fb-589e86c294f1,http://snomed.info/sct,24700007,Multiple Sclerosis
+1976-05-28,,58e8092c-7069-bba7-a958-5cf3ae5f01cd,58e8092c-7069-bba7-81fb-589e86c294f1,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1976-05-28,,58e8092c-7069-bba7-a958-5cf3ae5f01cd,58e8092c-7069-bba7-931e-8fac9258ba1b,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1999-09-05,,c0ddbe7e-10c0-59b0-5ad9-f80a4574acaf,c0ddbe7e-10c0-59b0-fc41-2a1ab31af884,http://snomed.info/sct,24700007,Multiple Sclerosis
+1999-09-05,,c0ddbe7e-10c0-59b0-5ad9-f80a4574acaf,c0ddbe7e-10c0-59b0-fc41-2a1ab31af884,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1999-09-05,,c0ddbe7e-10c0-59b0-5ad9-f80a4574acaf,c0ddbe7e-10c0-59b0-6ed2-5bfbea3ebe1e,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2013-01-10,,67be2852-6b38-c62f-a77d-c2c419033022,67be2852-6b38-c62f-2270-e61c272ed73a,http://snomed.info/sct,24700007,Multiple Sclerosis
+2013-01-10,,67be2852-6b38-c62f-a77d-c2c419033022,67be2852-6b38-c62f-2270-e61c272ed73a,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2013-01-10,,67be2852-6b38-c62f-a77d-c2c419033022,67be2852-6b38-c62f-f6cf-aeb195760489,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2025-11-17,,3b96afd8-0439-57ef-d5d8-68a03adf5173,3b96afd8-0439-57ef-b078-2e56cccbb00d,http://snomed.info/sct,24700007,Multiple Sclerosis
+2025-11-17,,3b96afd8-0439-57ef-d5d8-68a03adf5173,3b96afd8-0439-57ef-b078-2e56cccbb00d,http://snomed.info/sct,38822007,Cystitis
+2025-11-17,,3b96afd8-0439-57ef-d5d8-68a03adf5173,3b96afd8-0439-57ef-b078-2e56cccbb00d,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2025-11-17,,3b96afd8-0439-57ef-d5d8-68a03adf5173,3b96afd8-0439-57ef-90b0-db46ad85b91d,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2006-02-13,,161dafbf-2717-1931-9e3b-0b3ec9c21eb9,161dafbf-2717-1931-1e70-063da98e0462,http://snomed.info/sct,24700007,Multiple Sclerosis
+2006-02-13,,161dafbf-2717-1931-9e3b-0b3ec9c21eb9,161dafbf-2717-1931-1e70-063da98e0462,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2006-02-13,,161dafbf-2717-1931-9e3b-0b3ec9c21eb9,161dafbf-2717-1931-76d0-709f21e0e250,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1987-03-21,,abdd69af-3af0-9698-7f27-94d8c9169cb3,abdd69af-3af0-9698-e99f-05ec77907111,http://snomed.info/sct,24700007,Multiple Sclerosis
+1987-03-21,,abdd69af-3af0-9698-7f27-94d8c9169cb3,abdd69af-3af0-9698-e99f-05ec77907111,http://snomed.info/sct,38822007,Cystitis
+1987-03-21,,abdd69af-3af0-9698-7f27-94d8c9169cb3,abdd69af-3af0-9698-e99f-05ec77907111,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1987-03-21,,abdd69af-3af0-9698-7f27-94d8c9169cb3,abdd69af-3af0-9698-c9b0-c4414cff3c4e,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1973-01-31,,16a74f4f-cb7a-01f3-dd7b-82c0817d8285,16a74f4f-cb7a-01f3-10a8-068c6e8026e4,http://snomed.info/sct,24700007,Multiple Sclerosis
+1973-01-31,,16a74f4f-cb7a-01f3-dd7b-82c0817d8285,16a74f4f-cb7a-01f3-10a8-068c6e8026e4,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1973-01-31,,16a74f4f-cb7a-01f3-dd7b-82c0817d8285,16a74f4f-cb7a-01f3-7ea5-1f362816726d,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1973-01-31,,16a74f4f-cb7a-01f3-dd7b-82c0817d8285,16a74f4f-cb7a-01f3-3714-cf1338ddcc8d,http://snomed.info/sct,343601000000105,Secondary progressive multiple sclerosis
+2021-11-12,,63703696-3f8e-0aae-1610-0f10b18080d8,63703696-3f8e-0aae-d084-e48100565fac,http://snomed.info/sct,24700007,Multiple Sclerosis
+2021-11-12,,63703696-3f8e-0aae-1610-0f10b18080d8,63703696-3f8e-0aae-d084-e48100565fac,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2021-11-12,,63703696-3f8e-0aae-1610-0f10b18080d8,63703696-3f8e-0aae-e384-bc8bbc490575,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2025-01-08,,c48532f9-f3b6-a7c6-e934-f29bdd3d52ec,c48532f9-f3b6-a7c6-0b38-8e9db1161d51,http://snomed.info/sct,24700007,Multiple Sclerosis
+2025-01-08,,c48532f9-f3b6-a7c6-e934-f29bdd3d52ec,c48532f9-f3b6-a7c6-0b38-8e9db1161d51,http://snomed.info/sct,257556004,Surgery
+2025-01-08,,c48532f9-f3b6-a7c6-e934-f29bdd3d52ec,c48532f9-f3b6-a7c6-0b38-8e9db1161d51,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2025-01-08,,c48532f9-f3b6-a7c6-e934-f29bdd3d52ec,c48532f9-f3b6-a7c6-2549-5f8561f9275c,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2012-01-21,,48bd647b-a071-ec3f-4f06-7e0230799044,48bd647b-a071-ec3f-4da4-8ce5e466a9f1,http://snomed.info/sct,24700007,Multiple Sclerosis
+2012-01-21,,48bd647b-a071-ec3f-4f06-7e0230799044,48bd647b-a071-ec3f-4da4-8ce5e466a9f1,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2012-01-21,,48bd647b-a071-ec3f-4f06-7e0230799044,48bd647b-a071-ec3f-bce3-d13a6898975f,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2009-12-24,,3d400f3f-2a3c-360b-62a8-32c5d56df57d,3d400f3f-2a3c-360b-f72c-059316a5ca67,http://snomed.info/sct,24700007,Multiple Sclerosis
+2009-12-24,,3d400f3f-2a3c-360b-62a8-32c5d56df57d,3d400f3f-2a3c-360b-f72c-059316a5ca67,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2009-12-24,,3d400f3f-2a3c-360b-62a8-32c5d56df57d,3d400f3f-2a3c-360b-738c-57c6c2928ce9,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2000-11-07,,a576d73b-b57b-bda0-c4ce-558c5a4a0949,a576d73b-b57b-bda0-980c-30c28778489b,http://snomed.info/sct,24700007,Multiple Sclerosis
+2000-11-07,,a576d73b-b57b-bda0-c4ce-558c5a4a0949,a576d73b-b57b-bda0-980c-30c28778489b,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2000-11-07,,a576d73b-b57b-bda0-c4ce-558c5a4a0949,a576d73b-b57b-bda0-0f8b-6d467969b27a,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1993-01-27,,8721be39-bc10-8f98-4241-e7cbab7c57e2,8721be39-bc10-8f98-b197-e38366297447,http://snomed.info/sct,24700007,Multiple Sclerosis
+1993-01-27,,8721be39-bc10-8f98-4241-e7cbab7c57e2,8721be39-bc10-8f98-b197-e38366297447,http://snomed.info/sct,257551009,Infection
+1993-01-27,,8721be39-bc10-8f98-4241-e7cbab7c57e2,8721be39-bc10-8f98-b197-e38366297447,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1993-01-27,,8721be39-bc10-8f98-4241-e7cbab7c57e2,8721be39-bc10-8f98-d5ae-25c93537ace8,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1997-12-17,,e921af40-a4fd-1f2f-917a-b922ccf77849,e921af40-a4fd-1f2f-5698-46a1a7969717,http://snomed.info/sct,24700007,Multiple Sclerosis
+1997-12-17,,e921af40-a4fd-1f2f-917a-b922ccf77849,e921af40-a4fd-1f2f-5698-46a1a7969717,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1997-12-17,,e921af40-a4fd-1f2f-917a-b922ccf77849,e921af40-a4fd-1f2f-4f95-70c59b4c0c9a,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1985-04-16,,b7279145-3a83-b0ce-c6d2-e5146578553e,b7279145-3a83-b0ce-6a7f-1cf9d680b0da,http://snomed.info/sct,24700007,Multiple Sclerosis
+1985-04-16,,b7279145-3a83-b0ce-c6d2-e5146578553e,b7279145-3a83-b0ce-6a7f-1cf9d680b0da,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1985-04-16,,b7279145-3a83-b0ce-c6d2-e5146578553e,b7279145-3a83-b0ce-54f1-cb7ff7358150,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2024-06-14,,c8064e85-18a6-6c4c-d144-213e90337d9a,c8064e85-18a6-6c4c-5fee-17b405dde94c,http://snomed.info/sct,24700007,Multiple Sclerosis
+2024-06-14,,c8064e85-18a6-6c4c-d144-213e90337d9a,c8064e85-18a6-6c4c-5fee-17b405dde94c,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2024-06-14,,c8064e85-18a6-6c4c-d144-213e90337d9a,c8064e85-18a6-6c4c-9b36-721cb61bda45,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1995-07-18,,62438d5c-0d52-0513-ff4c-bbd6e1597dd2,62438d5c-0d52-0513-230d-632793c774b7,http://snomed.info/sct,24700007,Multiple Sclerosis
+1995-07-18,,62438d5c-0d52-0513-ff4c-bbd6e1597dd2,62438d5c-0d52-0513-230d-632793c774b7,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1995-07-18,,62438d5c-0d52-0513-ff4c-bbd6e1597dd2,62438d5c-0d52-0513-02f2-8fa5c2b0751f,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1998-09-08,,db470967-94a3-c29f-c9be-63bc33dd15fd,db470967-94a3-c29f-1d32-5fd940045858,http://snomed.info/sct,24700007,Multiple Sclerosis
+1998-09-08,,db470967-94a3-c29f-c9be-63bc33dd15fd,db470967-94a3-c29f-1d32-5fd940045858,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1998-09-08,,db470967-94a3-c29f-c9be-63bc33dd15fd,db470967-94a3-c29f-fa8e-aafcfdbe1f16,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2024-12-13,,e47b5ab2-63f9-8aed-e13f-6afa2607df24,e47b5ab2-63f9-8aed-c260-a9e49468ab76,http://snomed.info/sct,24700007,Multiple Sclerosis
+2024-12-13,,e47b5ab2-63f9-8aed-e13f-6afa2607df24,e47b5ab2-63f9-8aed-c260-a9e49468ab76,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2024-12-13,,e47b5ab2-63f9-8aed-e13f-6afa2607df24,e47b5ab2-63f9-8aed-4e8b-634082409d02,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2025-05-21,,b197afb5-8864-f9e9-eb62-5b6388fa786c,b197afb5-8864-f9e9-e960-b4bd2ee5caf4,http://snomed.info/sct,24700007,Multiple Sclerosis
+2025-05-21,,b197afb5-8864-f9e9-eb62-5b6388fa786c,b197afb5-8864-f9e9-e960-b4bd2ee5caf4,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2025-05-21,,b197afb5-8864-f9e9-eb62-5b6388fa786c,b197afb5-8864-f9e9-628f-460ffbb2fbfb,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2025-05-21,,b197afb5-8864-f9e9-eb62-5b6388fa786c,b197afb5-8864-f9e9-2487-acf943366c76,http://snomed.info/sct,343601000000105,Secondary progressive multiple sclerosis
+1998-10-02,,c238a7fb-ef0c-50fe-f8e1-d06c32a9c265,c238a7fb-ef0c-50fe-d7bc-9ef2d9c1493b,http://snomed.info/sct,24700007,Multiple Sclerosis
+1998-10-02,,c238a7fb-ef0c-50fe-f8e1-d06c32a9c265,c238a7fb-ef0c-50fe-d7bc-9ef2d9c1493b,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1998-10-02,,c238a7fb-ef0c-50fe-f8e1-d06c32a9c265,c238a7fb-ef0c-50fe-9c1f-27834db5f5e5,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2021-01-18,,60453f2e-399e-1775-1212-45d3a0c63806,60453f2e-399e-1775-5344-178df302fdbe,http://snomed.info/sct,24700007,Multiple Sclerosis
+2021-01-18,,60453f2e-399e-1775-1212-45d3a0c63806,60453f2e-399e-1775-5344-178df302fdbe,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2021-01-18,,60453f2e-399e-1775-1212-45d3a0c63806,60453f2e-399e-1775-fad5-044350802af2,http://snomed.info/sct,343601000000105,Secondary progressive multiple sclerosis
+2025-09-08,,c9e5135e-6ede-4aec-733a-aae960f363f6,c9e5135e-6ede-4aec-b134-3f8907ff9eb0,http://snomed.info/sct,24700007,Multiple Sclerosis
+2025-09-08,,c9e5135e-6ede-4aec-733a-aae960f363f6,c9e5135e-6ede-4aec-b134-3f8907ff9eb0,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2025-09-08,,c9e5135e-6ede-4aec-733a-aae960f363f6,c9e5135e-6ede-4aec-2671-16b65bd59d96,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1979-04-22,,3b82fc00-e576-47d1-0eac-db811a021704,3b82fc00-e576-47d1-22fb-bbcafbc39f59,http://snomed.info/sct,24700007,Multiple Sclerosis
+1979-04-22,,3b82fc00-e576-47d1-0eac-db811a021704,3b82fc00-e576-47d1-22fb-bbcafbc39f59,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1979-04-22,,3b82fc00-e576-47d1-0eac-db811a021704,3b82fc00-e576-47d1-ebc7-0fe817118430,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1996-11-05,,c21e0b07-b9ff-a775-ca6a-23eea91866b5,c21e0b07-b9ff-a775-4a20-04dcac2de8f9,http://snomed.info/sct,24700007,Multiple Sclerosis
+1996-11-05,,c21e0b07-b9ff-a775-ca6a-23eea91866b5,c21e0b07-b9ff-a775-4a20-04dcac2de8f9,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1996-11-05,,c21e0b07-b9ff-a775-ca6a-23eea91866b5,c21e0b07-b9ff-a775-061a-f4c661958ddc,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2026-07-22,,5014bb2d-63b5-03b8-f118-5fa5b231b16c,5014bb2d-63b5-03b8-4999-d9457e2656ab,http://snomed.info/sct,24700007,Multiple Sclerosis
+2026-07-22,,5014bb2d-63b5-03b8-f118-5fa5b231b16c,5014bb2d-63b5-03b8-4999-d9457e2656ab,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2026-07-22,,5014bb2d-63b5-03b8-f118-5fa5b231b16c,5014bb2d-63b5-03b8-0973-6b2c09bac093,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1982-09-05,,bed645b3-bc9f-6799-f9de-2f2f2f1808f4,bed645b3-bc9f-6799-dc74-8012970a665e,http://snomed.info/sct,24700007,Multiple Sclerosis
+1982-09-05,,bed645b3-bc9f-6799-f9de-2f2f2f1808f4,bed645b3-bc9f-6799-dc74-8012970a665e,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1982-09-05,,bed645b3-bc9f-6799-f9de-2f2f2f1808f4,bed645b3-bc9f-6799-a6fc-028758d0360b,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2000-03-29,,feaae8d9-4000-3cb5-e233-be19af798648,feaae8d9-4000-3cb5-3c5b-4b7f8a741120,http://snomed.info/sct,24700007,Multiple Sclerosis
+2000-03-29,,feaae8d9-4000-3cb5-e233-be19af798648,feaae8d9-4000-3cb5-3c5b-4b7f8a741120,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2000-03-29,,feaae8d9-4000-3cb5-e233-be19af798648,feaae8d9-4000-3cb5-d2d0-1cb92db5554b,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1985-05-05,,8a9f1e57-7eef-f408-3ddd-71c883e0c783,8a9f1e57-7eef-f408-c872-f0ec5e0eb6f4,http://snomed.info/sct,24700007,Multiple Sclerosis
+1985-05-05,,8a9f1e57-7eef-f408-3ddd-71c883e0c783,8a9f1e57-7eef-f408-c872-f0ec5e0eb6f4,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1985-05-05,,8a9f1e57-7eef-f408-3ddd-71c883e0c783,8a9f1e57-7eef-f408-c0fa-3f5e4ff7574d,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1997-03-28,,29ec1c2e-dc69-648c-3337-c737a70958ff,29ec1c2e-dc69-648c-48a5-f6a5acd946e9,http://snomed.info/sct,24700007,Multiple Sclerosis
+1997-03-28,,29ec1c2e-dc69-648c-3337-c737a70958ff,29ec1c2e-dc69-648c-48a5-f6a5acd946e9,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1997-03-28,,29ec1c2e-dc69-648c-3337-c737a70958ff,29ec1c2e-dc69-648c-2e46-07b18fb6e2e3,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1999-10-24,,af741d3e-5ad2-3ad3-74a3-371b8878c6d5,af741d3e-5ad2-3ad3-89a3-6b6cf88d4189,http://snomed.info/sct,24700007,Multiple Sclerosis
+1999-10-24,,af741d3e-5ad2-3ad3-74a3-371b8878c6d5,af741d3e-5ad2-3ad3-89a3-6b6cf88d4189,http://snomed.info/sct,84757009,Epilepsy
+1999-10-24,,af741d3e-5ad2-3ad3-74a3-371b8878c6d5,af741d3e-5ad2-3ad3-89a3-6b6cf88d4189,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1999-10-24,,af741d3e-5ad2-3ad3-74a3-371b8878c6d5,af741d3e-5ad2-3ad3-9819-350fe1e124a5,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2006-11-22,,61e34925-ccf3-389c-f66b-f42d364663d8,61e34925-ccf3-389c-4833-47415d3ba7ff,http://snomed.info/sct,24700007,Multiple Sclerosis
+2006-11-22,,61e34925-ccf3-389c-f66b-f42d364663d8,61e34925-ccf3-389c-4833-47415d3ba7ff,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2006-11-22,,61e34925-ccf3-389c-f66b-f42d364663d8,61e34925-ccf3-389c-e59a-852305ec2039,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1995-04-30,,4ef90311-8c76-7586-a57b-ee94e730b510,4ef90311-8c76-7586-6cd7-1d239330fb73,http://snomed.info/sct,24700007,Multiple Sclerosis
+1995-04-30,,4ef90311-8c76-7586-a57b-ee94e730b510,4ef90311-8c76-7586-6cd7-1d239330fb73,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1995-04-30,,4ef90311-8c76-7586-a57b-ee94e730b510,4ef90311-8c76-7586-0cf6-1b755e5e069d,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2022-03-08,,29d31ed2-3b92-7a3a-abd7-946ed082912d,29d31ed2-3b92-7a3a-d89b-474fe25fb19b,http://snomed.info/sct,24700007,Multiple Sclerosis
+2022-03-08,,29d31ed2-3b92-7a3a-abd7-946ed082912d,29d31ed2-3b92-7a3a-d89b-474fe25fb19b,http://snomed.info/sct,41368006,Disorder of urinary tract
+2022-03-08,,29d31ed2-3b92-7a3a-abd7-946ed082912d,29d31ed2-3b92-7a3a-d89b-474fe25fb19b,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2022-03-08,,29d31ed2-3b92-7a3a-abd7-946ed082912d,29d31ed2-3b92-7a3a-9fa5-16d27ba3a310,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2020-05-17,,2e651522-b240-5091-ca27-28f09506d2be,2e651522-b240-5091-100c-378fa16a8659,http://snomed.info/sct,24700007,Multiple Sclerosis
+2020-05-17,,2e651522-b240-5091-ca27-28f09506d2be,2e651522-b240-5091-100c-378fa16a8659,http://snomed.info/sct,84757009,Epilepsy
+2020-05-17,,2e651522-b240-5091-ca27-28f09506d2be,2e651522-b240-5091-100c-378fa16a8659,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2020-05-17,,2e651522-b240-5091-ca27-28f09506d2be,2e651522-b240-5091-069a-cd0cdc1308e3,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2021-04-30,,dbc9a6ea-5676-041e-73fe-432c642538ad,dbc9a6ea-5676-041e-e2a7-ea432c7c0a11,http://snomed.info/sct,24700007,Multiple Sclerosis
+2021-04-30,,dbc9a6ea-5676-041e-73fe-432c642538ad,dbc9a6ea-5676-041e-e2a7-ea432c7c0a11,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2021-04-30,,dbc9a6ea-5676-041e-73fe-432c642538ad,dbc9a6ea-5676-041e-db43-b6d1bc8060f7,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2015-04-10,,67df05f6-d2a5-2512-5395-d2ebcd9b5ea0,67df05f6-d2a5-2512-e13c-682bccc8b30f,http://snomed.info/sct,24700007,Multiple Sclerosis
+2015-04-10,,67df05f6-d2a5-2512-5395-d2ebcd9b5ea0,67df05f6-d2a5-2512-e13c-682bccc8b30f,http://snomed.info/sct,712823008,Acute Depression
+2015-04-10,,67df05f6-d2a5-2512-5395-d2ebcd9b5ea0,67df05f6-d2a5-2512-e13c-682bccc8b30f,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2015-04-10,,67df05f6-d2a5-2512-5395-d2ebcd9b5ea0,67df05f6-d2a5-2512-9bbb-e9878839a037,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2015-04-10,,67df05f6-d2a5-2512-5395-d2ebcd9b5ea0,67df05f6-d2a5-2512-f874-d308a4c5a175,http://snomed.info/sct,343601000000105,Secondary progressive multiple sclerosis
+2007-12-31,,f635f712-8349-1745-7622-724fc1cccb56,f635f712-8349-1745-12e6-cfc272f6f781,http://snomed.info/sct,24700007,Multiple Sclerosis
+2007-12-31,,f635f712-8349-1745-7622-724fc1cccb56,f635f712-8349-1745-12e6-cfc272f6f781,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2007-12-31,,f635f712-8349-1745-7622-724fc1cccb56,f635f712-8349-1745-a216-e0732e6a0edc,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2022-01-07,,62e7350d-5b1e-7eac-5e0f-a25c355deba6,62e7350d-5b1e-7eac-3cf7-c82d26215ad6,http://snomed.info/sct,24700007,Multiple Sclerosis
+2022-01-07,,62e7350d-5b1e-7eac-5e0f-a25c355deba6,62e7350d-5b1e-7eac-3cf7-c82d26215ad6,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2022-01-07,,62e7350d-5b1e-7eac-5e0f-a25c355deba6,62e7350d-5b1e-7eac-f41e-952690b6f629,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2008-11-17,,3e0c7408-fcf1-ba40-37c3-79542a0cee3e,3e0c7408-fcf1-ba40-326b-38b889e8269a,http://snomed.info/sct,24700007,Multiple Sclerosis
+2008-11-17,,3e0c7408-fcf1-ba40-37c3-79542a0cee3e,3e0c7408-fcf1-ba40-326b-38b889e8269a,http://snomed.info/sct,73211009,Diabetes mellitus
+2008-11-17,,3e0c7408-fcf1-ba40-37c3-79542a0cee3e,3e0c7408-fcf1-ba40-326b-38b889e8269a,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2008-11-17,,3e0c7408-fcf1-ba40-37c3-79542a0cee3e,3e0c7408-fcf1-ba40-e495-79972f923310,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2026-06-16,,26ea8171-f8cc-9f4b-0b4f-b8bcf5c808d8,26ea8171-f8cc-9f4b-d3b9-0a133ed8ea51,http://snomed.info/sct,24700007,Multiple Sclerosis
+2026-06-16,,26ea8171-f8cc-9f4b-0b4f-b8bcf5c808d8,26ea8171-f8cc-9f4b-d3b9-0a133ed8ea51,http://snomed.info/sct,395099008,Cancer confirmed
+2026-06-16,,26ea8171-f8cc-9f4b-0b4f-b8bcf5c808d8,26ea8171-f8cc-9f4b-d3b9-0a133ed8ea51,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2026-06-16,,26ea8171-f8cc-9f4b-0b4f-b8bcf5c808d8,26ea8171-f8cc-9f4b-ca69-b13a75813e0b,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1989-05-10,,fa3827a5-f7ce-04c8-3f72-026b66a56dce,fa3827a5-f7ce-04c8-8142-95dc64509d3d,http://snomed.info/sct,24700007,Multiple Sclerosis
+1989-05-10,,fa3827a5-f7ce-04c8-3f72-026b66a56dce,fa3827a5-f7ce-04c8-8142-95dc64509d3d,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1989-05-10,,fa3827a5-f7ce-04c8-3f72-026b66a56dce,fa3827a5-f7ce-04c8-053c-2e0224370f17,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1987-03-10,,35e7de52-2c88-b04e-70ea-2908b9b4f4bb,35e7de52-2c88-b04e-445d-987bbc3e8ff3,http://snomed.info/sct,24700007,Multiple Sclerosis
+1987-03-10,,35e7de52-2c88-b04e-70ea-2908b9b4f4bb,35e7de52-2c88-b04e-445d-987bbc3e8ff3,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1987-03-10,,35e7de52-2c88-b04e-70ea-2908b9b4f4bb,35e7de52-2c88-b04e-d32b-f8729d99ca89,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1987-03-10,,35e7de52-2c88-b04e-70ea-2908b9b4f4bb,35e7de52-2c88-b04e-5fb6-169a480572b0,http://snomed.info/sct,343601000000105,Secondary progressive multiple sclerosis
+1996-11-26,,7932f301-3c52-16e5-b3d8-26208a3c719d,7932f301-3c52-16e5-e126-7c8aaa12985d,http://snomed.info/sct,24700007,Multiple Sclerosis
+1996-11-26,,7932f301-3c52-16e5-b3d8-26208a3c719d,7932f301-3c52-16e5-e126-7c8aaa12985d,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1996-11-26,,7932f301-3c52-16e5-b3d8-26208a3c719d,7932f301-3c52-16e5-ef92-18eac5be9423,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1975-01-10,,d1191487-23d8-14d9-b845-789da1f97d97,d1191487-23d8-14d9-2807-76af7d5a4b39,http://snomed.info/sct,24700007,Multiple Sclerosis
+1975-01-10,,d1191487-23d8-14d9-b845-789da1f97d97,d1191487-23d8-14d9-2807-76af7d5a4b39,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1975-01-10,,d1191487-23d8-14d9-b845-789da1f97d97,d1191487-23d8-14d9-be76-0616e3029f20,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2026-01-28,,6bdcba5f-aeaa-bb08-9494-8c22b5b6b954,6bdcba5f-aeaa-bb08-5c6c-b116a0eb08c2,http://snomed.info/sct,24700007,Multiple Sclerosis
+2026-01-28,,6bdcba5f-aeaa-bb08-9494-8c22b5b6b954,6bdcba5f-aeaa-bb08-5c6c-b116a0eb08c2,http://snomed.info/sct,128292002,Chronic disease of cardiovascular system
+2026-01-28,,6bdcba5f-aeaa-bb08-9494-8c22b5b6b954,6bdcba5f-aeaa-bb08-5c6c-b116a0eb08c2,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2026-01-28,,6bdcba5f-aeaa-bb08-9494-8c22b5b6b954,6bdcba5f-aeaa-bb08-9872-9891943ea529,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2012-10-05,,dcaf328f-ffc8-3597-a088-03cfa0f2dcda,dcaf328f-ffc8-3597-e208-1f363a47c070,http://snomed.info/sct,24700007,Multiple Sclerosis
+2012-10-05,,dcaf328f-ffc8-3597-a088-03cfa0f2dcda,dcaf328f-ffc8-3597-e208-1f363a47c070,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2012-10-05,,dcaf328f-ffc8-3597-a088-03cfa0f2dcda,dcaf328f-ffc8-3597-6c59-cb0f3fadc49c,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2018-07-14,,51c5de3c-bafd-84d0-ce88-c3ee50acc2c8,51c5de3c-bafd-84d0-54f5-f00081b3df79,http://snomed.info/sct,24700007,Multiple Sclerosis
+2018-07-14,,51c5de3c-bafd-84d0-ce88-c3ee50acc2c8,51c5de3c-bafd-84d0-54f5-f00081b3df79,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2018-07-14,,51c5de3c-bafd-84d0-ce88-c3ee50acc2c8,51c5de3c-bafd-84d0-ce78-68bc4b11f66c,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2018-07-14,,51c5de3c-bafd-84d0-ce88-c3ee50acc2c8,51c5de3c-bafd-84d0-c16b-a47b3d8ae197,http://snomed.info/sct,343601000000105,Secondary progressive multiple sclerosis
+1999-01-10,,69d3a43e-aac0-261f-ead2-f4962df02bc0,69d3a43e-aac0-261f-c1b3-44886b61e9a4,http://snomed.info/sct,24700007,Multiple Sclerosis
+1999-01-10,,69d3a43e-aac0-261f-ead2-f4962df02bc0,69d3a43e-aac0-261f-c1b3-44886b61e9a4,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1999-01-10,,69d3a43e-aac0-261f-ead2-f4962df02bc0,69d3a43e-aac0-261f-ee20-685e1166ef04,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1999-01-10,,69d3a43e-aac0-261f-ead2-f4962df02bc0,69d3a43e-aac0-261f-09c7-74ec66da7312,http://snomed.info/sct,343601000000105,Secondary progressive multiple sclerosis
+2023-03-02,,4b14cf5c-3e7b-4c7d-f375-20560b9f7497,4b14cf5c-3e7b-4c7d-1a44-2bb062e16183,http://snomed.info/sct,24700007,Multiple Sclerosis
+2023-03-02,,4b14cf5c-3e7b-4c7d-f375-20560b9f7497,4b14cf5c-3e7b-4c7d-1a44-2bb062e16183,http://snomed.info/sct,428700003,Primary progressive multiple sclerosis
+2023-03-02,,4b14cf5c-3e7b-4c7d-f375-20560b9f7497,4b14cf5c-3e7b-4c7d-8b29-05f34f36591c,http://snomed.info/sct,724778008,Progressive relapsing multiple sclerosis
+1994-08-10,,fae4fbe4-f029-795e-6ac8-6759750c0a37,fae4fbe4-f029-795e-60f3-950683e2e423,http://snomed.info/sct,24700007,Multiple Sclerosis
+1994-08-10,,fae4fbe4-f029-795e-6ac8-6759750c0a37,fae4fbe4-f029-795e-60f3-950683e2e423,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1994-08-10,,fae4fbe4-f029-795e-6ac8-6759750c0a37,fae4fbe4-f029-795e-e0a9-515b953444a7,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2017-12-19,,2cfd987a-20f3-d0e5-d141-033bf16a37ea,2cfd987a-20f3-d0e5-d317-a112ad1f0f2c,http://snomed.info/sct,24700007,Multiple Sclerosis
+2017-12-19,,2cfd987a-20f3-d0e5-d141-033bf16a37ea,2cfd987a-20f3-d0e5-d317-a112ad1f0f2c,http://snomed.info/sct,928000,Disorder of musculoskeletal system
+2017-12-19,,2cfd987a-20f3-d0e5-d141-033bf16a37ea,2cfd987a-20f3-d0e5-d317-a112ad1f0f2c,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2017-12-19,,2cfd987a-20f3-d0e5-d141-033bf16a37ea,2cfd987a-20f3-d0e5-e443-e2bbeb9c31bf,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2017-12-19,,2cfd987a-20f3-d0e5-d141-033bf16a37ea,2cfd987a-20f3-d0e5-fa01-8e269edd90a1,http://snomed.info/sct,343601000000105,Secondary progressive multiple sclerosis
+2022-01-29,,109228b5-6d36-c339-2ba1-a59f33d5bf58,109228b5-6d36-c339-de70-86ce17de6d87,http://snomed.info/sct,24700007,Multiple Sclerosis
+2022-01-29,,109228b5-6d36-c339-2ba1-a59f33d5bf58,109228b5-6d36-c339-de70-86ce17de6d87,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2022-01-29,,109228b5-6d36-c339-2ba1-a59f33d5bf58,109228b5-6d36-c339-4471-9d3c75f5ded1,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1981-07-29,,e313d10d-ca65-2086-3e5b-fc7333e65548,e313d10d-ca65-2086-3140-c484b5b68e61,http://snomed.info/sct,24700007,Multiple Sclerosis
+1981-07-29,,e313d10d-ca65-2086-3e5b-fc7333e65548,e313d10d-ca65-2086-3140-c484b5b68e61,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1981-07-29,,e313d10d-ca65-2086-3e5b-fc7333e65548,e313d10d-ca65-2086-2884-976b4a0b4b24,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2014-10-07,,65e1d51f-44cf-aa14-97fa-35c81752eb3e,65e1d51f-44cf-aa14-e3f9-fa4ee68a49c5,http://snomed.info/sct,24700007,Multiple Sclerosis
+2014-10-07,,65e1d51f-44cf-aa14-97fa-35c81752eb3e,65e1d51f-44cf-aa14-e3f9-fa4ee68a49c5,http://snomed.info/sct,257556004,Surgery
+2014-10-07,,65e1d51f-44cf-aa14-97fa-35c81752eb3e,65e1d51f-44cf-aa14-e3f9-fa4ee68a49c5,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2014-10-07,,65e1d51f-44cf-aa14-97fa-35c81752eb3e,65e1d51f-44cf-aa14-eb48-9bd6433194c4,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1982-01-19,,28fabe2a-17c5-716c-ac07-fa44472415c1,28fabe2a-17c5-716c-a1b6-79f9cebbf41d,http://snomed.info/sct,24700007,Multiple Sclerosis
+1982-01-19,,28fabe2a-17c5-716c-ac07-fa44472415c1,28fabe2a-17c5-716c-a1b6-79f9cebbf41d,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1982-01-19,,28fabe2a-17c5-716c-ac07-fa44472415c1,28fabe2a-17c5-716c-c4f3-77276ea5cd34,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2018-03-02,,a3f684f4-d5da-5fe9-4812-14797d0c9af7,a3f684f4-d5da-5fe9-803b-b8da962ce768,http://snomed.info/sct,24700007,Multiple Sclerosis
+2018-03-02,,a3f684f4-d5da-5fe9-4812-14797d0c9af7,a3f684f4-d5da-5fe9-803b-b8da962ce768,http://snomed.info/sct,712823008,Acute Depression
+2018-03-02,,a3f684f4-d5da-5fe9-4812-14797d0c9af7,a3f684f4-d5da-5fe9-803b-b8da962ce768,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2018-03-02,,a3f684f4-d5da-5fe9-4812-14797d0c9af7,a3f684f4-d5da-5fe9-1a03-f9856db00840,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2006-08-07,,8426a683-8640-6cb9-8bdb-8dfc4ddf7215,8426a683-8640-6cb9-1419-7477f9a9a210,http://snomed.info/sct,24700007,Multiple Sclerosis
+2006-08-07,,8426a683-8640-6cb9-8bdb-8dfc4ddf7215,8426a683-8640-6cb9-1419-7477f9a9a210,http://snomed.info/sct,257556004,Surgery
+2006-08-07,,8426a683-8640-6cb9-8bdb-8dfc4ddf7215,8426a683-8640-6cb9-1419-7477f9a9a210,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2006-08-07,,8426a683-8640-6cb9-8bdb-8dfc4ddf7215,8426a683-8640-6cb9-5a22-4fbdab0345b5,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1995-11-25,,ff0fb373-da59-1794-177f-7879abb1abc8,ff0fb373-da59-1794-803d-e83b7896b526,http://snomed.info/sct,24700007,Multiple Sclerosis
+1995-11-25,,ff0fb373-da59-1794-177f-7879abb1abc8,ff0fb373-da59-1794-803d-e83b7896b526,http://snomed.info/sct,257556004,Surgery
+1995-11-25,,ff0fb373-da59-1794-177f-7879abb1abc8,ff0fb373-da59-1794-803d-e83b7896b526,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1995-11-25,,ff0fb373-da59-1794-177f-7879abb1abc8,ff0fb373-da59-1794-e1da-ae0de347e54e,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2021-12-10,,89ef1f35-32fc-f222-226a-47c5cc1382be,89ef1f35-32fc-f222-59f9-151452fe4bd6,http://snomed.info/sct,24700007,Multiple Sclerosis
+2021-12-10,,89ef1f35-32fc-f222-226a-47c5cc1382be,89ef1f35-32fc-f222-59f9-151452fe4bd6,http://snomed.info/sct,428700003,Primary progressive multiple sclerosis
+2021-12-10,,89ef1f35-32fc-f222-226a-47c5cc1382be,89ef1f35-32fc-f222-572c-9b3be1c3b1d9,http://snomed.info/sct,724778008,Progressive relapsing multiple sclerosis
+2004-07-14,,0e5f4c88-d5dd-fc14-c338-7cb1382ad643,0e5f4c88-d5dd-fc14-f03c-b9e3c6ab0abe,http://snomed.info/sct,24700007,Multiple Sclerosis
+2004-07-14,,0e5f4c88-d5dd-fc14-c338-7cb1382ad643,0e5f4c88-d5dd-fc14-f03c-b9e3c6ab0abe,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2004-07-14,,0e5f4c88-d5dd-fc14-c338-7cb1382ad643,0e5f4c88-d5dd-fc14-f0c4-41885094c3b5,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2011-05-17,,3964f192-0e64-c2fd-22fb-55ed29d49126,3964f192-0e64-c2fd-7ca9-c7bc8f32f942,http://snomed.info/sct,24700007,Multiple Sclerosis
+2011-05-17,,3964f192-0e64-c2fd-22fb-55ed29d49126,3964f192-0e64-c2fd-7ca9-c7bc8f32f942,http://snomed.info/sct,428700003,Primary progressive multiple sclerosis
+2011-05-17,,3964f192-0e64-c2fd-22fb-55ed29d49126,3964f192-0e64-c2fd-4afc-c4df23135730,http://snomed.info/sct,724778008,Progressive relapsing multiple sclerosis
+2007-05-25,,54b1fa5b-5579-b577-0373-9c7bf30172ac,54b1fa5b-5579-b577-d141-c1b6c2f8d090,http://snomed.info/sct,24700007,Multiple Sclerosis
+2007-05-25,,54b1fa5b-5579-b577-0373-9c7bf30172ac,54b1fa5b-5579-b577-d141-c1b6c2f8d090,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2007-05-25,,54b1fa5b-5579-b577-0373-9c7bf30172ac,54b1fa5b-5579-b577-8504-a2054a30643d,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1992-03-23,,3305c412-0093-30f7-9b54-8a0f34e9a068,3305c412-0093-30f7-2543-596daa62c378,http://snomed.info/sct,24700007,Multiple Sclerosis
+1992-03-23,,3305c412-0093-30f7-9b54-8a0f34e9a068,3305c412-0093-30f7-2543-596daa62c378,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1992-03-23,,3305c412-0093-30f7-9b54-8a0f34e9a068,3305c412-0093-30f7-3ef6-d609a28c9e31,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1990-10-27,,f62c8c7d-9f11-def6-a191-e434e2ac3340,f62c8c7d-9f11-def6-03f9-d164c4e582d2,http://snomed.info/sct,24700007,Multiple Sclerosis
+1990-10-27,,f62c8c7d-9f11-def6-a191-e434e2ac3340,f62c8c7d-9f11-def6-03f9-d164c4e582d2,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1990-10-27,,f62c8c7d-9f11-def6-a191-e434e2ac3340,f62c8c7d-9f11-def6-b1b5-4235315b91e3,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1990-10-27,,f62c8c7d-9f11-def6-a191-e434e2ac3340,f62c8c7d-9f11-def6-aef8-c68b839f8c69,http://snomed.info/sct,343601000000105,Secondary progressive multiple sclerosis
+1957-07-16,,4c7b8d03-378a-991b-82d9-715f1cfb2fe1,4c7b8d03-378a-991b-bb38-86fbff9d8d39,http://snomed.info/sct,24700007,Multiple Sclerosis
+1957-07-16,,4c7b8d03-378a-991b-82d9-715f1cfb2fe1,4c7b8d03-378a-991b-bb38-86fbff9d8d39,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1957-07-16,,4c7b8d03-378a-991b-82d9-715f1cfb2fe1,4c7b8d03-378a-991b-2d6f-bacea2047c36,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2013-10-15,,9906b30c-e02d-1291-90d4-e7f2aa26db2f,9906b30c-e02d-1291-9e7d-8241df122cc0,http://snomed.info/sct,24700007,Multiple Sclerosis
+2013-10-15,,9906b30c-e02d-1291-90d4-e7f2aa26db2f,9906b30c-e02d-1291-9e7d-8241df122cc0,http://snomed.info/sct,257551009,Infection
+2013-10-15,,9906b30c-e02d-1291-90d4-e7f2aa26db2f,9906b30c-e02d-1291-9e7d-8241df122cc0,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2013-10-15,,9906b30c-e02d-1291-90d4-e7f2aa26db2f,9906b30c-e02d-1291-b4a1-880a8c444030,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2024-06-29,,c2fb3cf0-0ab0-f3c8-b973-c1db22d4d531,c2fb3cf0-0ab0-f3c8-1dd3-fee900ae64bd,http://snomed.info/sct,24700007,Multiple Sclerosis
+2024-06-29,,c2fb3cf0-0ab0-f3c8-b973-c1db22d4d531,c2fb3cf0-0ab0-f3c8-1dd3-fee900ae64bd,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2024-06-29,,c2fb3cf0-0ab0-f3c8-b973-c1db22d4d531,c2fb3cf0-0ab0-f3c8-f639-59f4167ae244,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1986-06-29,,95a4359a-bc51-a44a-4858-7bfab72e3664,95a4359a-bc51-a44a-5f08-02c7e1b7fb1a,http://snomed.info/sct,24700007,Multiple Sclerosis
+1986-06-29,,95a4359a-bc51-a44a-4858-7bfab72e3664,95a4359a-bc51-a44a-5f08-02c7e1b7fb1a,http://snomed.info/sct,428700003,Primary progressive multiple sclerosis
+2026-08-16,,43b1a1e5-c601-8c6a-95d6-01ce9359ef01,43b1a1e5-c601-8c6a-851f-0c5984ffc19b,http://snomed.info/sct,24700007,Multiple Sclerosis
+2026-08-16,,43b1a1e5-c601-8c6a-95d6-01ce9359ef01,43b1a1e5-c601-8c6a-851f-0c5984ffc19b,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1991-02-21,,15c11d50-6797-491f-008b-cca4c5d3da0c,15c11d50-6797-491f-0b19-6ab0c520db8e,http://snomed.info/sct,24700007,Multiple Sclerosis
+1991-02-21,,15c11d50-6797-491f-008b-cca4c5d3da0c,15c11d50-6797-491f-0b19-6ab0c520db8e,http://snomed.info/sct,37796009,Migraine
+1991-02-21,,15c11d50-6797-491f-008b-cca4c5d3da0c,15c11d50-6797-491f-0b19-6ab0c520db8e,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1991-02-21,,15c11d50-6797-491f-008b-cca4c5d3da0c,15c11d50-6797-491f-d963-808e09976adb,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2021-08-31,,0dbaa4a6-ca4a-55cb-0ba4-488d83b98c12,0dbaa4a6-ca4a-55cb-5d21-23e356552860,http://snomed.info/sct,24700007,Multiple Sclerosis
+2021-08-31,,0dbaa4a6-ca4a-55cb-0ba4-488d83b98c12,0dbaa4a6-ca4a-55cb-5d21-23e356552860,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2021-08-31,,0dbaa4a6-ca4a-55cb-0ba4-488d83b98c12,0dbaa4a6-ca4a-55cb-d3de-fe29cbf60001,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2021-08-31,,0dbaa4a6-ca4a-55cb-0ba4-488d83b98c12,0dbaa4a6-ca4a-55cb-d8ce-a48c0fdf0f2c,http://snomed.info/sct,343601000000105,Secondary progressive multiple sclerosis
+2026-04-27,,a4bc7bff-9116-10f8-54f7-ec15255749dd,a4bc7bff-9116-10f8-8363-4e55217c1ee3,http://snomed.info/sct,24700007,Multiple Sclerosis
+2026-04-27,,a4bc7bff-9116-10f8-54f7-ec15255749dd,a4bc7bff-9116-10f8-8363-4e55217c1ee3,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2026-04-27,,a4bc7bff-9116-10f8-54f7-ec15255749dd,a4bc7bff-9116-10f8-5a1b-4fdd6b261447,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1993-07-14,,835e9298-70a9-a689-319a-620116de3bbd,835e9298-70a9-a689-a15d-a8a8c18c7687,http://snomed.info/sct,24700007,Multiple Sclerosis
+1993-07-14,,835e9298-70a9-a689-319a-620116de3bbd,835e9298-70a9-a689-a15d-a8a8c18c7687,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1993-07-14,,835e9298-70a9-a689-319a-620116de3bbd,835e9298-70a9-a689-0f10-382845bfdf0c,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2019-05-03,,40a18bca-a31b-cf35-9797-b13c969bc309,40a18bca-a31b-cf35-a3ae-1d389491aae9,http://snomed.info/sct,24700007,Multiple Sclerosis
+2019-05-03,,40a18bca-a31b-cf35-9797-b13c969bc309,40a18bca-a31b-cf35-a3ae-1d389491aae9,http://snomed.info/sct,59621000,Essential hypertension
+2019-05-03,,40a18bca-a31b-cf35-9797-b13c969bc309,40a18bca-a31b-cf35-a3ae-1d389491aae9,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2019-05-03,,40a18bca-a31b-cf35-9797-b13c969bc309,40a18bca-a31b-cf35-af71-359eb995d073,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1971-02-04,,a115442f-b673-fa18-44a7-68e0cb42a90e,a115442f-b673-fa18-7b05-52da11ee877f,http://snomed.info/sct,24700007,Multiple Sclerosis
+1971-02-04,,a115442f-b673-fa18-44a7-68e0cb42a90e,a115442f-b673-fa18-7b05-52da11ee877f,http://snomed.info/sct,128292002,Chronic disease of cardiovascular system
+1971-02-04,,a115442f-b673-fa18-44a7-68e0cb42a90e,a115442f-b673-fa18-7b05-52da11ee877f,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1971-02-04,,a115442f-b673-fa18-44a7-68e0cb42a90e,a115442f-b673-fa18-8565-bc9b1e7de10a,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2008-08-03,,10657c89-2a46-4d68-ad63-4079c15f8a99,10657c89-2a46-4d68-efbb-5e40332b407f,http://snomed.info/sct,24700007,Multiple Sclerosis
+2008-08-03,,10657c89-2a46-4d68-ad63-4079c15f8a99,10657c89-2a46-4d68-efbb-5e40332b407f,http://snomed.info/sct,59621000,Essential hypertension
+2008-08-03,,10657c89-2a46-4d68-ad63-4079c15f8a99,10657c89-2a46-4d68-efbb-5e40332b407f,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2008-08-03,,10657c89-2a46-4d68-ad63-4079c15f8a99,10657c89-2a46-4d68-ada5-1c6ac66acff6,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2008-08-03,,10657c89-2a46-4d68-ad63-4079c15f8a99,10657c89-2a46-4d68-30a6-d77511c7e8bd,http://snomed.info/sct,343601000000105,Secondary progressive multiple sclerosis
+2017-09-16,,d54c307d-452b-3a54-2073-9a99aa18628a,d54c307d-452b-3a54-a29c-39ab3725bd05,http://snomed.info/sct,24700007,Multiple Sclerosis
+2017-09-16,,d54c307d-452b-3a54-2073-9a99aa18628a,d54c307d-452b-3a54-a29c-39ab3725bd05,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2017-09-16,,d54c307d-452b-3a54-2073-9a99aa18628a,d54c307d-452b-3a54-a563-03c9bfabd131,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2025-01-09,,f627e4c8-dfa3-db3f-d247-5e9f2fd485d0,f627e4c8-dfa3-db3f-273d-8758f70ee018,http://snomed.info/sct,24700007,Multiple Sclerosis
+2025-01-09,,f627e4c8-dfa3-db3f-d247-5e9f2fd485d0,f627e4c8-dfa3-db3f-273d-8758f70ee018,http://snomed.info/sct,257551009,Infection
+2025-01-09,,f627e4c8-dfa3-db3f-d247-5e9f2fd485d0,f627e4c8-dfa3-db3f-273d-8758f70ee018,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2025-01-09,,f627e4c8-dfa3-db3f-d247-5e9f2fd485d0,f627e4c8-dfa3-db3f-b004-f4722d61dd45,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2025-01-09,,f627e4c8-dfa3-db3f-d247-5e9f2fd485d0,f627e4c8-dfa3-db3f-1d75-2530547d18d4,http://snomed.info/sct,343601000000105,Secondary progressive multiple sclerosis
+2022-10-27,,12934c89-f479-10dd-35cd-d4090041ff86,12934c89-f479-10dd-75f3-33d32c0b7a61,http://snomed.info/sct,24700007,Multiple Sclerosis
+2022-10-27,,12934c89-f479-10dd-35cd-d4090041ff86,12934c89-f479-10dd-75f3-33d32c0b7a61,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2022-10-27,,12934c89-f479-10dd-35cd-d4090041ff86,12934c89-f479-10dd-bd59-f19a1c8f0678,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1992-09-14,,2744acb7-9a61-eda5-7dc9-5ea349ef9634,2744acb7-9a61-eda5-a0a9-ad485a0901bf,http://snomed.info/sct,24700007,Multiple Sclerosis
+1992-09-14,,2744acb7-9a61-eda5-7dc9-5ea349ef9634,2744acb7-9a61-eda5-a0a9-ad485a0901bf,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1992-09-14,,2744acb7-9a61-eda5-7dc9-5ea349ef9634,2744acb7-9a61-eda5-0f0e-4570329bb3b8,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2021-07-20,,730a56e9-3444-85a6-0b01-a2f1c42f819a,730a56e9-3444-85a6-ab85-e5dab55dcc57,http://snomed.info/sct,24700007,Multiple Sclerosis
+2021-07-20,,730a56e9-3444-85a6-0b01-a2f1c42f819a,730a56e9-3444-85a6-ab85-e5dab55dcc57,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2021-07-20,,730a56e9-3444-85a6-0b01-a2f1c42f819a,730a56e9-3444-85a6-2533-8f7ae1b54836,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2021-07-20,,730a56e9-3444-85a6-0b01-a2f1c42f819a,730a56e9-3444-85a6-290c-cbe36d0b0629,http://snomed.info/sct,343601000000105,Secondary progressive multiple sclerosis
+1985-09-23,,14b43178-c22a-8347-0b37-314066428f3e,14b43178-c22a-8347-9a80-a8d1ab9c8c21,http://snomed.info/sct,24700007,Multiple Sclerosis
+1985-09-23,,14b43178-c22a-8347-0b37-314066428f3e,14b43178-c22a-8347-9a80-a8d1ab9c8c21,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1985-09-23,,14b43178-c22a-8347-0b37-314066428f3e,14b43178-c22a-8347-b452-a7ad9b3327e9,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2015-10-29,,f705f6bc-5ba0-92bb-9fed-0d81c5508b43,f705f6bc-5ba0-92bb-6a92-50cc91131265,http://snomed.info/sct,24700007,Multiple Sclerosis
+2015-10-29,,f705f6bc-5ba0-92bb-9fed-0d81c5508b43,f705f6bc-5ba0-92bb-6a92-50cc91131265,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2015-10-29,,f705f6bc-5ba0-92bb-9fed-0d81c5508b43,f705f6bc-5ba0-92bb-481a-2f0144bcd7af,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1992-06-10,,7050d4ce-0977-c01b-0402-4a053f4417a5,7050d4ce-0977-c01b-bd71-6e0e9b12dd1c,http://snomed.info/sct,24700007,Multiple Sclerosis
+1992-06-10,,7050d4ce-0977-c01b-0402-4a053f4417a5,7050d4ce-0977-c01b-bd71-6e0e9b12dd1c,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1992-06-10,,7050d4ce-0977-c01b-0402-4a053f4417a5,7050d4ce-0977-c01b-8d30-d9ad27b0ae3a,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2017-05-28,,412895cc-745a-ffe9-7e88-8e03f8f7a058,412895cc-745a-ffe9-2f1c-893815246bac,http://snomed.info/sct,24700007,Multiple Sclerosis
+2017-05-28,,412895cc-745a-ffe9-7e88-8e03f8f7a058,412895cc-745a-ffe9-2f1c-893815246bac,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2017-05-28,,412895cc-745a-ffe9-7e88-8e03f8f7a058,412895cc-745a-ffe9-41cb-dbe56e71e4aa,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1980-11-18,,0f523b18-0529-2891-1d98-b4d67e33ba0c,0f523b18-0529-2891-3e3d-49641081f2ab,http://snomed.info/sct,24700007,Multiple Sclerosis
+1980-11-18,,0f523b18-0529-2891-1d98-b4d67e33ba0c,0f523b18-0529-2891-3e3d-49641081f2ab,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1980-11-18,,0f523b18-0529-2891-1d98-b4d67e33ba0c,0f523b18-0529-2891-e61e-ee472f064385,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2005-12-26,,28e8ea3b-cffe-c592-c34a-4016a2cb3362,28e8ea3b-cffe-c592-500f-f29ff8ce8c52,http://snomed.info/sct,24700007,Multiple Sclerosis
+2005-12-26,,28e8ea3b-cffe-c592-c34a-4016a2cb3362,28e8ea3b-cffe-c592-500f-f29ff8ce8c52,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2005-12-26,,28e8ea3b-cffe-c592-c34a-4016a2cb3362,28e8ea3b-cffe-c592-298d-2a66401e1310,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1992-03-26,,74738f3b-b5b9-f248-c6ee-e35df187b5a1,74738f3b-b5b9-f248-fb52-481ba415d427,http://snomed.info/sct,24700007,Multiple Sclerosis
+1992-03-26,,74738f3b-b5b9-f248-c6ee-e35df187b5a1,74738f3b-b5b9-f248-fb52-481ba415d427,http://snomed.info/sct,257556004,Surgery
+1992-03-26,,74738f3b-b5b9-f248-c6ee-e35df187b5a1,74738f3b-b5b9-f248-fb52-481ba415d427,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1992-03-26,,74738f3b-b5b9-f248-c6ee-e35df187b5a1,74738f3b-b5b9-f248-769d-8b579c822737,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2014-03-03,,235ae5d6-0e9b-caae-d582-1a49e96bb7b8,235ae5d6-0e9b-caae-50e4-a18675ea082a,http://snomed.info/sct,24700007,Multiple Sclerosis
+2014-03-03,,235ae5d6-0e9b-caae-d582-1a49e96bb7b8,235ae5d6-0e9b-caae-50e4-a18675ea082a,http://snomed.info/sct,257551009,Infection
+2014-03-03,,235ae5d6-0e9b-caae-d582-1a49e96bb7b8,235ae5d6-0e9b-caae-50e4-a18675ea082a,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2014-03-03,,235ae5d6-0e9b-caae-d582-1a49e96bb7b8,235ae5d6-0e9b-caae-b664-f1effa6e6efb,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2024-04-05,,96f34f00-0bf1-273f-9082-4c47a2d9bb97,96f34f00-0bf1-273f-ae25-3aefb18aab4c,http://snomed.info/sct,24700007,Multiple Sclerosis
+2024-04-05,,96f34f00-0bf1-273f-9082-4c47a2d9bb97,96f34f00-0bf1-273f-ae25-3aefb18aab4c,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2024-04-05,,96f34f00-0bf1-273f-9082-4c47a2d9bb97,96f34f00-0bf1-273f-3990-d7cd8d5dae23,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2018-08-11,,e3e12583-8f6a-dc07-8f60-19e14a7e2b3a,e3e12583-8f6a-dc07-9c75-2c0a588ebc9d,http://snomed.info/sct,24700007,Multiple Sclerosis
+2018-08-11,,e3e12583-8f6a-dc07-8f60-19e14a7e2b3a,e3e12583-8f6a-dc07-9c75-2c0a588ebc9d,http://snomed.info/sct,712823008,Acute Depression
+2018-08-11,,e3e12583-8f6a-dc07-8f60-19e14a7e2b3a,e3e12583-8f6a-dc07-9c75-2c0a588ebc9d,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2018-08-11,,e3e12583-8f6a-dc07-8f60-19e14a7e2b3a,e3e12583-8f6a-dc07-a409-9d6b23c38ae6,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2018-08-11,,e3e12583-8f6a-dc07-8f60-19e14a7e2b3a,e3e12583-8f6a-dc07-9bf7-2e8bf0707769,http://snomed.info/sct,343601000000105,Secondary progressive multiple sclerosis
+2025-10-28,,d81a8b3f-7e5d-a64c-09f1-e61e57818f22,d81a8b3f-7e5d-a64c-ce6b-a1ee07f0acb2,http://snomed.info/sct,24700007,Multiple Sclerosis
+2025-10-28,,d81a8b3f-7e5d-a64c-09f1-e61e57818f22,d81a8b3f-7e5d-a64c-ce6b-a1ee07f0acb2,http://snomed.info/sct,395099008,Cancer confirmed
+2025-10-28,,d81a8b3f-7e5d-a64c-09f1-e61e57818f22,d81a8b3f-7e5d-a64c-ce6b-a1ee07f0acb2,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2025-10-28,,d81a8b3f-7e5d-a64c-09f1-e61e57818f22,d81a8b3f-7e5d-a64c-21a4-d362ce3e9cf5,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2002-08-24,,a26b6280-29db-9dd1-21f9-27308315212a,a26b6280-29db-9dd1-0b20-0eb21b53ecba,http://snomed.info/sct,24700007,Multiple Sclerosis
+2002-08-24,,a26b6280-29db-9dd1-21f9-27308315212a,a26b6280-29db-9dd1-0b20-0eb21b53ecba,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2002-08-24,,a26b6280-29db-9dd1-21f9-27308315212a,a26b6280-29db-9dd1-415d-d71cc723bd81,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1976-04-18,,857f5361-bb37-396f-9a8a-8cddd5e2e69a,857f5361-bb37-396f-45ce-a0ceae174fd2,http://snomed.info/sct,24700007,Multiple Sclerosis
+1976-04-18,,857f5361-bb37-396f-9a8a-8cddd5e2e69a,857f5361-bb37-396f-45ce-a0ceae174fd2,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1976-04-18,,857f5361-bb37-396f-9a8a-8cddd5e2e69a,857f5361-bb37-396f-293e-3ece0a30cdd0,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2004-02-28,,24c01a01-64ba-a595-9ed7-ce67ebfa69df,24c01a01-64ba-a595-f20c-c761d4897cce,http://snomed.info/sct,24700007,Multiple Sclerosis
+2004-02-28,,24c01a01-64ba-a595-9ed7-ce67ebfa69df,24c01a01-64ba-a595-f20c-c761d4897cce,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2004-02-28,,24c01a01-64ba-a595-9ed7-ce67ebfa69df,24c01a01-64ba-a595-53b3-5a74406f02a7,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2023-10-18,,eeca3906-1320-9786-5a71-f7d6f1985dfb,eeca3906-1320-9786-0bfa-69a5b9bad30b,http://snomed.info/sct,24700007,Multiple Sclerosis
+2023-10-18,,eeca3906-1320-9786-5a71-f7d6f1985dfb,eeca3906-1320-9786-0bfa-69a5b9bad30b,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2023-10-18,,eeca3906-1320-9786-5a71-f7d6f1985dfb,eeca3906-1320-9786-201f-46a0a4ec3273,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2013-07-08,,084a5b9e-728a-70ab-74ea-33ef37c32f56,084a5b9e-728a-70ab-eb0c-1c9ec4922dbf,http://snomed.info/sct,24700007,Multiple Sclerosis
+2013-07-08,,084a5b9e-728a-70ab-74ea-33ef37c32f56,084a5b9e-728a-70ab-eb0c-1c9ec4922dbf,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2013-07-08,,084a5b9e-728a-70ab-74ea-33ef37c32f56,084a5b9e-728a-70ab-b73f-8483215778c7,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2014-06-24,,2f19a2eb-0893-97c6-24a4-5f14d6c06a0a,2f19a2eb-0893-97c6-4d02-dabfa8640339,http://snomed.info/sct,24700007,Multiple Sclerosis
+2014-06-24,,2f19a2eb-0893-97c6-24a4-5f14d6c06a0a,2f19a2eb-0893-97c6-4d02-dabfa8640339,http://snomed.info/sct,59621000,Essential hypertension
+2014-06-24,,2f19a2eb-0893-97c6-24a4-5f14d6c06a0a,2f19a2eb-0893-97c6-4d02-dabfa8640339,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2014-06-24,,2f19a2eb-0893-97c6-24a4-5f14d6c06a0a,2f19a2eb-0893-97c6-17db-d09f14eb6d63,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2014-06-24,,2f19a2eb-0893-97c6-24a4-5f14d6c06a0a,2f19a2eb-0893-97c6-726d-8926780b2f61,http://snomed.info/sct,343601000000105,Secondary progressive multiple sclerosis
+1995-11-13,,ee6dc4cd-bebb-cb85-6432-562513ed9a9f,ee6dc4cd-bebb-cb85-8adf-8e608bb6f0af,http://snomed.info/sct,24700007,Multiple Sclerosis
+1995-11-13,,ee6dc4cd-bebb-cb85-6432-562513ed9a9f,ee6dc4cd-bebb-cb85-8adf-8e608bb6f0af,http://snomed.info/sct,41368006,Disorder of urinary tract
+1995-11-13,,ee6dc4cd-bebb-cb85-6432-562513ed9a9f,ee6dc4cd-bebb-cb85-8adf-8e608bb6f0af,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1995-11-13,,ee6dc4cd-bebb-cb85-6432-562513ed9a9f,ee6dc4cd-bebb-cb85-b269-7a766cd1edca,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1984-10-03,,ae3c0e10-ab24-556e-b2e7-4a320281f767,ae3c0e10-ab24-556e-0dc6-29b3772e2167,http://snomed.info/sct,24700007,Multiple Sclerosis
+1984-10-03,,ae3c0e10-ab24-556e-b2e7-4a320281f767,ae3c0e10-ab24-556e-0dc6-29b3772e2167,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1984-10-03,,ae3c0e10-ab24-556e-b2e7-4a320281f767,ae3c0e10-ab24-556e-8d40-a8dc8aacd2fb,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2024-03-18,,56e0e8d7-d6ff-46d7-d668-cd76365ee0eb,56e0e8d7-d6ff-46d7-dd5b-be638a55fb17,http://snomed.info/sct,24700007,Multiple Sclerosis
+2024-03-18,,56e0e8d7-d6ff-46d7-d668-cd76365ee0eb,56e0e8d7-d6ff-46d7-dd5b-be638a55fb17,http://snomed.info/sct,257556004,Surgery
+2024-03-18,,56e0e8d7-d6ff-46d7-d668-cd76365ee0eb,56e0e8d7-d6ff-46d7-dd5b-be638a55fb17,http://snomed.info/sct,428700003,Primary progressive multiple sclerosis
+2025-08-24,,b47ebbcf-e0c1-6ec7-43d3-11f38a7d84d4,b47ebbcf-e0c1-6ec7-a00d-3f09a0c4729f,http://snomed.info/sct,24700007,Multiple Sclerosis
+2025-08-24,,b47ebbcf-e0c1-6ec7-43d3-11f38a7d84d4,b47ebbcf-e0c1-6ec7-a00d-3f09a0c4729f,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2025-08-24,,b47ebbcf-e0c1-6ec7-43d3-11f38a7d84d4,b47ebbcf-e0c1-6ec7-879c-f02d8d834fb0,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2025-05-11,,b72c0bbd-4bda-e65a-d9c8-ac9200c00d6d,b72c0bbd-4bda-e65a-4705-ef59eb6369bf,http://snomed.info/sct,24700007,Multiple Sclerosis
+2025-05-11,,b72c0bbd-4bda-e65a-d9c8-ac9200c00d6d,b72c0bbd-4bda-e65a-4705-ef59eb6369bf,http://snomed.info/sct,38822007,Cystitis
+2025-05-11,,b72c0bbd-4bda-e65a-d9c8-ac9200c00d6d,b72c0bbd-4bda-e65a-4705-ef59eb6369bf,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2025-05-11,,b72c0bbd-4bda-e65a-d9c8-ac9200c00d6d,b72c0bbd-4bda-e65a-e185-04c60cb3e1eb,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2025-05-11,,b72c0bbd-4bda-e65a-d9c8-ac9200c00d6d,b72c0bbd-4bda-e65a-ca7c-addf8adcda66,http://snomed.info/sct,343601000000105,Secondary progressive multiple sclerosis
+2011-02-05,,d38b0d65-93c4-fe51-0b17-c51fe9914f60,d38b0d65-93c4-fe51-8372-b904d0301bfd,http://snomed.info/sct,24700007,Multiple Sclerosis
+2011-02-05,,d38b0d65-93c4-fe51-0b17-c51fe9914f60,d38b0d65-93c4-fe51-8372-b904d0301bfd,http://snomed.info/sct,712823008,Acute Depression
+2011-02-05,,d38b0d65-93c4-fe51-0b17-c51fe9914f60,d38b0d65-93c4-fe51-8372-b904d0301bfd,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2011-02-05,,d38b0d65-93c4-fe51-0b17-c51fe9914f60,d38b0d65-93c4-fe51-0fed-29932efb1833,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1994-10-12,,a8eb15b9-683e-e146-88c1-ae20d3302751,a8eb15b9-683e-e146-797b-25fc7a65601c,http://snomed.info/sct,24700007,Multiple Sclerosis
+1994-10-12,,a8eb15b9-683e-e146-88c1-ae20d3302751,a8eb15b9-683e-e146-797b-25fc7a65601c,http://snomed.info/sct,41368006,Disorder of urinary tract
+1994-10-12,,a8eb15b9-683e-e146-88c1-ae20d3302751,a8eb15b9-683e-e146-797b-25fc7a65601c,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1994-10-12,,a8eb15b9-683e-e146-88c1-ae20d3302751,a8eb15b9-683e-e146-0f40-177335f4cd91,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1994-10-12,,a8eb15b9-683e-e146-88c1-ae20d3302751,a8eb15b9-683e-e146-6454-0b39e2d2c8a2,http://snomed.info/sct,343601000000105,Secondary progressive multiple sclerosis
+1974-11-08,,163c77e2-b17f-3a74-6712-be3d237da57c,163c77e2-b17f-3a74-d426-bec207ec858f,http://snomed.info/sct,24700007,Multiple Sclerosis
+1974-11-08,,163c77e2-b17f-3a74-6712-be3d237da57c,163c77e2-b17f-3a74-d426-bec207ec858f,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1974-11-08,,163c77e2-b17f-3a74-6712-be3d237da57c,163c77e2-b17f-3a74-3d3b-cb7a91179eb6,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1978-11-19,,f27fbc24-fa52-3251-3fd9-0f94bdbe2bfa,f27fbc24-fa52-3251-8116-20de55edcd54,http://snomed.info/sct,24700007,Multiple Sclerosis
+1978-11-19,,f27fbc24-fa52-3251-3fd9-0f94bdbe2bfa,f27fbc24-fa52-3251-8116-20de55edcd54,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1978-11-19,,f27fbc24-fa52-3251-3fd9-0f94bdbe2bfa,f27fbc24-fa52-3251-0da6-9fd29a5fd9e6,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2014-06-04,,db44eb5c-9ef3-4693-9d75-3e873fe94a4f,db44eb5c-9ef3-4693-3aab-efd3f91b7bf3,http://snomed.info/sct,24700007,Multiple Sclerosis
+2014-06-04,,db44eb5c-9ef3-4693-9d75-3e873fe94a4f,db44eb5c-9ef3-4693-3aab-efd3f91b7bf3,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2014-06-04,,db44eb5c-9ef3-4693-9d75-3e873fe94a4f,db44eb5c-9ef3-4693-9462-c87d3bd99e4e,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1990-04-07,,93419518-77aa-8375-e4e8-8cc1d9297fbf,93419518-77aa-8375-a495-7e7d999caa57,http://snomed.info/sct,24700007,Multiple Sclerosis
+1990-04-07,,93419518-77aa-8375-e4e8-8cc1d9297fbf,93419518-77aa-8375-a495-7e7d999caa57,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1990-04-07,,93419518-77aa-8375-e4e8-8cc1d9297fbf,93419518-77aa-8375-f364-3e6ba4a68b38,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1990-04-07,,93419518-77aa-8375-e4e8-8cc1d9297fbf,93419518-77aa-8375-c0e0-c61b49d33b92,http://snomed.info/sct,343601000000105,Secondary progressive multiple sclerosis
+1980-07-05,,959adb82-21b2-8251-17b6-8feecc772984,959adb82-21b2-8251-2531-59f7d99441cb,http://snomed.info/sct,24700007,Multiple Sclerosis
+1980-07-05,,959adb82-21b2-8251-17b6-8feecc772984,959adb82-21b2-8251-2531-59f7d99441cb,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1980-07-05,,959adb82-21b2-8251-17b6-8feecc772984,959adb82-21b2-8251-1dd7-02121498c962,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1994-10-10,,7a5e907e-d7ce-4e03-8f48-bcc9693d5a6e,7a5e907e-d7ce-4e03-c025-d0cd7d180df8,http://snomed.info/sct,24700007,Multiple Sclerosis
+1994-10-10,,7a5e907e-d7ce-4e03-8f48-bcc9693d5a6e,7a5e907e-d7ce-4e03-c025-d0cd7d180df8,http://snomed.info/sct,712823008,Acute Depression
+1994-10-10,,7a5e907e-d7ce-4e03-8f48-bcc9693d5a6e,7a5e907e-d7ce-4e03-c025-d0cd7d180df8,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1994-10-10,,7a5e907e-d7ce-4e03-8f48-bcc9693d5a6e,7a5e907e-d7ce-4e03-c57f-91601f8cbc97,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1998-01-14,,6eb2a414-0400-948d-370c-d74d3b74af7a,6eb2a414-0400-948d-1e46-3ec2475192d9,http://snomed.info/sct,24700007,Multiple Sclerosis
+1998-01-14,,6eb2a414-0400-948d-370c-d74d3b74af7a,6eb2a414-0400-948d-1e46-3ec2475192d9,http://snomed.info/sct,128292002,Chronic disease of cardiovascular system
+1998-01-14,,6eb2a414-0400-948d-370c-d74d3b74af7a,6eb2a414-0400-948d-1e46-3ec2475192d9,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1998-01-14,,6eb2a414-0400-948d-370c-d74d3b74af7a,6eb2a414-0400-948d-8b19-80b2dffc5beb,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2026-03-11,,709b5245-ac07-5e8e-10ef-c65e79db28e1,709b5245-ac07-5e8e-cd40-1ab5ada54a96,http://snomed.info/sct,24700007,Multiple Sclerosis
+2026-03-11,,709b5245-ac07-5e8e-10ef-c65e79db28e1,709b5245-ac07-5e8e-cd40-1ab5ada54a96,http://snomed.info/sct,1300212001,Allergy Status
+2026-03-11,,709b5245-ac07-5e8e-10ef-c65e79db28e1,709b5245-ac07-5e8e-cd40-1ab5ada54a96,http://snomed.info/sct,428700003,Primary progressive multiple sclerosis
+2026-03-11,,709b5245-ac07-5e8e-10ef-c65e79db28e1,709b5245-ac07-5e8e-da10-8ee9f3fdbd63,http://snomed.info/sct,724778008,Progressive relapsing multiple sclerosis
+2025-12-29,,c193ab6a-277f-cf67-500c-c9bc65490a95,c193ab6a-277f-cf67-8f91-747fb0dc76e5,http://snomed.info/sct,24700007,Multiple Sclerosis
+2025-12-29,,c193ab6a-277f-cf67-500c-c9bc65490a95,c193ab6a-277f-cf67-8f91-747fb0dc76e5,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2025-12-29,,c193ab6a-277f-cf67-500c-c9bc65490a95,c193ab6a-277f-cf67-d48f-85c04b81f8e4,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1971-10-15,,b1df6635-78a4-f50b-a8ab-8530d7647bc1,b1df6635-78a4-f50b-2071-4cdcb270174c,http://snomed.info/sct,24700007,Multiple Sclerosis
+1971-10-15,,b1df6635-78a4-f50b-a8ab-8530d7647bc1,b1df6635-78a4-f50b-2071-4cdcb270174c,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1971-10-15,,b1df6635-78a4-f50b-a8ab-8530d7647bc1,b1df6635-78a4-f50b-87d9-3c661791fdf7,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1986-08-18,,1ca5e467-179c-c27c-70ec-764b0b2ad15f,1ca5e467-179c-c27c-00be-e3a72ffb3870,http://snomed.info/sct,24700007,Multiple Sclerosis
+1986-08-18,,1ca5e467-179c-c27c-70ec-764b0b2ad15f,1ca5e467-179c-c27c-00be-e3a72ffb3870,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1986-08-18,,1ca5e467-179c-c27c-70ec-764b0b2ad15f,1ca5e467-179c-c27c-ea48-59e987a0ce41,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1990-07-23,,190d6ecc-178f-1415-fe35-4eea61179545,190d6ecc-178f-1415-a3cc-4c587f7317fa,http://snomed.info/sct,24700007,Multiple Sclerosis
+1990-07-23,,190d6ecc-178f-1415-fe35-4eea61179545,190d6ecc-178f-1415-a3cc-4c587f7317fa,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1990-07-23,,190d6ecc-178f-1415-fe35-4eea61179545,190d6ecc-178f-1415-c428-ff99052e34a5,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1985-06-02,,47f95a06-3353-2edf-318a-b8c8e50eb598,47f95a06-3353-2edf-1cdb-901e515ab29f,http://snomed.info/sct,24700007,Multiple Sclerosis
+1985-06-02,,47f95a06-3353-2edf-318a-b8c8e50eb598,47f95a06-3353-2edf-1cdb-901e515ab29f,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1985-06-02,,47f95a06-3353-2edf-318a-b8c8e50eb598,47f95a06-3353-2edf-4565-8116b0aa8752,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2023-07-15,,adc871d0-db1a-5605-f0e5-ff0a9f5b742f,adc871d0-db1a-5605-9beb-1cff7f770fc1,http://snomed.info/sct,24700007,Multiple Sclerosis
+2023-07-15,,adc871d0-db1a-5605-f0e5-ff0a9f5b742f,adc871d0-db1a-5605-9beb-1cff7f770fc1,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2023-07-15,,adc871d0-db1a-5605-f0e5-ff0a9f5b742f,adc871d0-db1a-5605-6558-f9ff0f014679,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2023-06-27,,387874e6-31b8-96d8-00cb-b03e95513437,387874e6-31b8-96d8-b01f-81e913d81c2c,http://snomed.info/sct,24700007,Multiple Sclerosis
+2023-06-27,,387874e6-31b8-96d8-00cb-b03e95513437,387874e6-31b8-96d8-b01f-81e913d81c2c,http://snomed.info/sct,38822007,Cystitis
+2023-06-27,,387874e6-31b8-96d8-00cb-b03e95513437,387874e6-31b8-96d8-b01f-81e913d81c2c,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2023-06-27,,387874e6-31b8-96d8-00cb-b03e95513437,387874e6-31b8-96d8-7218-ba93f9f56b69,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2012-04-15,,a5de1da4-a317-709b-2a75-7b0d530be782,a5de1da4-a317-709b-7b88-2686c23999ee,http://snomed.info/sct,24700007,Multiple Sclerosis
+2012-04-15,,a5de1da4-a317-709b-2a75-7b0d530be782,a5de1da4-a317-709b-7b88-2686c23999ee,http://snomed.info/sct,59621000,Essential hypertension
+2012-04-15,,a5de1da4-a317-709b-2a75-7b0d530be782,a5de1da4-a317-709b-7b88-2686c23999ee,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2012-04-15,,a5de1da4-a317-709b-2a75-7b0d530be782,a5de1da4-a317-709b-c038-35d49d9d1cd3,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1980-06-07,,c6ba5ede-c9f4-7d6a-1a04-060c96126516,c6ba5ede-c9f4-7d6a-88f5-c4e2ae4de580,http://snomed.info/sct,24700007,Multiple Sclerosis
+1980-06-07,,c6ba5ede-c9f4-7d6a-1a04-060c96126516,c6ba5ede-c9f4-7d6a-88f5-c4e2ae4de580,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1980-06-07,,c6ba5ede-c9f4-7d6a-1a04-060c96126516,c6ba5ede-c9f4-7d6a-2341-55adba3fc65c,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2012-01-17,,0a6245b0-0012-3109-e083-c6077d9b458b,0a6245b0-0012-3109-c505-1ae73cdca319,http://snomed.info/sct,24700007,Multiple Sclerosis
+2012-01-17,,0a6245b0-0012-3109-e083-c6077d9b458b,0a6245b0-0012-3109-c505-1ae73cdca319,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2012-01-17,,0a6245b0-0012-3109-e083-c6077d9b458b,0a6245b0-0012-3109-7743-ae85507d57c1,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1994-10-19,,8b0dc976-c08d-38d7-2d54-4964de014845,8b0dc976-c08d-38d7-14e8-33a9f9adb1a2,http://snomed.info/sct,24700007,Multiple Sclerosis
+1994-10-19,,8b0dc976-c08d-38d7-2d54-4964de014845,8b0dc976-c08d-38d7-14e8-33a9f9adb1a2,http://snomed.info/sct,257556004,Surgery
+1994-10-19,,8b0dc976-c08d-38d7-2d54-4964de014845,8b0dc976-c08d-38d7-14e8-33a9f9adb1a2,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1994-10-19,,8b0dc976-c08d-38d7-2d54-4964de014845,8b0dc976-c08d-38d7-e785-3103c07d5e09,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2016-07-02,,9c7dbd20-52ad-7a88-8e8b-4dab8c2d1c03,9c7dbd20-52ad-7a88-ae42-cdace2b580d4,http://snomed.info/sct,24700007,Multiple Sclerosis
+2016-07-02,,9c7dbd20-52ad-7a88-8e8b-4dab8c2d1c03,9c7dbd20-52ad-7a88-ae42-cdace2b580d4,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2016-07-02,,9c7dbd20-52ad-7a88-8e8b-4dab8c2d1c03,9c7dbd20-52ad-7a88-5d62-c00dd8010791,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2002-08-17,,82e8ac70-5e83-d44e-30e8-d8ccb346178f,82e8ac70-5e83-d44e-2cac-c63be0ee2e9a,http://snomed.info/sct,24700007,Multiple Sclerosis
+2002-08-17,,82e8ac70-5e83-d44e-30e8-d8ccb346178f,82e8ac70-5e83-d44e-2cac-c63be0ee2e9a,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2002-08-17,,82e8ac70-5e83-d44e-30e8-d8ccb346178f,82e8ac70-5e83-d44e-764a-a0fb7e34402d,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2014-05-20,,bea72653-bbeb-b06a-768e-f2f32d1f2fb7,bea72653-bbeb-b06a-edc8-d7e91e823b85,http://snomed.info/sct,24700007,Multiple Sclerosis
+2014-05-20,,bea72653-bbeb-b06a-768e-f2f32d1f2fb7,bea72653-bbeb-b06a-edc8-d7e91e823b85,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2014-05-20,,bea72653-bbeb-b06a-768e-f2f32d1f2fb7,bea72653-bbeb-b06a-4421-cf871ce669e4,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2014-05-20,,bea72653-bbeb-b06a-768e-f2f32d1f2fb7,bea72653-bbeb-b06a-a9f1-d27bc09e1f59,http://snomed.info/sct,343601000000105,Secondary progressive multiple sclerosis
+1986-06-08,,08f0dfbd-120a-b5c0-17a1-017ae4c60bcd,08f0dfbd-120a-b5c0-9ff2-03ba2c69406d,http://snomed.info/sct,24700007,Multiple Sclerosis
+1986-06-08,,08f0dfbd-120a-b5c0-17a1-017ae4c60bcd,08f0dfbd-120a-b5c0-9ff2-03ba2c69406d,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1986-06-08,,08f0dfbd-120a-b5c0-17a1-017ae4c60bcd,08f0dfbd-120a-b5c0-c913-5379165ceb08,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1983-03-24,,14eeb433-ddf8-0eee-260c-19dfefeaa275,14eeb433-ddf8-0eee-172a-92fa28585f34,http://snomed.info/sct,24700007,Multiple Sclerosis
+1983-03-24,,14eeb433-ddf8-0eee-260c-19dfefeaa275,14eeb433-ddf8-0eee-172a-92fa28585f34,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1983-03-24,,14eeb433-ddf8-0eee-260c-19dfefeaa275,14eeb433-ddf8-0eee-872d-a5c45e111065,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1995-07-27,,d681c6a4-39b6-ccef-6b04-fe325403d11e,d681c6a4-39b6-ccef-7afb-5330952acf01,http://snomed.info/sct,24700007,Multiple Sclerosis
+1995-07-27,,d681c6a4-39b6-ccef-6b04-fe325403d11e,d681c6a4-39b6-ccef-7afb-5330952acf01,http://snomed.info/sct,37796009,Migraine
+1995-07-27,,d681c6a4-39b6-ccef-6b04-fe325403d11e,d681c6a4-39b6-ccef-7afb-5330952acf01,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1995-07-27,,d681c6a4-39b6-ccef-6b04-fe325403d11e,d681c6a4-39b6-ccef-5ba7-3cbea15fc5b8,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2016-09-17,,1be455da-84e7-5088-581f-a1e2d0d764d2,1be455da-84e7-5088-40ae-36d6386d8077,http://snomed.info/sct,24700007,Multiple Sclerosis
+2016-09-17,,1be455da-84e7-5088-581f-a1e2d0d764d2,1be455da-84e7-5088-40ae-36d6386d8077,http://snomed.info/sct,890601000000107,Hypercholesterolemia
+2016-09-17,,1be455da-84e7-5088-581f-a1e2d0d764d2,1be455da-84e7-5088-40ae-36d6386d8077,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2016-09-17,,1be455da-84e7-5088-581f-a1e2d0d764d2,1be455da-84e7-5088-8f14-eef19700e143,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1968-11-18,,c99bbf91-3056-7124-c204-c55fddade67d,c99bbf91-3056-7124-f923-87c3098fc708,http://snomed.info/sct,24700007,Multiple Sclerosis
+1968-11-18,,c99bbf91-3056-7124-c204-c55fddade67d,c99bbf91-3056-7124-f923-87c3098fc708,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1968-11-18,,c99bbf91-3056-7124-c204-c55fddade67d,c99bbf91-3056-7124-6b21-1b8719333827,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2010-04-13,,d92cf769-1daf-581e-20d3-776560d6c5bf,d92cf769-1daf-581e-bdb1-50fc8eda5431,http://snomed.info/sct,24700007,Multiple Sclerosis
+2010-04-13,,d92cf769-1daf-581e-20d3-776560d6c5bf,d92cf769-1daf-581e-bdb1-50fc8eda5431,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2010-04-13,,d92cf769-1daf-581e-20d3-776560d6c5bf,d92cf769-1daf-581e-56ae-e45a86ca019d,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2026-06-10,,c7b6b7a8-1761-67f7-4b08-0fdb3ffc20f5,c7b6b7a8-1761-67f7-e27c-cc811811e150,http://snomed.info/sct,24700007,Multiple Sclerosis
+2026-06-10,,c7b6b7a8-1761-67f7-4b08-0fdb3ffc20f5,c7b6b7a8-1761-67f7-e27c-cc811811e150,http://snomed.info/sct,890601000000107,Hypercholesterolemia
+2026-06-10,,c7b6b7a8-1761-67f7-4b08-0fdb3ffc20f5,c7b6b7a8-1761-67f7-e27c-cc811811e150,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2026-06-10,,c7b6b7a8-1761-67f7-4b08-0fdb3ffc20f5,c7b6b7a8-1761-67f7-431e-e6f9cb5283ad,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2003-02-24,,75858ed6-1a87-9d66-8848-4ab3c310c8d6,75858ed6-1a87-9d66-f43d-872083bcb093,http://snomed.info/sct,24700007,Multiple Sclerosis
+2003-02-24,,75858ed6-1a87-9d66-8848-4ab3c310c8d6,75858ed6-1a87-9d66-f43d-872083bcb093,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2003-02-24,,75858ed6-1a87-9d66-8848-4ab3c310c8d6,75858ed6-1a87-9d66-601d-850b0fff309a,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2022-03-31,,ef68dd83-99e5-c4a9-0518-14be324509c1,ef68dd83-99e5-c4a9-89b2-e4a6949abb0a,http://snomed.info/sct,24700007,Multiple Sclerosis
+2022-03-31,,ef68dd83-99e5-c4a9-0518-14be324509c1,ef68dd83-99e5-c4a9-89b2-e4a6949abb0a,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2022-03-31,,ef68dd83-99e5-c4a9-0518-14be324509c1,ef68dd83-99e5-c4a9-1117-2de2ac569b4d,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2024-01-08,,2fc70633-a391-55ab-47d1-590a20ae5453,2fc70633-a391-55ab-4fc8-f3c5133a0f02,http://snomed.info/sct,24700007,Multiple Sclerosis
+2024-01-08,,2fc70633-a391-55ab-47d1-590a20ae5453,2fc70633-a391-55ab-4fc8-f3c5133a0f02,http://snomed.info/sct,37796009,Migraine
+2024-01-08,,2fc70633-a391-55ab-47d1-590a20ae5453,2fc70633-a391-55ab-4fc8-f3c5133a0f02,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2024-01-08,,2fc70633-a391-55ab-47d1-590a20ae5453,2fc70633-a391-55ab-bc78-2681d9784717,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1998-03-28,,2cb4c064-af31-b55d-ae81-ac4587d6db56,2cb4c064-af31-b55d-ba0c-dea1a3ad9eec,http://snomed.info/sct,24700007,Multiple Sclerosis
+1998-03-28,,2cb4c064-af31-b55d-ae81-ac4587d6db56,2cb4c064-af31-b55d-ba0c-dea1a3ad9eec,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1998-03-28,,2cb4c064-af31-b55d-ae81-ac4587d6db56,2cb4c064-af31-b55d-492f-51485718192b,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2007-07-20,,5acc3405-7704-0047-ef41-757acbe0d3a8,5acc3405-7704-0047-6b5d-e256c3c43c81,http://snomed.info/sct,24700007,Multiple Sclerosis
+2007-07-20,,5acc3405-7704-0047-ef41-757acbe0d3a8,5acc3405-7704-0047-6b5d-e256c3c43c81,http://snomed.info/sct,41368006,Disorder of urinary tract
+2007-07-20,,5acc3405-7704-0047-ef41-757acbe0d3a8,5acc3405-7704-0047-6b5d-e256c3c43c81,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2007-07-20,,5acc3405-7704-0047-ef41-757acbe0d3a8,5acc3405-7704-0047-37b7-619cb4a0af0f,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1998-04-24,,1a368808-b61d-d86d-6ba6-92ff46fa326f,1a368808-b61d-d86d-6d46-0eeaa8ff1bde,http://snomed.info/sct,24700007,Multiple Sclerosis
+1998-04-24,,1a368808-b61d-d86d-6ba6-92ff46fa326f,1a368808-b61d-d86d-6d46-0eeaa8ff1bde,http://snomed.info/sct,73211009,Diabetes mellitus
+1998-04-24,,1a368808-b61d-d86d-6ba6-92ff46fa326f,1a368808-b61d-d86d-6d46-0eeaa8ff1bde,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1998-04-24,,1a368808-b61d-d86d-6ba6-92ff46fa326f,1a368808-b61d-d86d-4026-449e1182f11a,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2023-09-30,,2ac38fa1-3c60-a358-ddd9-dc23e28f9a8f,2ac38fa1-3c60-a358-0e21-b7c06b1d074d,http://snomed.info/sct,24700007,Multiple Sclerosis
+2023-09-30,,2ac38fa1-3c60-a358-ddd9-dc23e28f9a8f,2ac38fa1-3c60-a358-0e21-b7c06b1d074d,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2023-09-30,,2ac38fa1-3c60-a358-ddd9-dc23e28f9a8f,2ac38fa1-3c60-a358-e4e0-dfba85d11d8a,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1979-11-18,,c054d0d6-b198-e6e7-054e-3811276c6db7,c054d0d6-b198-e6e7-216e-7cb2848199e7,http://snomed.info/sct,24700007,Multiple Sclerosis
+1979-11-18,,c054d0d6-b198-e6e7-054e-3811276c6db7,c054d0d6-b198-e6e7-216e-7cb2848199e7,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1979-11-18,,c054d0d6-b198-e6e7-054e-3811276c6db7,c054d0d6-b198-e6e7-f0ff-1f43e73f27da,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1937-12-09,,2e9ce048-0de4-afe7-ce69-70c34329f069,2e9ce048-0de4-afe7-6d88-ec79ede88a35,http://snomed.info/sct,24700007,Multiple Sclerosis
+1937-12-09,,2e9ce048-0de4-afe7-ce69-70c34329f069,2e9ce048-0de4-afe7-6d88-ec79ede88a35,http://snomed.info/sct,428700003,Primary progressive multiple sclerosis
+2023-04-09,,857f3740-72a3-22ec-6e7b-212181318908,857f3740-72a3-22ec-4e89-9a922736c72f,http://snomed.info/sct,24700007,Multiple Sclerosis
+2023-04-09,,857f3740-72a3-22ec-6e7b-212181318908,857f3740-72a3-22ec-4e89-9a922736c72f,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2023-04-09,,857f3740-72a3-22ec-6e7b-212181318908,857f3740-72a3-22ec-ad4e-2038e67dd45b,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1997-10-11,,a52be362-660a-6183-dd45-bbae95170884,a52be362-660a-6183-f352-b57932548302,http://snomed.info/sct,24700007,Multiple Sclerosis
+1997-10-11,,a52be362-660a-6183-dd45-bbae95170884,a52be362-660a-6183-f352-b57932548302,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1997-10-11,,a52be362-660a-6183-dd45-bbae95170884,a52be362-660a-6183-5945-4dacb2869076,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2026-09-11,,2a667b9d-1623-4b71-5fc5-91ea3492b469,2a667b9d-1623-4b71-5125-62395a52185b,http://snomed.info/sct,24700007,Multiple Sclerosis
+2026-09-11,,2a667b9d-1623-4b71-5fc5-91ea3492b469,2a667b9d-1623-4b71-5125-62395a52185b,http://snomed.info/sct,1300212001,Allergy Status
+2026-09-11,,2a667b9d-1623-4b71-5fc5-91ea3492b469,2a667b9d-1623-4b71-5125-62395a52185b,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2026-09-11,,2a667b9d-1623-4b71-5fc5-91ea3492b469,2a667b9d-1623-4b71-45be-2f0ad02b5814,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2022-09-24,,1bc079c7-3ec0-6e4b-ff8c-9a57edeeb957,1bc079c7-3ec0-6e4b-1afd-6a66523dd640,http://snomed.info/sct,24700007,Multiple Sclerosis
+2022-09-24,,1bc079c7-3ec0-6e4b-ff8c-9a57edeeb957,1bc079c7-3ec0-6e4b-1afd-6a66523dd640,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2022-09-24,,1bc079c7-3ec0-6e4b-ff8c-9a57edeeb957,1bc079c7-3ec0-6e4b-ba95-7b82988a2a72,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2003-05-30,,4093a625-bac4-3048-8aab-b9b9e5b6d3c9,4093a625-bac4-3048-dadd-171a298f358e,http://snomed.info/sct,24700007,Multiple Sclerosis
+2003-05-30,,4093a625-bac4-3048-8aab-b9b9e5b6d3c9,4093a625-bac4-3048-dadd-171a298f358e,http://snomed.info/sct,257556004,Surgery
+2003-05-30,,4093a625-bac4-3048-8aab-b9b9e5b6d3c9,4093a625-bac4-3048-dadd-171a298f358e,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2003-05-30,,4093a625-bac4-3048-8aab-b9b9e5b6d3c9,4093a625-bac4-3048-def3-bf3a7c5fb79d,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2003-05-30,,4093a625-bac4-3048-8aab-b9b9e5b6d3c9,4093a625-bac4-3048-e6f2-3fc577b0477b,http://snomed.info/sct,343601000000105,Secondary progressive multiple sclerosis
+1989-10-14,,a6291111-be70-fbae-0d72-c0f41eb20a9a,a6291111-be70-fbae-6bcd-e271bc787240,http://snomed.info/sct,24700007,Multiple Sclerosis
+1989-10-14,,a6291111-be70-fbae-0d72-c0f41eb20a9a,a6291111-be70-fbae-6bcd-e271bc787240,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1989-10-14,,a6291111-be70-fbae-0d72-c0f41eb20a9a,a6291111-be70-fbae-fce0-8a670f55acdc,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2021-06-04,,99acf59b-1c82-4eb8-3917-465d421c30d6,99acf59b-1c82-4eb8-1d41-34ba91fd147f,http://snomed.info/sct,24700007,Multiple Sclerosis
+2021-06-04,,99acf59b-1c82-4eb8-3917-465d421c30d6,99acf59b-1c82-4eb8-1d41-34ba91fd147f,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2021-06-04,,99acf59b-1c82-4eb8-3917-465d421c30d6,99acf59b-1c82-4eb8-73cb-cb5775f696f3,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1995-12-15,,84a896a5-36a7-0b12-c2ed-bc1ff34d6d2a,84a896a5-36a7-0b12-7736-98ecc35c9723,http://snomed.info/sct,24700007,Multiple Sclerosis
+1995-12-15,,84a896a5-36a7-0b12-c2ed-bc1ff34d6d2a,84a896a5-36a7-0b12-7736-98ecc35c9723,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1995-12-15,,84a896a5-36a7-0b12-c2ed-bc1ff34d6d2a,84a896a5-36a7-0b12-1b88-c2e028493827,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2025-04-05,,502f2152-9655-f225-531f-6bd4ea67058a,502f2152-9655-f225-e29f-c0c50f44812f,http://snomed.info/sct,24700007,Multiple Sclerosis
+2025-04-05,,502f2152-9655-f225-531f-6bd4ea67058a,502f2152-9655-f225-e29f-c0c50f44812f,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2025-04-05,,502f2152-9655-f225-531f-6bd4ea67058a,502f2152-9655-f225-14fe-ebda84f0cd17,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2006-05-08,,8ccd5409-e376-ee1d-61fa-4c1d1cfed3b9,8ccd5409-e376-ee1d-7853-997c65d411f6,http://snomed.info/sct,24700007,Multiple Sclerosis
+2006-05-08,,8ccd5409-e376-ee1d-61fa-4c1d1cfed3b9,8ccd5409-e376-ee1d-7853-997c65d411f6,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2006-05-08,,8ccd5409-e376-ee1d-61fa-4c1d1cfed3b9,8ccd5409-e376-ee1d-866a-4bed0f03cbd3,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2025-02-13,,b5cef249-62ec-bc37-0274-6da09aef430d,b5cef249-62ec-bc37-0ab1-34b080b0dfb0,http://snomed.info/sct,24700007,Multiple Sclerosis
+2025-02-13,,b5cef249-62ec-bc37-0274-6da09aef430d,b5cef249-62ec-bc37-0ab1-34b080b0dfb0,http://snomed.info/sct,59621000,Essential hypertension
+2025-02-13,,b5cef249-62ec-bc37-0274-6da09aef430d,b5cef249-62ec-bc37-0ab1-34b080b0dfb0,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2025-02-13,,b5cef249-62ec-bc37-0274-6da09aef430d,b5cef249-62ec-bc37-a38a-e2fc3464fb26,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2005-10-24,,47144e8a-87fa-9004-7d4b-6374266eb65c,47144e8a-87fa-9004-6519-94d02290a4c0,http://snomed.info/sct,24700007,Multiple Sclerosis
+2005-10-24,,47144e8a-87fa-9004-7d4b-6374266eb65c,47144e8a-87fa-9004-6519-94d02290a4c0,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2005-10-24,,47144e8a-87fa-9004-7d4b-6374266eb65c,47144e8a-87fa-9004-09dd-a9dcac6f36b9,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2005-10-24,,47144e8a-87fa-9004-7d4b-6374266eb65c,47144e8a-87fa-9004-2477-c87d6dfa738d,http://snomed.info/sct,343601000000105,Secondary progressive multiple sclerosis
+2015-04-28,,b6ddc788-6e0a-056e-408e-c456fba84f2e,b6ddc788-6e0a-056e-5480-6e991ffb9634,http://snomed.info/sct,24700007,Multiple Sclerosis
+2015-04-28,,b6ddc788-6e0a-056e-408e-c456fba84f2e,b6ddc788-6e0a-056e-5480-6e991ffb9634,http://snomed.info/sct,128292002,Chronic disease of cardiovascular system
+2015-04-28,,b6ddc788-6e0a-056e-408e-c456fba84f2e,b6ddc788-6e0a-056e-5480-6e991ffb9634,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2015-04-28,,b6ddc788-6e0a-056e-408e-c456fba84f2e,b6ddc788-6e0a-056e-31a6-7e93cae6fe37,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2000-06-15,,71999df2-6994-f040-6136-ec4fa5d5ebbb,71999df2-6994-f040-abf2-6f3eee5a1148,http://snomed.info/sct,24700007,Multiple Sclerosis
+2000-06-15,,71999df2-6994-f040-6136-ec4fa5d5ebbb,71999df2-6994-f040-abf2-6f3eee5a1148,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2000-06-15,,71999df2-6994-f040-6136-ec4fa5d5ebbb,71999df2-6994-f040-3c68-8b4afb538a81,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2000-06-15,,71999df2-6994-f040-6136-ec4fa5d5ebbb,71999df2-6994-f040-8445-ee3cc1316b9a,http://snomed.info/sct,343601000000105,Secondary progressive multiple sclerosis
+2024-10-04,,a57fb133-923b-abe2-e5e7-663300d76d64,a57fb133-923b-abe2-ac6d-f38afab79976,http://snomed.info/sct,24700007,Multiple Sclerosis
+2024-10-04,,a57fb133-923b-abe2-e5e7-663300d76d64,a57fb133-923b-abe2-ac6d-f38afab79976,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2024-10-04,,a57fb133-923b-abe2-e5e7-663300d76d64,a57fb133-923b-abe2-e678-c15d2141a89c,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2026-08-14,,50e0acc8-d90a-c4e9-ab5f-1ded7ccd75da,50e0acc8-d90a-c4e9-de4e-762f8b258ee6,http://snomed.info/sct,24700007,Multiple Sclerosis
+2026-08-14,,50e0acc8-d90a-c4e9-ab5f-1ded7ccd75da,50e0acc8-d90a-c4e9-de4e-762f8b258ee6,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2026-08-14,,50e0acc8-d90a-c4e9-ab5f-1ded7ccd75da,50e0acc8-d90a-c4e9-7e81-4e30255e11f6,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1970-09-18,,812a4a4b-00a3-a17b-901a-a80e92d4dda1,812a4a4b-00a3-a17b-358c-888e88db2748,http://snomed.info/sct,24700007,Multiple Sclerosis
+1970-09-18,,812a4a4b-00a3-a17b-901a-a80e92d4dda1,812a4a4b-00a3-a17b-358c-888e88db2748,http://snomed.info/sct,41368006,Disorder of urinary tract
+1970-09-18,,812a4a4b-00a3-a17b-901a-a80e92d4dda1,812a4a4b-00a3-a17b-358c-888e88db2748,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1970-09-18,,812a4a4b-00a3-a17b-901a-a80e92d4dda1,812a4a4b-00a3-a17b-6975-8a726facac8e,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1970-09-18,,812a4a4b-00a3-a17b-901a-a80e92d4dda1,812a4a4b-00a3-a17b-1b93-8e9843b4846d,http://snomed.info/sct,343601000000105,Secondary progressive multiple sclerosis
+2019-07-19,,284ed6b3-71a8-ce80-30df-c392b1774307,284ed6b3-71a8-ce80-249a-bf8b33b01997,http://snomed.info/sct,24700007,Multiple Sclerosis
+2019-07-19,,284ed6b3-71a8-ce80-30df-c392b1774307,284ed6b3-71a8-ce80-249a-bf8b33b01997,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2019-07-19,,284ed6b3-71a8-ce80-30df-c392b1774307,284ed6b3-71a8-ce80-ad4c-eaf87424eeb7,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2019-07-19,,284ed6b3-71a8-ce80-30df-c392b1774307,284ed6b3-71a8-ce80-d183-8a80036cf9a5,http://snomed.info/sct,343601000000105,Secondary progressive multiple sclerosis
+2006-03-20,,5d033446-5f2a-dabe-07cd-1b771b6be867,5d033446-5f2a-dabe-d9dd-4b8230a59860,http://snomed.info/sct,24700007,Multiple Sclerosis
+2006-03-20,,5d033446-5f2a-dabe-07cd-1b771b6be867,5d033446-5f2a-dabe-d9dd-4b8230a59860,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2006-03-20,,5d033446-5f2a-dabe-07cd-1b771b6be867,5d033446-5f2a-dabe-833b-97b82df5a819,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2006-03-20,,5d033446-5f2a-dabe-07cd-1b771b6be867,5d033446-5f2a-dabe-1077-2fa1454d2c21,http://snomed.info/sct,343601000000105,Secondary progressive multiple sclerosis
+2009-06-30,,2285551f-f1f0-1156-6e0f-903074791436,2285551f-f1f0-1156-fa7c-551a25e26a56,http://snomed.info/sct,24700007,Multiple Sclerosis
+2009-06-30,,2285551f-f1f0-1156-6e0f-903074791436,2285551f-f1f0-1156-fa7c-551a25e26a56,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2009-06-30,,2285551f-f1f0-1156-6e0f-903074791436,2285551f-f1f0-1156-1717-0d95a4d49d3f,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2012-11-04,,0130fa61-a3ba-7a9e-6154-43c0243d6424,0130fa61-a3ba-7a9e-1f19-c352f2f45961,http://snomed.info/sct,24700007,Multiple Sclerosis
+2012-11-04,,0130fa61-a3ba-7a9e-6154-43c0243d6424,0130fa61-a3ba-7a9e-1f19-c352f2f45961,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2012-11-04,,0130fa61-a3ba-7a9e-6154-43c0243d6424,0130fa61-a3ba-7a9e-13ce-afbcb7d3b385,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2025-10-19,,7002078c-c33a-ace1-bb66-23612ecb4b18,7002078c-c33a-ace1-b6b8-56a193d8e018,http://snomed.info/sct,24700007,Multiple Sclerosis
+2025-10-19,,7002078c-c33a-ace1-bb66-23612ecb4b18,7002078c-c33a-ace1-b6b8-56a193d8e018,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2025-10-19,,7002078c-c33a-ace1-bb66-23612ecb4b18,7002078c-c33a-ace1-48da-2c3f33faff25,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2022-09-06,,32dc8e87-3c4c-03f1-0dd4-1215607bff5d,32dc8e87-3c4c-03f1-c1cf-00124227000f,http://snomed.info/sct,24700007,Multiple Sclerosis
+2022-09-06,,32dc8e87-3c4c-03f1-0dd4-1215607bff5d,32dc8e87-3c4c-03f1-c1cf-00124227000f,http://snomed.info/sct,890601000000107,Hypercholesterolemia
+2022-09-06,,32dc8e87-3c4c-03f1-0dd4-1215607bff5d,32dc8e87-3c4c-03f1-c1cf-00124227000f,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2022-09-06,,32dc8e87-3c4c-03f1-0dd4-1215607bff5d,32dc8e87-3c4c-03f1-0492-316a249b188f,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2017-12-24,,b70cbf76-fcf2-7eda-767e-77c01c2f5dda,b70cbf76-fcf2-7eda-eb88-b849f2b04602,http://snomed.info/sct,24700007,Multiple Sclerosis
+2017-12-24,,b70cbf76-fcf2-7eda-767e-77c01c2f5dda,b70cbf76-fcf2-7eda-eb88-b849f2b04602,http://snomed.info/sct,257556004,Surgery
+2017-12-24,,b70cbf76-fcf2-7eda-767e-77c01c2f5dda,b70cbf76-fcf2-7eda-eb88-b849f2b04602,http://snomed.info/sct,428700003,Primary progressive multiple sclerosis
+2025-04-20,,623ae9d6-39ac-08eb-2e37-f04cfc4d0c6d,623ae9d6-39ac-08eb-0a08-fb9d390207af,http://snomed.info/sct,24700007,Multiple Sclerosis
+2025-04-20,,623ae9d6-39ac-08eb-2e37-f04cfc4d0c6d,623ae9d6-39ac-08eb-0a08-fb9d390207af,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2025-04-20,,623ae9d6-39ac-08eb-2e37-f04cfc4d0c6d,623ae9d6-39ac-08eb-fc7c-063d16ecc989,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2025-04-20,,623ae9d6-39ac-08eb-2e37-f04cfc4d0c6d,623ae9d6-39ac-08eb-e2a6-cc24b6967c09,http://snomed.info/sct,343601000000105,Secondary progressive multiple sclerosis
+2025-07-22,,4aa04346-2298-0d83-883c-2b4dc2298805,4aa04346-2298-0d83-e55b-b43151fa2882,http://snomed.info/sct,24700007,Multiple Sclerosis
+2025-07-22,,4aa04346-2298-0d83-883c-2b4dc2298805,4aa04346-2298-0d83-e55b-b43151fa2882,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2025-07-22,,4aa04346-2298-0d83-883c-2b4dc2298805,4aa04346-2298-0d83-40de-f7bb937129fa,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2026-05-25,,c3c3e620-77ed-aa3c-ba31-a49f26ac5adc,c3c3e620-77ed-aa3c-edee-a6d4fc2ecc04,http://snomed.info/sct,24700007,Multiple Sclerosis
+2026-05-25,,c3c3e620-77ed-aa3c-ba31-a49f26ac5adc,c3c3e620-77ed-aa3c-edee-a6d4fc2ecc04,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2026-05-25,,c3c3e620-77ed-aa3c-ba31-a49f26ac5adc,c3c3e620-77ed-aa3c-aa5c-b080a4f25ae8,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1998-11-17,,6111fe35-dadb-84cf-bbac-e40f75d65c10,6111fe35-dadb-84cf-8bbd-1496b4cb24b4,http://snomed.info/sct,24700007,Multiple Sclerosis
+1998-11-17,,6111fe35-dadb-84cf-bbac-e40f75d65c10,6111fe35-dadb-84cf-8bbd-1496b4cb24b4,http://snomed.info/sct,128292002,Chronic disease of cardiovascular system
+1998-11-17,,6111fe35-dadb-84cf-bbac-e40f75d65c10,6111fe35-dadb-84cf-8bbd-1496b4cb24b4,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1998-11-17,,6111fe35-dadb-84cf-bbac-e40f75d65c10,6111fe35-dadb-84cf-1cc6-45055256e755,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2007-03-26,,d2621b8c-e5ea-6993-f516-f20e7fc03ab2,d2621b8c-e5ea-6993-39e0-e7654a9917e2,http://snomed.info/sct,24700007,Multiple Sclerosis
+2007-03-26,,d2621b8c-e5ea-6993-f516-f20e7fc03ab2,d2621b8c-e5ea-6993-39e0-e7654a9917e2,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2007-03-26,,d2621b8c-e5ea-6993-f516-f20e7fc03ab2,d2621b8c-e5ea-6993-002f-9cefb77ed89b,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2004-11-05,,c7e3f98a-8faa-b28c-1a83-ffa9e7570687,c7e3f98a-8faa-b28c-7002-5a9db8951e70,http://snomed.info/sct,24700007,Multiple Sclerosis
+2004-11-05,,c7e3f98a-8faa-b28c-1a83-ffa9e7570687,c7e3f98a-8faa-b28c-7002-5a9db8951e70,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2004-11-05,,c7e3f98a-8faa-b28c-1a83-ffa9e7570687,c7e3f98a-8faa-b28c-a5b2-e74a7d4e4292,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2017-12-01,,c4617282-5547-d8a1-4348-9dff15bec54f,c4617282-5547-d8a1-4ad5-f6aaddaf09b3,http://snomed.info/sct,24700007,Multiple Sclerosis
+2017-12-01,,c4617282-5547-d8a1-4348-9dff15bec54f,c4617282-5547-d8a1-4ad5-f6aaddaf09b3,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2017-12-01,,c4617282-5547-d8a1-4348-9dff15bec54f,c4617282-5547-d8a1-8a6c-f11d2d1847a7,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2017-02-26,,3552e0df-8e24-f780-57ae-e294c1575296,3552e0df-8e24-f780-d8e2-db36ee120823,http://snomed.info/sct,24700007,Multiple Sclerosis
+2017-02-26,,3552e0df-8e24-f780-57ae-e294c1575296,3552e0df-8e24-f780-d8e2-db36ee120823,http://snomed.info/sct,84757009,Epilepsy
+2017-02-26,,3552e0df-8e24-f780-57ae-e294c1575296,3552e0df-8e24-f780-d8e2-db36ee120823,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2017-02-26,,3552e0df-8e24-f780-57ae-e294c1575296,3552e0df-8e24-f780-fbf9-6a691e941069,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1996-11-23,,d91e64c0-519d-617d-6874-8799b74d47da,d91e64c0-519d-617d-3150-c1a67bfe5d81,http://snomed.info/sct,24700007,Multiple Sclerosis
+1996-11-23,,d91e64c0-519d-617d-6874-8799b74d47da,d91e64c0-519d-617d-3150-c1a67bfe5d81,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1996-11-23,,d91e64c0-519d-617d-6874-8799b74d47da,d91e64c0-519d-617d-3531-b52a42e7ef07,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2026-07-24,,6f3b1274-9769-1a12-5394-b401112a7d77,6f3b1274-9769-1a12-547f-aef7abdfb6b8,http://snomed.info/sct,24700007,Multiple Sclerosis
+2026-07-24,,6f3b1274-9769-1a12-5394-b401112a7d77,6f3b1274-9769-1a12-547f-aef7abdfb6b8,http://snomed.info/sct,712823008,Acute Depression
+2026-07-24,,6f3b1274-9769-1a12-5394-b401112a7d77,6f3b1274-9769-1a12-547f-aef7abdfb6b8,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2026-07-24,,6f3b1274-9769-1a12-5394-b401112a7d77,6f3b1274-9769-1a12-8d5e-1f8c660f4864,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2017-09-09,,48eecfff-9345-20ae-1673-7f344d447b88,48eecfff-9345-20ae-0dd8-8f85d2d005cb,http://snomed.info/sct,24700007,Multiple Sclerosis
+2017-09-09,,48eecfff-9345-20ae-1673-7f344d447b88,48eecfff-9345-20ae-0dd8-8f85d2d005cb,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2017-09-09,,48eecfff-9345-20ae-1673-7f344d447b88,48eecfff-9345-20ae-6b72-4c7be41dd0f5,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1949-10-11,,4ca3c2cb-eb7b-a979-0368-49b8a0686879,4ca3c2cb-eb7b-a979-40b4-57a97e48a4b0,http://snomed.info/sct,24700007,Multiple Sclerosis
+1949-10-11,,4ca3c2cb-eb7b-a979-0368-49b8a0686879,4ca3c2cb-eb7b-a979-40b4-57a97e48a4b0,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1949-10-11,,4ca3c2cb-eb7b-a979-0368-49b8a0686879,4ca3c2cb-eb7b-a979-5a0e-f9902c90ca99,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1991-11-08,,3f3249f4-b337-62fe-932e-c60756e114c6,3f3249f4-b337-62fe-0307-d9abaa4b5cc8,http://snomed.info/sct,24700007,Multiple Sclerosis
+1991-11-08,,3f3249f4-b337-62fe-932e-c60756e114c6,3f3249f4-b337-62fe-0307-d9abaa4b5cc8,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1991-11-08,,3f3249f4-b337-62fe-932e-c60756e114c6,3f3249f4-b337-62fe-3e72-66b69e37c87a,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2004-02-18,,c0af463d-cab7-ee39-0bb0-87fd7b019873,c0af463d-cab7-ee39-dc63-3d13db04e129,http://snomed.info/sct,24700007,Multiple Sclerosis
+2004-02-18,,c0af463d-cab7-ee39-0bb0-87fd7b019873,c0af463d-cab7-ee39-dc63-3d13db04e129,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2004-02-18,,c0af463d-cab7-ee39-0bb0-87fd7b019873,c0af463d-cab7-ee39-70a6-eecc62f46b62,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2010-06-20,,55320a25-203b-9b59-88cc-c6b4d6662a3c,55320a25-203b-9b59-b5d9-47fe81f26f38,http://snomed.info/sct,24700007,Multiple Sclerosis
+2010-06-20,,55320a25-203b-9b59-88cc-c6b4d6662a3c,55320a25-203b-9b59-b5d9-47fe81f26f38,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2010-06-20,,55320a25-203b-9b59-88cc-c6b4d6662a3c,55320a25-203b-9b59-51e6-332067bdea3f,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1992-03-02,,33608855-3dfc-50a6-6534-75c72f20f902,33608855-3dfc-50a6-473e-9f12377e0b13,http://snomed.info/sct,24700007,Multiple Sclerosis
+1992-03-02,,33608855-3dfc-50a6-6534-75c72f20f902,33608855-3dfc-50a6-473e-9f12377e0b13,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1992-03-02,,33608855-3dfc-50a6-6534-75c72f20f902,33608855-3dfc-50a6-d852-41ce56ff3f86,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1999-01-14,,56a21bf1-c7ae-db47-c4ec-0f6ee684c272,56a21bf1-c7ae-db47-cf57-315eec9c5c4e,http://snomed.info/sct,24700007,Multiple Sclerosis
+1999-01-14,,56a21bf1-c7ae-db47-c4ec-0f6ee684c272,56a21bf1-c7ae-db47-cf57-315eec9c5c4e,http://snomed.info/sct,257551009,Infection
+1999-01-14,,56a21bf1-c7ae-db47-c4ec-0f6ee684c272,56a21bf1-c7ae-db47-cf57-315eec9c5c4e,http://snomed.info/sct,428700003,Primary progressive multiple sclerosis
+1999-01-14,,56a21bf1-c7ae-db47-c4ec-0f6ee684c272,56a21bf1-c7ae-db47-a057-395cc47dbaff,http://snomed.info/sct,724778008,Progressive relapsing multiple sclerosis
+1986-04-18,,abaa3337-9d3c-ced9-ee5c-c5eb38a7ed2c,abaa3337-9d3c-ced9-fa95-e1b563d2f34a,http://snomed.info/sct,24700007,Multiple Sclerosis
+1986-04-18,,abaa3337-9d3c-ced9-ee5c-c5eb38a7ed2c,abaa3337-9d3c-ced9-fa95-e1b563d2f34a,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1986-04-18,,abaa3337-9d3c-ced9-ee5c-c5eb38a7ed2c,abaa3337-9d3c-ced9-96bc-b7a095c7570e,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1957-05-01,,e2de9443-287f-4e8d-75fb-2995e47aa65c,e2de9443-287f-4e8d-f5d5-b18d89240155,http://snomed.info/sct,24700007,Multiple Sclerosis
+1957-05-01,,e2de9443-287f-4e8d-75fb-2995e47aa65c,e2de9443-287f-4e8d-f5d5-b18d89240155,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1957-05-01,,e2de9443-287f-4e8d-75fb-2995e47aa65c,e2de9443-287f-4e8d-384b-60e627610b7a,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2001-09-14,,d3c54f95-6192-9dba-0669-0140afe114bf,d3c54f95-6192-9dba-c0ab-36a650abf26b,http://snomed.info/sct,24700007,Multiple Sclerosis
+2001-09-14,,d3c54f95-6192-9dba-0669-0140afe114bf,d3c54f95-6192-9dba-c0ab-36a650abf26b,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1957-05-01,,e2de9443-287f-4e8d-75fb-2995e47aa65c,e2de9443-287f-4e8d-2f24-2f38083aaaad,http://snomed.info/sct,343601000000105,Secondary progressive multiple sclerosis
+2001-09-14,,d3c54f95-6192-9dba-0669-0140afe114bf,d3c54f95-6192-9dba-1ef0-bf181870154f,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1991-07-01,,b4425715-90fe-3b16-6b3b-45e9ece52a5b,b4425715-90fe-3b16-bb35-fa5ae7a203bd,http://snomed.info/sct,24700007,Multiple Sclerosis
+1991-07-01,,b4425715-90fe-3b16-6b3b-45e9ece52a5b,b4425715-90fe-3b16-bb35-fa5ae7a203bd,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1991-07-01,,b4425715-90fe-3b16-6b3b-45e9ece52a5b,b4425715-90fe-3b16-2e4a-2618578613ef,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1991-07-01,,b4425715-90fe-3b16-6b3b-45e9ece52a5b,b4425715-90fe-3b16-dad7-532442314eae,http://snomed.info/sct,343601000000105,Secondary progressive multiple sclerosis
+2004-01-30,,824cc1b4-6bd4-21f1-a559-e74f3a37260f,824cc1b4-6bd4-21f1-1cb8-4af1ff167afa,http://snomed.info/sct,24700007,Multiple Sclerosis
+2004-01-30,,824cc1b4-6bd4-21f1-a559-e74f3a37260f,824cc1b4-6bd4-21f1-1cb8-4af1ff167afa,http://snomed.info/sct,428700003,Primary progressive multiple sclerosis
+2016-10-07,,8befe1cb-07eb-43ac-6207-d8671e47c53e,8befe1cb-07eb-43ac-e09d-33e874c1f5f3,http://snomed.info/sct,24700007,Multiple Sclerosis
+2016-10-07,,8befe1cb-07eb-43ac-6207-d8671e47c53e,8befe1cb-07eb-43ac-e09d-33e874c1f5f3,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2016-10-07,,8befe1cb-07eb-43ac-6207-d8671e47c53e,8befe1cb-07eb-43ac-9b03-a8b38ca74c2c,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2005-02-16,,e18a5670-c541-14c9-bb64-b13d82c81f33,e18a5670-c541-14c9-9ab9-1ad68a84aea9,http://snomed.info/sct,24700007,Multiple Sclerosis
+2005-02-16,,e18a5670-c541-14c9-bb64-b13d82c81f33,e18a5670-c541-14c9-9ab9-1ad68a84aea9,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2005-02-16,,e18a5670-c541-14c9-bb64-b13d82c81f33,e18a5670-c541-14c9-036f-b4e3822bde83,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2002-03-12,,3145c590-b056-ba9e-3539-905f6c8ea43c,3145c590-b056-ba9e-78ae-aba1ae9b13da,http://snomed.info/sct,24700007,Multiple Sclerosis
+2002-03-12,,3145c590-b056-ba9e-3539-905f6c8ea43c,3145c590-b056-ba9e-78ae-aba1ae9b13da,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2002-03-12,,3145c590-b056-ba9e-3539-905f6c8ea43c,3145c590-b056-ba9e-925e-b9844688fa18,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2022-09-07,,fb8640a7-7884-cc8e-2fad-0edbd8a51053,fb8640a7-7884-cc8e-dd54-e8a4475abe66,http://snomed.info/sct,24700007,Multiple Sclerosis
+2022-09-07,,fb8640a7-7884-cc8e-2fad-0edbd8a51053,fb8640a7-7884-cc8e-dd54-e8a4475abe66,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2022-09-07,,fb8640a7-7884-cc8e-2fad-0edbd8a51053,fb8640a7-7884-cc8e-1dfe-6b006d531932,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1983-09-01,,cf33dfca-bd78-675d-f521-ababda6904c6,cf33dfca-bd78-675d-af30-5e6f38dfe52a,http://snomed.info/sct,24700007,Multiple Sclerosis
+1983-09-01,,cf33dfca-bd78-675d-f521-ababda6904c6,cf33dfca-bd78-675d-af30-5e6f38dfe52a,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1983-09-01,,cf33dfca-bd78-675d-f521-ababda6904c6,cf33dfca-bd78-675d-00e4-8bdceef4083d,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1993-11-03,,43930f0f-f1a5-964a-5d45-e2198b8b5298,43930f0f-f1a5-964a-ffd0-ca03d886951a,http://snomed.info/sct,24700007,Multiple Sclerosis
+1993-11-03,,43930f0f-f1a5-964a-5d45-e2198b8b5298,43930f0f-f1a5-964a-ffd0-ca03d886951a,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1993-11-03,,43930f0f-f1a5-964a-5d45-e2198b8b5298,43930f0f-f1a5-964a-568a-da71ad367499,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1993-11-03,,43930f0f-f1a5-964a-5d45-e2198b8b5298,43930f0f-f1a5-964a-921a-1dfdc3ed3f97,http://snomed.info/sct,343601000000105,Secondary progressive multiple sclerosis
+2005-03-22,,884e5ff1-af42-df93-03dd-f534ee8b1aea,884e5ff1-af42-df93-cee8-4f99159782a0,http://snomed.info/sct,24700007,Multiple Sclerosis
+2005-03-22,,884e5ff1-af42-df93-03dd-f534ee8b1aea,884e5ff1-af42-df93-cee8-4f99159782a0,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2005-03-22,,884e5ff1-af42-df93-03dd-f534ee8b1aea,884e5ff1-af42-df93-3173-926467ebcb1d,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1992-02-14,,161d54bf-64ec-8680-d655-2760be627e8d,161d54bf-64ec-8680-50a1-99dd6a3fe49a,http://snomed.info/sct,24700007,Multiple Sclerosis
+1992-02-14,,161d54bf-64ec-8680-d655-2760be627e8d,161d54bf-64ec-8680-50a1-99dd6a3fe49a,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1992-02-14,,161d54bf-64ec-8680-d655-2760be627e8d,161d54bf-64ec-8680-e976-4e8f2e8cb8d6,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1992-02-14,,161d54bf-64ec-8680-d655-2760be627e8d,161d54bf-64ec-8680-ab86-3ea25ead0f28,http://snomed.info/sct,343601000000105,Secondary progressive multiple sclerosis
+2024-10-14,,946a78dd-7393-1797-daba-a743d28452ab,946a78dd-7393-1797-d87f-c99ed482e64c,http://snomed.info/sct,24700007,Multiple Sclerosis
+2024-10-14,,946a78dd-7393-1797-daba-a743d28452ab,946a78dd-7393-1797-d87f-c99ed482e64c,http://snomed.info/sct,37796009,Migraine
+2024-10-14,,946a78dd-7393-1797-daba-a743d28452ab,946a78dd-7393-1797-d87f-c99ed482e64c,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2024-10-14,,946a78dd-7393-1797-daba-a743d28452ab,946a78dd-7393-1797-a02d-4fcf13618301,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2012-04-04,,21897b8e-8fe9-d090-5ac7-550cc0a5a7e7,21897b8e-8fe9-d090-9ae4-3351edf47a52,http://snomed.info/sct,24700007,Multiple Sclerosis
+2012-04-04,,21897b8e-8fe9-d090-5ac7-550cc0a5a7e7,21897b8e-8fe9-d090-9ae4-3351edf47a52,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2012-04-04,,21897b8e-8fe9-d090-5ac7-550cc0a5a7e7,21897b8e-8fe9-d090-1180-f45a2ed11ba5,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2026-06-03,,8e209582-1525-dce5-09b8-abc7551398b5,8e209582-1525-dce5-697b-309f5ef95372,http://snomed.info/sct,24700007,Multiple Sclerosis
+2026-06-03,,8e209582-1525-dce5-09b8-abc7551398b5,8e209582-1525-dce5-697b-309f5ef95372,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2026-06-03,,8e209582-1525-dce5-09b8-abc7551398b5,8e209582-1525-dce5-30fb-5fb3060dbbc7,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2026-06-03,,8e209582-1525-dce5-09b8-abc7551398b5,8e209582-1525-dce5-65ca-45da5421d75b,http://snomed.info/sct,343601000000105,Secondary progressive multiple sclerosis
+2026-09-03,,17a27aed-e1be-8db6-c42c-7d230cca2033,17a27aed-e1be-8db6-c5f4-e4682aa16349,http://snomed.info/sct,24700007,Multiple Sclerosis
+2026-09-03,,17a27aed-e1be-8db6-c42c-7d230cca2033,17a27aed-e1be-8db6-c5f4-e4682aa16349,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2026-09-03,,17a27aed-e1be-8db6-c42c-7d230cca2033,17a27aed-e1be-8db6-5e23-5e1868e4cf2f,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2015-05-20,,bd208267-28ac-318c-0ea6-b028c559ccea,bd208267-28ac-318c-3fb4-34d9556a69a9,http://snomed.info/sct,24700007,Multiple Sclerosis
+2015-05-20,,bd208267-28ac-318c-0ea6-b028c559ccea,bd208267-28ac-318c-3fb4-34d9556a69a9,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2015-05-20,,bd208267-28ac-318c-0ea6-b028c559ccea,bd208267-28ac-318c-4938-f053790967ee,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2016-04-04,,e8d1c0e3-3d1e-1be2-881f-7c84d8f958b1,e8d1c0e3-3d1e-1be2-3979-bbf4e2dbe999,http://snomed.info/sct,24700007,Multiple Sclerosis
+2016-04-04,,e8d1c0e3-3d1e-1be2-881f-7c84d8f958b1,e8d1c0e3-3d1e-1be2-3979-bbf4e2dbe999,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2016-04-04,,e8d1c0e3-3d1e-1be2-881f-7c84d8f958b1,e8d1c0e3-3d1e-1be2-952a-035aa4e3edfd,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2000-06-18,,7b8e698e-a4dc-1169-dc89-2d20b6f89ed5,7b8e698e-a4dc-1169-c125-19333933a29a,http://snomed.info/sct,24700007,Multiple Sclerosis
+2000-06-18,,7b8e698e-a4dc-1169-dc89-2d20b6f89ed5,7b8e698e-a4dc-1169-c125-19333933a29a,http://snomed.info/sct,257556004,Surgery
+2000-06-18,,7b8e698e-a4dc-1169-dc89-2d20b6f89ed5,7b8e698e-a4dc-1169-c125-19333933a29a,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2000-06-18,,7b8e698e-a4dc-1169-dc89-2d20b6f89ed5,7b8e698e-a4dc-1169-a295-011fa2906567,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2000-06-18,,7b8e698e-a4dc-1169-dc89-2d20b6f89ed5,7b8e698e-a4dc-1169-82a3-4c1a6d881984,http://snomed.info/sct,343601000000105,Secondary progressive multiple sclerosis
+2021-12-29,,7f608150-f781-a9f1-7ef9-ddef8028d29d,7f608150-f781-a9f1-c004-75dd328696e0,http://snomed.info/sct,24700007,Multiple Sclerosis
+2021-12-29,,7f608150-f781-a9f1-7ef9-ddef8028d29d,7f608150-f781-a9f1-c004-75dd328696e0,http://snomed.info/sct,38822007,Cystitis
+2021-12-29,,7f608150-f781-a9f1-7ef9-ddef8028d29d,7f608150-f781-a9f1-c004-75dd328696e0,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2021-12-29,,7f608150-f781-a9f1-7ef9-ddef8028d29d,7f608150-f781-a9f1-520a-ba6e5c8eb185,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2021-12-29,,7f608150-f781-a9f1-7ef9-ddef8028d29d,7f608150-f781-a9f1-68d7-3d62cd05b283,http://snomed.info/sct,343601000000105,Secondary progressive multiple sclerosis
+1995-08-24,,a9ec81d6-089d-b787-9718-741d43e4c351,a9ec81d6-089d-b787-a182-e0c3de1ff9b1,http://snomed.info/sct,24700007,Multiple Sclerosis
+1995-08-24,,a9ec81d6-089d-b787-9718-741d43e4c351,a9ec81d6-089d-b787-a182-e0c3de1ff9b1,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1995-08-24,,a9ec81d6-089d-b787-9718-741d43e4c351,a9ec81d6-089d-b787-72b7-568a8808d901,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1996-09-03,,4b117589-60f4-defb-cb13-7490b248cb4f,4b117589-60f4-defb-3d4c-eefa26d4930e,http://snomed.info/sct,24700007,Multiple Sclerosis
+1996-09-03,,4b117589-60f4-defb-cb13-7490b248cb4f,4b117589-60f4-defb-3d4c-eefa26d4930e,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1996-09-03,,4b117589-60f4-defb-cb13-7490b248cb4f,4b117589-60f4-defb-6058-b94d566ea853,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+1996-08-20,,3b95ae46-e509-62c5-2362-ed815df24159,3b95ae46-e509-62c5-03e4-7834b072befe,http://snomed.info/sct,24700007,Multiple Sclerosis
+1996-08-20,,3b95ae46-e509-62c5-2362-ed815df24159,3b95ae46-e509-62c5-03e4-7834b072befe,http://snomed.info/sct,257551009,Infection
+1996-08-20,,3b95ae46-e509-62c5-2362-ed815df24159,3b95ae46-e509-62c5-03e4-7834b072befe,http://snomed.info/sct,445967004,Clinically isolated syndrome
+1996-08-20,,3b95ae46-e509-62c5-2362-ed815df24159,3b95ae46-e509-62c5-de72-f88a2fc1d51f,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis
+2026-08-20,,6e79c055-f0e9-30dc-7fd1-67273ea6c628,6e79c055-f0e9-30dc-7451-98da5ea17d32,http://snomed.info/sct,24700007,Multiple Sclerosis
+2026-08-20,,6e79c055-f0e9-30dc-7fd1-67273ea6c628,6e79c055-f0e9-30dc-7451-98da5ea17d32,http://snomed.info/sct,445967004,Clinically isolated syndrome
+2026-08-20,,6e79c055-f0e9-30dc-7fd1-67273ea6c628,6e79c055-f0e9-30dc-4267-384a50b9c31e,http://snomed.info/sct,426373005,Relapsing remitting multiple sclerosis

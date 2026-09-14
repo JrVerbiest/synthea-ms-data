@@ -1,0 +1,1443 @@
+{
+  "name": "Multiple Sclerosis Disease Trajectory",
+  "remarks": [],
+  "gmf_version": 2,
+  "states": {
+    "Initial": {
+      "type": "Initial",
+      "direct_transition": "Pre-Onset Delay Until MS"
+    },
+    "Pre-Onset Delay Until MS": {
+      "type": "Delay",
+      "range": {
+        "low": 20,
+        "high": 40,
+        "unit": "years"
+      },
+      "direct_transition": "Initial Symptoms"
+    },
+    "Initial Symptoms": {
+      "type": "Simple",
+      "distributed_transition": [
+        {
+          "transition": "Supratentorial",
+          "distribution": 0.0504
+        },
+        {
+          "transition": "Optic Pathways",
+          "distribution": 0.1727
+        },
+        {
+          "transition": "Brainstem-Cerebellum",
+          "distribution": 0.0504
+        },
+        {
+          "transition": "Spinal Cord",
+          "distribution": 0.1871
+        },
+        {
+          "transition": "Other Initial Symptoms",
+          "distribution": 0.5396
+        }
+      ]
+    },
+    "Neurology consultation": {
+      "type": "Encounter",
+      "encounter_class": "ambulatory",
+      "reason": "",
+      "telemedicine_possibility": "none",
+      "codes": [
+        {
+          "system": "SNOMED-CT",
+          "code": 56397003,
+          "display": "Neurologist"
+        }
+      ],
+      "direct_transition": "Corticosteroid: Prescription Order"
+    },
+    "Oligoclonal bands present": {
+      "type": "Observation",
+      "category": "laboratory",
+      "unit": "",
+      "codes": [
+        {
+          "system": "LOINC",
+          "code": "32358-4",
+          "display": "Oligoclonal bands [Presence] in Cerebral spinal fluid"
+        }
+      ],
+      "distribution": {
+        "kind": "EXACT",
+        "round": false,
+        "parameters": {
+          "value": 1
+        }
+      },
+      "direct_transition": "End Neurology consultation"
+    },
+    "End Neurology consultation": {
+      "type": "EncounterEnd",
+      "direct_transition": "Cortisteroid: Ambulatory Treatment"
+    },
+    "Prescription MRI": {
+      "type": "Encounter",
+      "encounter_class": "ambulatory",
+      "reason": "",
+      "telemedicine_possibility": "none",
+      "codes": [
+        {
+          "system": "SNOMED-CT",
+          "code": 816077007,
+          "display": "MRI of Brain"
+        },
+        {
+          "system": "SNOMED-CT",
+          "code": 748661000000100,
+          "display": "MRI of Spinal Cord"
+        }
+      ],
+      "direct_transition": "Cerebrospinal fluid (CSF) collection"
+    },
+    "MRI(Spinal/Brain)": {
+      "type": "Procedure",
+      "codes": [
+        {
+          "system": "SNOMED-CT",
+          "code": 81607700734,
+          "display": "MRI of Brain"
+        },
+        {
+          "system": "SNOMED-CT",
+          "code": 748661000000100,
+          "display": "MRI of Spinal Cord"
+        }
+      ],
+      "distribution": {
+        "kind": "EXACT",
+        "parameters": {
+          "value": 1
+        }
+      },
+      "unit": "days",
+      "direct_transition": "Gd enhanced and non-enhanced MRI MS lesions"
+    },
+    "Delay until diagnosis": {
+      "type": "Delay",
+      "distribution": {
+        "kind": "EXACT",
+        "parameters": {
+          "value": 5.7
+        }
+      },
+      "unit": "months",
+      "direct_transition": "Neurology Consultation"
+    },
+    "Comorbidities": {
+      "type": "Simple",
+      "distributed_transition": [
+        {
+          "transition": "Surgery",
+          "distribution": 0.035
+        },
+        {
+          "transition": "Cystitis",
+          "distribution": 0.0328
+        },
+        {
+          "transition": "Infection",
+          "distribution": 0.0294
+        },
+        {
+          "transition": "Urologic Disorder",
+          "distribution": 0.0282
+        },
+        {
+          "transition": "Migraine",
+          "distribution": 0.0203
+        },
+        {
+          "transition": "Hypertension",
+          "distribution": 0.0192
+        },
+        {
+          "transition": "Allergy",
+          "distribution": 0.0192
+        },
+        {
+          "transition": "Hypercholesterolemia",
+          "distribution": 0.0181
+        },
+        {
+          "transition": "Depression",
+          "distribution": 0.0328
+        },
+        {
+          "transition": "Orthopedic Disorder",
+          "distribution": 0.0169
+        },
+        {
+          "transition": "Diabetes",
+          "distribution": 0.0113
+        },
+        {
+          "transition": "Cardiovascular Disorder",
+          "distribution": 0.0113
+        },
+        {
+          "transition": "Nicotine Abuse",
+          "distribution": 0.0102
+        },
+        {
+          "transition": "Epilepsy",
+          "distribution": 0.0079
+        },
+        {
+          "transition": "Cancer",
+          "distribution": 0.0034
+        },
+        {
+          "transition": "Herpes Zoster",
+          "distribution": 0.0011
+        },
+        {
+          "transition": "Other Comorbitities",
+          "distribution": 0.009
+        },
+        {
+          "transition": "No Comorbidities",
+          "distribution": 0.6938
+        }
+      ]
+    },
+    "Surgery": {
+      "type": "ConditionOnset",
+      "remarks": [
+        "Surgery comorbidity recorded."
+      ],
+      "codes": [
+        {
+          "system": "SNOMED-CT",
+          "code": 257556004,
+          "display": "Surgery"
+        }
+      ],
+      "direct_transition": "Determine MS Subtype"
+    },
+    "Cystitis": {
+      "type": "ConditionOnset",
+      "remarks": [
+        "Cystitis comorbidity recorded."
+      ],
+      "codes": [
+        {
+          "system": "SNOMED-CT",
+          "code": 38822007,
+          "display": "Cystitis"
+        }
+      ],
+      "direct_transition": "Determine MS Subtype"
+    },
+    "Infection": {
+      "type": "ConditionOnset",
+      "remarks": [
+        "Infection comorbidity recorded."
+      ],
+      "codes": [
+        {
+          "system": "SNOMED-CT",
+          "code": 257551009,
+          "display": "Infection"
+        }
+      ],
+      "direct_transition": "Determine MS Subtype"
+    },
+    "Urologic Disorder": {
+      "type": "ConditionOnset",
+      "remarks": [
+        "Urologic disorder comorbidity recorded."
+      ],
+      "codes": [
+        {
+          "system": "SNOMED-CT",
+          "code": 41368006,
+          "display": "Disorder of urinary tract"
+        }
+      ],
+      "direct_transition": "Determine MS Subtype"
+    },
+    "Migraine": {
+      "type": "ConditionOnset",
+      "remarks": [
+        "Migraine comorbidity recorded."
+      ],
+      "codes": [
+        {
+          "system": "SNOMED-CT",
+          "code": 37796009,
+          "display": "Migraine"
+        }
+      ],
+      "direct_transition": "Determine MS Subtype"
+    },
+    "Hypertension": {
+      "type": "ConditionOnset",
+      "remarks": [
+        "Hypertension comorbidity recorded."
+      ],
+      "codes": [
+        {
+          "system": "SNOMED-CT",
+          "code": 59621000,
+          "display": "Essential hypertension"
+        }
+      ],
+      "direct_transition": "Determine MS Subtype"
+    },
+    "Allergy": {
+      "type": "ConditionOnset",
+      "codes": [
+        {
+          "system": "SNOMED-CT",
+          "code": 1300212001,
+          "display": "Allergy Status"
+        }
+      ],
+      "direct_transition": "Determine MS Subtype",
+      "remarks": [
+        "Allergy comorbidity recorded."
+      ]
+    },
+    "Hypercholesterolemia": {
+      "type": "ConditionOnset",
+      "remarks": [
+        "Hypercholesterolemia comorbidity recorded."
+      ],
+      "codes": [
+        {
+          "system": "SNOMED-CT",
+          "code": 890601000000107,
+          "display": "Hypercholesterolemia"
+        }
+      ],
+      "direct_transition": "Determine MS Subtype"
+    },
+    "Depression": {
+      "type": "ConditionOnset",
+      "remarks": [
+        "Depression comorbidity recorded."
+      ],
+      "codes": [
+        {
+          "system": "SNOMED-CT",
+          "code": 712823008,
+          "display": "Acute Depression"
+        }
+      ],
+      "direct_transition": "Determine MS Subtype"
+    },
+    "Orthopedic Disorder": {
+      "type": "ConditionOnset",
+      "remarks": [
+        "Orthopedic disorder comorbidity recorded."
+      ],
+      "codes": [
+        {
+          "system": "SNOMED-CT",
+          "code": 928000,
+          "display": "Disorder of musculoskeletal system"
+        }
+      ],
+      "direct_transition": "Determine MS Subtype"
+    },
+    "Diabetes": {
+      "type": "ConditionOnset",
+      "remarks": [
+        "Diabetes comorbidity recorded."
+      ],
+      "codes": [
+        {
+          "system": "SNOMED-CT",
+          "code": 73211009,
+          "display": "Diabetes mellitus"
+        }
+      ],
+      "direct_transition": "Determine MS Subtype"
+    },
+    "Cardiovascular Disorder": {
+      "type": "ConditionOnset",
+      "remarks": [
+        "Cardiovascular disorder comorbidity recorded."
+      ],
+      "codes": [
+        {
+          "system": "SNOMED-CT",
+          "code": 128292002,
+          "display": "Chronic disease of cardiovascular system"
+        }
+      ],
+      "direct_transition": "Determine MS Subtype"
+    },
+    "Nicotine Abuse": {
+      "type": "ConditionOnset",
+      "remarks": [
+        "Nicotine abuse comorbidity recorded."
+      ],
+      "codes": [
+        {
+          "system": "SNOMED-CT",
+          "code": 56294008,
+          "display": "Nicotine dependence"
+        }
+      ],
+      "direct_transition": "Determine MS Subtype"
+    },
+    "Epilepsy": {
+      "type": "ConditionOnset",
+      "remarks": [
+        "Epilepsy comorbidity recorded."
+      ],
+      "codes": [
+        {
+          "system": "SNOMED-CT",
+          "code": 84757009,
+          "display": "Epilepsy"
+        }
+      ],
+      "direct_transition": "Determine MS Subtype"
+    },
+    "Cancer": {
+      "type": "ConditionOnset",
+      "remarks": [
+        "Cancer comorbidity recorded."
+      ],
+      "codes": [
+        {
+          "system": "SNOMED-CT",
+          "code": 395099008,
+          "display": "Cancer confirmed"
+        }
+      ],
+      "direct_transition": "Determine MS Subtype"
+    },
+    "Herpes Zoster": {
+      "type": "ConditionOnset",
+      "remarks": [
+        "Herpes zoster comorbidity recorded."
+      ],
+      "codes": [
+        {
+          "system": "SNOMED-CT",
+          "code": 4740000,
+          "display": "Herpes zoster"
+        }
+      ],
+      "direct_transition": "Determine MS Subtype"
+    },
+    "RRMS": {
+      "type": "Simple",
+      "distributed_transition": [
+        {
+          "transition": "RRMS Relapse",
+          "distribution": 0,
+          "min_duration": {
+            "quantity": 6,
+            "unit": "months"
+          },
+          "max_duration": {
+            "quantity": 1,
+            "unit": "year"
+          }
+        },
+        {
+          "transition": "Neurology Consultation: Transition from RRMS",
+          "distribution": 0.1723,
+          "min_duration": {
+            "quantity": 10,
+            "unit": "years"
+          }
+        },
+        {
+          "transition": "Maintenance_RRMS",
+          "distribution": 0,
+          "min_duration": {
+            "quantity": 6,
+            "unit": "months"
+          },
+          "max_duration": {
+            "quantity": 1,
+            "unit": "year"
+          }
+        },
+        {
+          "transition": "Terminal",
+          "distribution": 0.8277
+        }
+      ]
+    },
+    "RRMS Relapse": {
+      "type": "Delay",
+      "distribution": {
+        "kind": "EXACT",
+        "parameters": {
+          "value": 1
+        }
+      },
+      "unit": "months",
+      "direct_transition": "RRMS Recovery"
+    },
+    "RRMS Recovery": {
+      "type": "Delay",
+      "exact": {
+        "quantity": 1,
+        "unit": "years"
+      },
+      "actions": [
+        {
+          "action": "decrement_attribute",
+          "target": "EDSS",
+          "value": 0.2
+        }
+      ],
+      "direct_transition": "RRMS"
+    },
+    "Maintenance_RRMS": {
+      "type": "Delay",
+      "exact": {
+        "quantity": 1,
+        "unit": "year"
+      },
+      "direct_transition": "RRMS"
+    },
+    "PPMS": {
+      "type": "Simple",
+      "distributed_transition": [
+        {
+          "transition": "Neurology Consultation: Transition from PPMS",
+          "distribution": 0.4118
+        },
+        {
+          "transition": "Terminal",
+          "distribution": 0.5882
+        },
+        {
+          "transition": "PPMS Progression",
+          "distribution": 0
+        }
+      ]
+    },
+    "SPMS": {
+      "type": "Simple",
+      "distributed_transition": [
+        {
+          "transition": "SPMS Progression",
+          "distribution": 0
+        },
+        {
+          "transition": "Terminal",
+          "distribution": 1
+        }
+      ]
+    },
+    "SPMS Progression": {
+      "type": "Delay",
+      "exact": {
+        "quantity": 1,
+        "unit": "year"
+      },
+      "actions": [
+        {
+          "action": "increment_attribute",
+          "target": "EDSS",
+          "value": 0.4
+        }
+      ],
+      "direct_transition": "SPMS"
+    },
+    "Terminal": {
+      "type": "Terminal"
+    },
+    "Initial EDSS PPMS": {
+      "type": "Observation",
+      "category": "exam",
+      "unit": "",
+      "codes": [
+        {
+          "system": "SNOMED-CT",
+          "code": "273554001",
+          "display": "Expanded Disability Status Scale (EDSS)"
+        }
+      ],
+      "distribution": {
+        "kind": "GAUSSIAN",
+        "round": false,
+        "parameters": {
+          "mean": 4.6875,
+          "standardDeviation": 2.051785
+        }
+      },
+      "direct_transition": "Determine Treatment PPMS"
+    },
+    "Optic Pathways": {
+      "type": "Symptom",
+      "symptom": "Optic Pathways",
+      "cause": "",
+      "exact": {
+        "quantity": 1
+      },
+      "direct_transition": "Neurology consultation"
+    },
+    "Supratentorial": {
+      "type": "Symptom",
+      "symptom": "Supratentorial",
+      "cause": "",
+      "exact": {
+        "quantity": 1
+      },
+      "direct_transition": "Neurology consultation"
+    },
+    "Brainstem-Cerebellum": {
+      "type": "Symptom",
+      "symptom": "Brainstem-Cerebellum",
+      "cause": "",
+      "probability": 1,
+      "distribution": {
+        "kind": "EXACT",
+        "parameters": {
+          "value": 1
+        }
+      },
+      "direct_transition": "Neurology consultation"
+    },
+    "Spinal Cord": {
+      "type": "Symptom",
+      "symptom": "Spinal Cord",
+      "cause": "",
+      "probability": 1,
+      "distribution": {
+        "kind": "EXACT",
+        "parameters": {
+          "value": 1
+        }
+      },
+      "direct_transition": "Neurology consultation"
+    },
+    "Other Initial Symptoms": {
+      "type": "Symptom",
+      "symptom": "Other",
+      "cause": "",
+      "probability": 1,
+      "distribution": {
+        "kind": "EXACT",
+        "parameters": {
+          "value": 1
+        }
+      },
+      "direct_transition": "Neurology consultation"
+    },
+    "Other Comorbitities": {
+      "type": "ConditionOnset",
+      "codes": [],
+      "direct_transition": "Determine MS Subtype",
+      "remarks": [
+        "Other unspecified comorbidities"
+      ]
+    },
+    "Determine PPMS": {
+      "type": "ConditionOnset",
+      "codes": [
+        {
+          "system": "SNOMED-CT",
+          "code": 428700003,
+          "display": "Primary progressive multiple sclerosis"
+        }
+      ],
+      "direct_transition": "Initial EDSS PPMS",
+      "remarks": [
+        "EDSS "
+      ]
+    },
+    "Determine CIS": {
+      "type": "ConditionOnset",
+      "codes": [
+        {
+          "system": "SNOMED-CT",
+          "code": 445967004,
+          "display": "Clinically isolated syndrome"
+        }
+      ],
+      "direct_transition": "Initial EDSS CIS"
+    },
+    "Initial EDSS CIS": {
+      "type": "Observation",
+      "category": "exam",
+      "unit": "",
+      "codes": [
+        {
+          "system": "SNOMED-CT",
+          "code": "273554001",
+          "display": "Expanded Disability Status Scale (EDSS)"
+        }
+      ],
+      "distribution": {
+        "kind": "GAUSSIAN",
+        "round": false,
+        "parameters": {
+          "mean": 2.0625,
+          "standardDeviation": 1.152895
+        }
+      },
+      "direct_transition": "Determine Treatment CIS"
+    },
+    "Transition RRMS": {
+      "type": "ConditionOnset",
+      "codes": [
+        {
+          "system": "SNOMED-CT",
+          "code": 426373005,
+          "display": "Relapsing remitting multiple sclerosis"
+        }
+      ],
+      "direct_transition": "Initial EDSS RRMS"
+    },
+    "Initial EDSS RRMS": {
+      "type": "Observation",
+      "category": "exam",
+      "unit": "",
+      "codes": [
+        {
+          "system": "SNOMED-CT",
+          "code": "273554001",
+          "display": "Expanded Disability Status Scale (EDSS)"
+        }
+      ],
+      "distribution": {
+        "kind": "GAUSSIAN",
+        "round": false,
+        "parameters": {
+          "mean": 2.695455,
+          "standardDeviation": 1.528169
+        }
+      },
+      "direct_transition": "Determine Treatment RRMS"
+    },
+    "Initial EDSS SPMS": {
+      "type": "Observation",
+      "category": "exam",
+      "unit": "",
+      "codes": [
+        {
+          "system": "SNOMED-CT",
+          "code": "273554001",
+          "display": "Expanded Disability Status Scale (EDSS)"
+        }
+      ],
+      "distribution": {
+        "kind": "GAUSSIAN",
+        "round": false,
+        "parameters": {
+          "mean": 5.351351,
+          "standardDeviation": 1.437904
+        }
+      },
+      "direct_transition": "Determine Treatment SPMS"
+    },
+    "Transition SPMS": {
+      "type": "ConditionOnset",
+      "codes": [
+        {
+          "system": "SNOMED-CT",
+          "code": 343601000000105,
+          "display": "Secondary progressive multiple sclerosis"
+        }
+      ],
+      "direct_transition": "Initial EDSS SPMS"
+    },
+    "Transition PRMS": {
+      "type": "ConditionOnset",
+      "codes": [
+        {
+          "system": "SNOMED-CT",
+          "code": 724778008,
+          "display": "Progressive relapsing multiple sclerosis"
+        }
+      ],
+      "direct_transition": "Initial EDSS PRMS"
+    },
+    "Initial EDSS PRMS": {
+      "type": "Observation",
+      "category": "exam",
+      "unit": "",
+      "codes": [
+        {
+          "system": "SNOMED-CT",
+          "code": "273554001",
+          "display": "Expanded Disability Status Scale (EDSS)"
+        }
+      ],
+      "distribution": {
+        "kind": "GAUSSIAN",
+        "round": false,
+        "parameters": {
+          "mean": 4.6,
+          "standardDeviation": 1.635543
+        }
+      },
+      "direct_transition": "Determine Treatment PRMS"
+    },
+    "Determine Treatment PPMS": {
+      "type": "Simple",
+      "distributed_transition": [
+        {
+          "transition": "Betaferon (PPMS)",
+          "distribution": 0.1429
+        },
+        {
+          "transition": "Rebif 44mcg (PPMS)",
+          "distribution": 0.0714
+        },
+        {
+          "distribution": 0.4286,
+          "transition": "No Treatment (PPMS)"
+        },
+        {
+          "transition": "Endoxan (PPMS)",
+          "distribution": 0.2143
+        },
+        {
+          "transition": "Ocrevus (PPMS)",
+          "distribution": 0.1429
+        }
+      ]
+    },
+    "End Neurology Consultation PPMS": {
+      "type": "EncounterEnd",
+      "direct_transition": "PPMS"
+    },
+    "Determine Treatment CIS": {
+      "type": "Simple",
+      "distributed_transition": [
+        {
+          "transition": "Aubagio (CIS)",
+          "distribution": 0.0033
+        },
+        {
+          "transition": "No Treatment (CIS)",
+          "distribution": 0.9635
+        },
+        {
+          "transition": "Rebif 22mcg (CIS)",
+          "distribution": 0.0033
+        },
+        {
+          "transition": "Betaferon (CIS)",
+          "distribution": 0.0199
+        },
+        {
+          "transition": "Avonex (CIS)",
+          "distribution": 0.01
+        }
+      ]
+    },
+    "End Neurology Consultation CIS": {
+      "type": "EncounterEnd",
+      "direct_transition": "CIS"
+    },
+    "CIS": {
+      "type": "Simple",
+      "distributed_transition": [
+        {
+          "transition": "Neurology Consultation: Transition from CIS",
+          "distribution": 0.9835
+        },
+        {
+          "transition": "Terminal",
+          "distribution": 0.0165
+        }
+      ]
+    },
+    "Neurology Consultation: Transition from CIS": {
+      "type": "Encounter",
+      "encounter_class": "ambulatory",
+      "reason": "",
+      "telemedicine_possibility": "none",
+      "codes": [
+        {
+          "system": "SNOMED-CT",
+          "code": 56397003,
+          "display": "Neurologist"
+        }
+      ],
+      "distributed_transition": [
+        {
+          "transition": "Transition RRMS",
+          "distribution": 0.9933
+        },
+        {
+          "transition": "Transition SPMS",
+          "distribution": 0.0067
+        }
+      ],
+      "remarks": [
+        "clinically isolated syndrome (CIS)"
+      ]
+    },
+    "Determine Treatment RRMS": {
+      "type": "Simple",
+      "distributed_transition": [
+        {
+          "transition": "Betaferon (RRMS)",
+          "distribution": 0.2183
+        },
+        {
+          "transition": "Gilenya (RRMS)",
+          "distribution": 0.2113
+        },
+        {
+          "transition": "Copaxone (RRMS)",
+          "distribution": 0.2042
+        },
+        {
+          "transition": "Avonex (RRMS)",
+          "distribution": 0.1972
+        },
+        {
+          "transition": "No Treatment (RRMS)",
+          "distribution": 0.169
+        }
+      ]
+    },
+    "End Neurology Consultation RRMS": {
+      "type": "EncounterEnd",
+      "direct_transition": "RRMS"
+    },
+    "Neurology Consultation: Transition from RRMS": {
+      "type": "Encounter",
+      "encounter_class": "ambulatory",
+      "reason": "",
+      "telemedicine_possibility": "none",
+      "codes": [
+        {
+          "system": "SNOMED-CT",
+          "code": 56397003,
+          "display": "Neurologist"
+        }
+      ],
+      "direct_transition": "Transition SPMS"
+    },
+    "Determine Treatment SPMS": {
+      "type": "Simple",
+      "distributed_transition": [
+        {
+          "transition": "Endoxan (SPMS)",
+          "distribution": 0.439
+        },
+        {
+          "transition": "Novantrone (SPMS)",
+          "distribution": 0.3415
+        },
+        {
+          "transition": "Lemtrada (SPMS)",
+          "distribution": 0.0976
+        },
+        {
+          "transition": "Copaxone (SPMS)",
+          "distribution": 0.0732
+        },
+        {
+          "transition": "Gilenya (SPMS)",
+          "distribution": 0.0488
+        }
+      ]
+    },
+    "End Neurology Consultation SPMS": {
+      "type": "EncounterEnd",
+      "direct_transition": "SPMS"
+    },
+    "Neurology Consultation: Transition from PPMS": {
+      "type": "Encounter",
+      "encounter_class": "ambulatory",
+      "reason": "",
+      "telemedicine_possibility": "none",
+      "codes": [
+        {
+          "system": "SNOMED-CT",
+          "code": 56397003,
+          "display": "Neurologist"
+        }
+      ],
+      "direct_transition": "Transition PRMS"
+    },
+    "Determine Treatment PRMS": {
+      "type": "Simple",
+      "distributed_transition": [
+        {
+          "transition": "Endoxan (PRMS)",
+          "distribution": 0.4286
+        },
+        {
+          "transition": "Lemtrada (PRMS)",
+          "distribution": 0.2857
+        },
+        {
+          "transition": "Rebif 44mcg (PRMS)",
+          "distribution": 0.1429
+        },
+        {
+          "transition": "Ocrevus (PRMS)",
+          "distribution": 0.1429
+        }
+      ]
+    },
+    "End Neurology Consultation PRMS": {
+      "type": "EncounterEnd",
+      "direct_transition": "PRMS"
+    },
+    "PRMS": {
+      "type": "Simple",
+      "distributed_transition": [
+        {
+          "transition": "Terminal",
+          "distribution": 1
+        },
+        {
+          "transition": "PRMS Relapse",
+          "distribution": 0
+        },
+        {
+          "transition": "PRMS Progression",
+          "distribution": 0
+        }
+      ]
+    },
+    "No Treatment (CIS)": {
+      "type": "Simple",
+      "direct_transition": "End Neurology Consultation CIS"
+    },
+    "Betaferon (CIS)": {
+      "type": "MedicationOrder",
+      "codes": [
+        {
+          "system": "RxNorm",
+          "code": 152605,
+          "display": "Betaferon"
+        }
+      ],
+      "direct_transition": "End Neurology Consultation CIS",
+      "chronic": true
+    },
+    "Avonex (CIS)": {
+      "type": "MedicationOrder",
+      "codes": [
+        {
+          "system": "RxNorm",
+          "code": 153326,
+          "display": "Avonex"
+        }
+      ],
+      "direct_transition": "End Neurology Consultation CIS",
+      "chronic": true
+    },
+    "Aubagio (CIS)": {
+      "type": "MedicationOrder",
+      "codes": [
+        {
+          "system": "RxNorm",
+          "code": 1310526,
+          "display": "Aubagio"
+        }
+      ],
+      "direct_transition": "End Neurology Consultation CIS",
+      "chronic": true
+    },
+    "Betaferon (RRMS)": {
+      "type": "MedicationOrder",
+      "codes": [
+        {
+          "system": "RxNorm",
+          "code": 152605,
+          "display": "Betaferon"
+        }
+      ],
+      "direct_transition": "End Neurology Consultation RRMS",
+      "chronic": true
+    },
+    "Gilenya (RRMS)": {
+      "type": "MedicationOrder",
+      "codes": [
+        {
+          "system": "RxNorm",
+          "code": 1012896,
+          "display": "Gilenya"
+        }
+      ],
+      "direct_transition": "End Neurology Consultation RRMS",
+      "chronic": true
+    },
+    "Copaxone (RRMS)": {
+      "type": "MedicationOrder",
+      "codes": [
+        {
+          "system": "RxNorm",
+          "code": 135779,
+          "display": "Copaxone"
+        }
+      ],
+      "direct_transition": "End Neurology Consultation RRMS",
+      "chronic": true
+    },
+    "Avonex (RRMS)": {
+      "type": "MedicationOrder",
+      "codes": [
+        {
+          "system": "RxNorm",
+          "code": 153326,
+          "display": "Avonex"
+        }
+      ],
+      "direct_transition": "End Neurology Consultation RRMS",
+      "chronic": true
+    },
+    "No Treatment (RRMS)": {
+      "type": "Simple",
+      "direct_transition": "End Neurology Consultation RRMS"
+    },
+    "Endoxan (SPMS)": {
+      "type": "MedicationOrder",
+      "codes": [
+        {
+          "system": "RxNorm",
+          "code": 202590,
+          "display": "Endoxan"
+        }
+      ],
+      "direct_transition": "End Neurology Consultation SPMS",
+      "chronic": true
+    },
+    "Novantrone (SPMS)": {
+      "type": "MedicationOrder",
+      "codes": [
+        {
+          "system": "RxNorm",
+          "code": 82050,
+          "display": "Novantrone"
+        }
+      ],
+      "direct_transition": "End Neurology Consultation SPMS",
+      "chronic": true
+    },
+    "Lemtrada (SPMS)": {
+      "type": "MedicationOrder",
+      "codes": [
+        {
+          "system": "RxNorm",
+          "code": 1594659,
+          "display": "Lemtrada"
+        }
+      ],
+      "direct_transition": "End Neurology Consultation SPMS",
+      "chronic": true
+    },
+    "Copaxone (SPMS)": {
+      "type": "MedicationOrder",
+      "codes": [
+        {
+          "system": "RxNorm",
+          "code": 135779,
+          "display": "RxNorm Code"
+        }
+      ],
+      "direct_transition": "End Neurology Consultation SPMS",
+      "chronic": true
+    },
+    "Gilenya (SPMS)": {
+      "type": "MedicationOrder",
+      "codes": [
+        {
+          "system": "RxNorm",
+          "code": 1012896,
+          "display": "Gilenya"
+        }
+      ],
+      "direct_transition": "End Neurology Consultation SPMS",
+      "chronic": true
+    },
+    "No Treatment (PPMS)": {
+      "type": "Simple",
+      "direct_transition": "End Neurology Consultation PPMS"
+    },
+    "Endoxan (PPMS)": {
+      "type": "MedicationOrder",
+      "codes": [
+        {
+          "system": "RxNorm",
+          "code": 202590,
+          "display": "RxNorm Code"
+        }
+      ],
+      "direct_transition": "End Neurology Consultation PPMS",
+      "chronic": true
+    },
+    "Ocrevus (PPMS)": {
+      "type": "MedicationOrder",
+      "codes": [
+        {
+          "system": "RxNorm",
+          "code": 1876381,
+          "display": "Ocrevus"
+        }
+      ],
+      "direct_transition": "End Neurology Consultation PPMS",
+      "chronic": true
+    },
+    "Betaferon (PPMS)": {
+      "type": "MedicationOrder",
+      "codes": [
+        {
+          "system": "RxNorm",
+          "code": 152605,
+          "display": "Betaferon"
+        }
+      ],
+      "direct_transition": "End Neurology Consultation PPMS",
+      "chronic": true
+    },
+    "Endoxan (PRMS)": {
+      "type": "MedicationOrder",
+      "codes": [
+        {
+          "system": "RxNorm",
+          "code": 202590,
+          "display": "Endoxan"
+        }
+      ],
+      "chronic": true,
+      "direct_transition": "End Neurology Consultation PRMS"
+    },
+    "Lemtrada (PRMS)": {
+      "type": "MedicationOrder",
+      "codes": [
+        {
+          "system": "RxNorm",
+          "code": 1594659,
+          "display": "Lemtrada"
+        }
+      ],
+      "chronic": true,
+      "direct_transition": "End Neurology Consultation PRMS"
+    },
+    "Ocrevus (PRMS)": {
+      "type": "MedicationOrder",
+      "codes": [
+        {
+          "system": "RxNorm",
+          "code": 1876381,
+          "display": "Ocrevus"
+        }
+      ],
+      "chronic": true,
+      "direct_transition": "End Neurology Consultation PRMS"
+    },
+    "Determine MS Subtype": {
+      "type": "Simple",
+      "distributed_transition": [
+        {
+          "transition": "Determine CIS",
+          "distribution": 0.9469
+        },
+        {
+          "transition": "Determine PPMS",
+          "distribution": 0.0531
+        }
+      ]
+    },
+    "Neurology Consultation": {
+      "type": "Encounter",
+      "encounter_class": "ambulatory",
+      "onset": "random:25,45",
+      "codes": [
+        {
+          "system": "SNOMED-CT",
+          "code": 56397003,
+          "display": "Neurologist"
+        }
+      ],
+      "actions": [
+        {
+          "action": "set_attribute",
+          "target": "EDSS",
+          "value": 2
+        }
+      ],
+      "direct_transition": "Official MS Diagnosis"
+    },
+    "Official MS Diagnosis": {
+      "type": "ConditionOnset",
+      "codes": [
+        {
+          "system": "SNOMED-CT",
+          "code": 24700007,
+          "display": "Multiple Sclerosis"
+        }
+      ],
+      "direct_transition": "Comorbidities"
+    },
+    "Corticosteroid: Prescription Order": {
+      "type": "MedicationOrder",
+      "codes": [
+        {
+          "system": "RxNorm",
+          "code": "6902",
+          "display": "Methylprednisolone"
+        }
+      ],
+      "direct_transition": "Prescription MRI"
+    },
+    "Corticosteroid: Treatment Start": {
+      "type": "Delay",
+      "distribution": {
+        "kind": "UNIFORM",
+        "parameters": {
+          "high": 5,
+          "low": 3
+        }
+      },
+      "unit": "days",
+      "direct_transition": "MRI(Spinal/Brain)"
+    },
+    "Cortisteroid: Ambulatory Treatment": {
+      "type": "Encounter",
+      "direct_transition": "Corticosteroid: Treatment Start",
+      "encounter_class": "ambulatory",
+      "codes": [
+        {
+          "system": "SNOMED-CT",
+          "code": 788751009,
+          "display": "Corticosteroid and/or corticosteroid derivative therapy"
+        }
+      ],
+      "telemedicine_possibility": "none"
+    },
+    "Gd enhanced and non-enhanced MRI MS lesions": {
+      "type": "Observation",
+      "category": "imaging",
+      "unit": "",
+      "codes": [
+        {
+          "system": "LOINC",
+          "code": "LA24655-5",
+          "display": "Abnormal brain MRI"
+        }
+      ],
+      "distribution": {
+        "kind": "EXACT",
+        "round": false,
+        "parameters": {
+          "value": 1
+        }
+      },
+      "direct_transition": "Delay until diagnosis"
+    },
+    "Cerebrospinal fluid (CSF) collection": {
+      "type": "Procedure",
+      "codes": [
+        {
+          "system": "SNOMED-CT",
+          "code": 413017004,
+          "display": "Oligoclonal band screening test"
+        }
+      ],
+      "distribution": {
+        "kind": "EXACT",
+        "parameters": {
+          "value": 1
+        }
+      },
+      "unit": "days",
+      "direct_transition": "Oligoclonal bands present"
+    },
+    "No Comorbidities": {
+      "type": "Simple",
+      "direct_transition": "Determine MS Subtype"
+    },
+    "Rebif 44mcg (PPMS)": {
+      "type": "MedicationOrder",
+      "codes": [
+        {
+          "system": "RxNorm",
+          "code": 228271,
+          "display": "Rebif 44mcg"
+        }
+      ],
+      "direct_transition": "End Neurology Consultation PPMS",
+      "chronic": true
+    },
+    "Rebif 44mcg (PRMS)": {
+      "type": "MedicationOrder",
+      "codes": [
+        {
+          "system": "RxNorm",
+          "code": 228271,
+          "display": "Rebif 44mcg"
+        }
+      ],
+      "chronic": true,
+      "direct_transition": "End Neurology Consultation PRMS"
+    },
+    "Rebif 22mcg (CIS)": {
+      "type": "MedicationOrder",
+      "codes": [
+        {
+          "system": "RxNorm",
+          "code": 228271,
+          "display": "Rebif 22mcg"
+        }
+      ],
+      "direct_transition": "End Neurology Consultation CIS",
+      "chronic": true
+    },
+    "PPMS Progression": {
+      "type": "Delay",
+      "distribution": {
+        "kind": "EXACT",
+        "parameters": {
+          "value": 1
+        }
+      },
+      "unit": "years",
+      "direct_transition": "PPMS"
+    },
+    "PRMS Relapse": {
+      "type": "Delay",
+      "distribution": {
+        "kind": "EXACT",
+        "parameters": {
+          "value": 1
+        }
+      },
+      "unit": "years",
+      "direct_transition": "PRMS Recovery"
+    },
+    "PRMS Progression": {
+      "type": "Delay",
+      "distribution": {
+        "kind": "EXACT",
+        "parameters": {
+          "value": 1
+        }
+      },
+      "unit": "years",
+      "direct_transition": "PRMS"
+    },
+    "PRMS Recovery": {
+      "type": "Delay",
+      "distribution": {
+        "kind": "EXACT",
+        "parameters": {
+          "value": 1
+        }
+      },
+      "unit": "years",
+      "direct_transition": "PRMS"
+    }
+  }
+}
