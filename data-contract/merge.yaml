@@ -1,0 +1,61 @@
+# Input for merge_schemas.py: which per-table contracts to merge into one ODCS contract, where
+# their descriptions and keys come from, and everything that is written by hand. Paths are
+# relative to this file, except `server.path`, which `datacontract test` resolves from the
+# directory it is run in (the repository root).
+
+# Any ODCS top-level field; set on the merged contract on every run. The fields the importer
+# fills (version, status, apiVersion, ...) are kept from the first merged table unless set here.
+contract:
+  id: synthea-ms-data
+  name: Synthea MS Data
+  domain: clinical
+  status: draft
+  description:
+    purpose: Synthetic patient, encounter, condition and observation data of a multiple sclerosis (MS) cohort, generated with Synthea.
+    usage: Pipeline development and testing of MS data products.
+    limitations: Synthetic data. Not for clinical or research conclusions.
+  tags:
+    - synthea
+    - multiple-sclerosis
+    - MS
+
+output: outputs/synthea-ms-data.odcs.yaml
+
+# One `local` CSV server for all tables; `datacontract test` replaces {model} with the table name.
+server:
+  name: local
+  path: data/corrected/{model}.csv
+
+# Data dictionary built from the Synthea wiki by build_dictionary.py. Provides the table and
+# column descriptions, the primary keys and the foreign keys between the merged tables.
+dictionary: outputs/data-dictionary.yaml
+
+# Folder with the contracts written by `datacontract import csv`, one per table (<table>.yaml)
+imports: imports
+
+# Tables to merge, in this order
+tables:
+  - patients
+  - encounters
+  - conditions
+  - observations
+
+# Hand-written fields, applied last so they win over the importer and the dictionary.
+# `<table>` sets fields on the schema object, `<table>.<COLUMN>` on the column; `null` removes a field.
+overrides:
+  patients.DEATHDATE:
+    logicalType: date
+  patients.FIPS:            # a code, not a number: drop the numeric min/max the importer inferred
+    logicalType: string
+    logicalTypeOptions: null
+  patients.ZIP:
+    logicalType: string
+    logicalTypeOptions: null
+  conditions.CODE:
+    description: SNOMED CT code of the condition. Multiple sclerosis is 24700007.
+  conditions:
+    quality:
+      - type: sql
+        description: Every condition belongs to a patient in the patients table.
+        query: SELECT COUNT(*) FROM conditions WHERE PATIENT NOT IN (SELECT Id FROM patients)
+        mustBe: 0

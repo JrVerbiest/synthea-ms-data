@@ -5,17 +5,19 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Synthea](https://img.shields.io/badge/built%20with-Synthea-blue)](https://github.com/JrVerbiest/synthea)
 [![Python 3.12](https://img.shields.io/badge/python-3.12-blue.svg)](https://www.python.org/)
+[![Data Contract CLI](https://img.shields.io/badge/datacontract--cli-1.2.0-blue)](https://cli.datacontract.com/)
+[![ODCS](https://img.shields.io/badge/Open%20Data%20Contract%20Standard-v3.2.0-blue)](https://bitol-io.github.io/open-data-contract-standard/latest/)
 
 [![Last updated](https://img.shields.io/badge/last%20updated-2026--09--14-lightgrey.svg)](https://github.com/JrVerbiest/synthea-ms-data)
 
 This repo provides a **synthetic** patient dataset for Multiple Sclerosis (MS), generated using [Synthea](https://github.com/synthetichealth/synthea) and the MS Disease Trajectory module.
 
-> MS Disease Trajectory module simulates the disease trajectory of Multiple Sclerosis (MS) using a data-driven, synthetic patient modelling approach. It was developed within the framework of a master's thesis by **N. Rabah** at Universiteit Hasselt (master in Systems and Process Innovation in Healthcare), titled *["A Data-Driven Approach to Develop a Multiple Sclerosis Disease Trajectory using Modelling Techniques for Synthetic Data"](https://documentserver.uhasselt.be/bitstream/1942/46945/1/ebb0f956-7089-4e50-bd4d-29ceb47f9906.pdf)* - [GitHub](https://github.com/UHasselt-BiomedicalDataSciences/MS-Disease-Trajectory-Synthea.git).
+> MS Disease Trajectory module simulates the disease trajectory of Multiple Sclerosis (MS) using a data-driven, synthetic patient modelling approach. It was developed as part of a master's thesis by **N. Rabah** at Universiteit Hasselt (master in Systems and Process Innovation in Healthcare), titled *["A Data-Driven Approach to Develop a Multiple Sclerosis Disease Trajectory using Modelling Techniques for Synthetic Data"](https://documentserver.uhasselt.be/bitstream/1942/46945/1/ebb0f956-7089-4e50-bd4d-29ceb47f9906.pdf)* - [GitHub](https://github.com/UHasselt-BiomedicalDataSciences/MS-Disease-Trajectory-Synthea.git).
 
 The repo contains everything that is needed to regenerate the dataset from scratch — the disease module, the keep filter, a notebook that corrects the raw output, and step-by-step instructions for Unix-like terminals (Linux, macOS, WSL). A fixed random seed makes every run reproducible on any machine.
 
 > ⚠️ **Usage Limitation:** This dataset is for **developing and testing data pipelines only**. It must not be used for clinical decision-making, patient care, or any production healthcare application.
-> No real patients are involved. Every record is simulated, and identifiers such as SSNs, passports and email addresses are deliberately fake — SSNs fall in the never-issued `999-xx-xxxx` range and emails end in `@example.com`.
+> No real patients are involved. Every record is simulated, and identifiers such as SSNs, passports and email addresses are deliberately fake — SSNs fall in the never-issued `999-xx-xxxx` range, and emails end in `@example.com`.
 
 ```text
 synthea-ms-data/
@@ -28,10 +30,17 @@ synthea-ms-data/
 │   └── keep_ms.json          Keep filter — retains only patients with an active MS diagnosis (Step 4)
 ├── module/
 │   ├── multiple_sclerosis_disease_trajectory.json   MS Disease Trajectory module with corrected EDSS coding (Step 2)
-│   └── MS disease trajectory Nadia Rabah.pdf        pdf describing the module
+│   └── MS disease trajectory Nadia Rabah.pdf, describing the module
+├── data-contract/            Data contract of the corrected dataset and how it is built (Step 9)
+│   ├── README.md
+│   ├── merge.yaml            What to merge, plus the hand-written parts: fundamentals, type corrections, quality rules
+│   ├── scripts/              build_dictionary.py, merge_schemas.py
+│   ├── imports/              One contract per CSV file (datacontract import csv)
+│   ├── outputs/              Generated — data-dictionary.yaml and the merged ODCS contract
+│   └── final/                The final ODCS contract, enriched by hand, and its HTML documentation
 ├── notebook/
 │   └── ms-data-correction.ipynb   Removes negative EDSS values and snaps the rest to the 0.5 grid (Step 7)
-├── requirements.txt          Python dependencies for the notebook (jupyter, pandas)
+├── requirements.txt          Python dependencies: jupyter, pandas, datacontract-cli[csv,duckdb]
 ├── LICENSE                   MIT
 └── README.md
 ```
@@ -42,10 +51,10 @@ synthea-ms-data/
 | `data/raw/metadata/` | Synthea run summary: seed `12345`, 500 requested / 369 kept patients, module name, Java version, run time. | Step 6 |
 | `data/corrected/` | The cleaned dataset produced by the notebook. Same 13 CSV files, same column layout as `data/raw/csv/`. | Step 7 |
 | `filter/keep_ms.json` | Synthea keep module that discards patients without an active MS diagnosis (SNOMED CT `24700007`). | Step 4 |
-| `module/multiple_sclerosis_disease_trajectory.json` | The MS Disease Trajectory module by N. Rabah, with the correted EDSS coding to SNOMED CT `273554001`. | Step 2 |
+| `module/multiple_sclerosis_disease_trajectory.json` | The MS Disease Trajectory module by N. Rabah, with the corrected EDSS coding to SNOMED CT `273554001`. | Step 2 |
 | `module/MS disease trajectory Nadia Rabah.pdf` | The module is based on. | Step 2 |
 | `notebook/ms-data-correction.ipynb` | Jupyter notebook that reads `data/raw/csv`, removes patients with a negative EDSS value, rounds off-grid values to the nearest `0.5`, validates, and writes `data/corrected`. | Step 7 |
-| `requirements.txt` | `jupyter` and `pandas`, the only dependencies needed to run the notebook. | Step 7 |
+| `requirements.txt` | `jupyter` and `pandas` for the notebook (Step 8), `datacontract-cli[csv,duckdb]` for the data contract (Step 9). | Step 7 |
 
 ## Step 1 — Clone Synthea repositories
 
@@ -100,33 +109,33 @@ This filter discards any patient without an active MS diagnosis (SNOMED CT `2470
       "type": "Initial",
       "name": "Initial",
       "conditional_transition": [
-        {
+ {
           "transition": "Keep",
           "condition": {
             "condition_type": "Active Condition",
             "codes": [
-              {
+ {
                 "system": "SNOMED-CT",
                 "code": "24700007",
                 "display": "Multiple Sclerosis"
-              }
-            ]
-          }
-        },
-        {
+ }
+ ]
+ }
+ },
+ {
           "transition": "Terminal"
-        }
-      ]
-    },
+ }
+ ]
+ },
     "Terminal": {
       "type": "Terminal",
       "name": "Terminal"
-    },
+ },
     "Keep": {
       "type": "Terminal",
       "name": "Keep"
-    }
-  },
+ }
+ },
   "gmf_version": 2
 }
 ```
@@ -173,32 +182,51 @@ The Data Dictionary for the CSV files can be found in the Synthea wiki page: [CS
 
 Copy the contents of `synthea/output/` into `data/raw`.
 
-## Step 7 — Correction
+## Step 7 — Create environment
+
+The Python environment is managed with [uv](https://docs.astral.sh/uv/). Create the virtual environment with Python 3.12, activate it and install the dependencies:
+
+```bash
+uv venv --python 3.12 --seed --prompt synthea-ms-data .venv
+source .venv/bin/activate
+uv pip install -r requirements.txt
+```
+
+`--seed` adds `pip` to the environment, which uv leaves out by default; IDEs such as VS Code use it to list the installed packages. Activating before installing makes sure `uv pip` targets this environment and not another one that happens to be active.
+
+> 💡 Without uv, the standard library works as well: `python3.12 -m venv --prompt synthea-ms-data .venv && source .venv/bin/activate && pip install -r requirements.txt`.
+
+Verify the installation:
+
+```bash
+uv pip show jupyter pandas   # or: pip show jupyter pandas
+datacontract --version       # 1.2.0
+```
+
+`requirements.txt` holds `jupyter` and `pandas` for the notebook (Step 8) and `datacontract-cli[csv,duckdb]` for the data contract (Step 9).
+
+## Step 8 — Correction
 
 The generated dataset contains negative `edss_score` values (an artefact of the MS Disease Trajectory module). These negative values are removed from the dataset; valid `edss_score` values lie on the `0`–`10` scale in `0.5` steps (SNOMED CT `273554001`).
 
-The notebook `ms-data-correction.ipynb` is available in folder `notebook`, and the corrected data (CSV format) is available in `data/corrected`.
+The notebook `ms-data-correction.ipynb` is available in the folder `notebook`, and the corrected data (CSV format) is available in `data/corrected`.
 
-### To run the notebook
-
-Create and activate a Python virtual environment, then install the dependencies:
-
-```bash
-python3 -m venv --prompt synthea-ms-data .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-```
-
-Verify that `jupyter` and `pandas` are installed in the virtual environment:
-
-```bash
-pip show jupyter pandas
-```
-
-Launch Jupyter:
+To run the notebook, launch Jupyter:
 
 ```bash
 jupyter notebook
 ```
+
+## Step 9 — Using the synthetic MS dataset
+
+Steps 1–8 produce a reproducible synthetic MS dataset. Step 9 is all about *using* the synthetic MS dataset.
+
+### Data product
+
+> This section is still 🚧 **Work in progress**  so the content here may still change.
+
+The central artefact in the design of a data product is the data contract, which serves as the design specification against which the transformation pipeline is built and tested. A data contract is an agreement between a data producer and its consumers - [Andrew Jones](https://andrew-jones.com/). It specifies exactly what the data product exposes, its structure, semantics, quality rules, and service-level commitments, and is machine-readable, so it can be automatically enforced rather than just documented and forgotten.
+
+The data contracts for the Synthea MS data are located in the [`data-contract/`](data-contract/) folder. See [data-contract/README.md](data-contract/README.md) for the full write-up. This data contract can be used in a concrete data product implementation.
 
 ---
