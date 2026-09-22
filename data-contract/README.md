@@ -156,15 +156,7 @@ done
 python data-contract/scripts/merge_schemas.py data-contract/merge.yaml # 3. merge + dictionary + merge.yaml overrides -> outputs/synthea-ms-data.odcs.yaml as defined in `merge.yaml`
 ```
 
-## Enrich the contract by hand
-
-The dictionary gives the contract the *generic* Synthea meaning of every column. What it cannot give is the domain knowledge specific to this dataset:
-
-- `description`, `domain`, `status`, `tags` and a `team` / owner of the contract
-- code systems and the codes that matter here: `conditions.CODE` is SNOMED CT, MS is `24700007`, the EDSS score is `273554001`
-- `logicalType` corrections where inference was too weak: the dictionary says `DEATHDATE` is a `Date`, the importer inferred `string`; `FIPS` and `ZIP` are codes, not numbers
-- quality rules: `edss_score` in `0`–`10` on a `0.5` grid, no negative values, `conditions.PATIENT` must exist in `patients.Id`
-- terms of use: *synthetic data, pipeline development and testing only*
+## Enrich the contract by hand, review, validate and test
 
 The manual step is run by hand from the repository root:
 
@@ -187,11 +179,15 @@ Then lint and test `final/synthea-ms-data.odcs.yaml` and render `final/synthea-m
 
 > ⚠️ `merge_schemas.py` overwrites `outputs/synthea-ms-data.odcs.yaml` on every run; hand edits go into `final/` or `merge.yaml`, never into `outputs/`.
 
-### Validate, test and export
+The dictionary gives the contract the *generic* Synthea meaning of every column. What it cannot give is the domain knowledge specific to this dataset:
 
-Once the  manual step is finished validate, and test the data contract and export it to html. 
+- `description`, `domain`, `status`, `tags` and a `team` / owner of the contract
+- code systems and the codes that matter here: `conditions.CODE` is SNOMED CT, MS is `24700007`, the EDSS score is `273554001`
+- `logicalType` corrections where inference was too weak: the dictionary says `DEATHDATE` is a `Date`, the importer inferred `string`; `FIPS` and `ZIP` are codes, not numbers
+- quality rules: `edss_score` in `0`–`10` on a `0.5` grid, no negative values, `conditions.PATIENT` must exist in `patients.Id`
+- terms of use: *synthetic data, pipeline development and testing only*
 
-From the repository root, for either contract:
+Your job is to enrich, correct and perform a review, validate, test and (optional) export.
 
 ```bash
 # Validate the contract against the ODCS schema and best practices
