@@ -24,7 +24,9 @@ data-contract/
 
 The sections below describe how to reproduce `synthea-ms-data.odcs.yaml` data contract from scratch.
 
-## Generate the data contract from the CSV files
+## Generate the data contract
+
+### Step 1. Generate the YAML for each table 
 
 All commands below are run from the **repository root** (`synthea-ms-data/`): the CSV files are read from `data/corrected/`, the per-table contracts land in `data-contract/imports/`.
 
@@ -50,11 +52,11 @@ for t in patients encounters conditions observations; do
 done
 ```
 
-**REMARK**: A CSV file carries no information about what its columns mean or how tables relate — there are no descriptions and no `PRIMARY KEY` / `FOREIGN KEY` metadata as in a SQL DDL — so the imported contracts have placeholder descriptions (`Generated model of data/corrected/patients.csv`), no keys and no `relationships` between them. **Synthea documents all of that on its wiki**.
+> **REMARK**: A CSV file carries no information about what its columns mean or how tables relate — there are no descriptions and no `PRIMARY KEY` / `FOREIGN KEY` metadata as in a SQL DDL — so the imported contracts have placeholder descriptions (`Generated model of data/corrected/patients.csv`), no keys and no `relationships` between them. **Synthea documents all of that on its wiki**.
 
-## Merge the per-table contracts into one
+### Step 2. Merge the per-table contracts into one
 
-### 1. Build the data dictionary from the wiki
+**1. Build the data dictionary from the wiki**
 
 ```bash
 python data-contract/scripts/build_dictionary.py
@@ -103,8 +105,9 @@ tables:
 - Each wiki name is matched to the header of `data/corrected/<table>.csv` ignoring case, spaces and underscores; the handful of columns where the wiki and the exporter genuinely disagree (`immunizations.Cost` → `BASE_COST`, `payer_transitions.Start_Year` → `START_DATE`, …) are listed in `RENAMES` in the script.
 - Columns present in the CSV but not on the wiki are reported — currently `NPI` in `organizations` and `providers`.
 
-### 2. Merge
 
+**2. Merge**
+   
 The [`merge.yaml`](merge.yaml) says what to merge and holds everything that is written by hand; the *meaning* of the columns comes from the dictionary. Paths in the YAML are relative to the YAML file, except `server.path`, which `datacontract test` resolves from the directory it is run in. Run the script from the repository root:
 
 > Note: the provided `merge.yaml` shows the merge of the encounter, condition and observation data contracts.
@@ -156,7 +159,7 @@ done
 python data-contract/scripts/merge_schemas.py data-contract/merge.yaml # 3. merge + dictionary + merge.yaml overrides -> outputs/synthea-ms-data.odcs.yaml as defined in `merge.yaml`
 ```
 
-## Enrich the contract by hand, review, validate and test
+**3. Enrich, review, validate and test**
 
 The manual step is run by hand from the repository root:
 
