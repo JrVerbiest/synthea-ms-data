@@ -10,8 +10,8 @@
     "Pre-Onset Delay Until MS": {
       "type": "Delay",
       "range": {
-        "low": 20,
-        "high": 40,
+        "low": 5,
+        "high": 15,
         "unit": "years"
       },
       "direct_transition": "Initial Symptoms"
@@ -435,10 +435,24 @@
     },
     "RRMS": {
       "type": "Simple",
+      "remarks": [
+        "PLACEHOLDER VALUES - NOT CLINICALLY VALIDATED.",
+        "The Relapse/Maintenance/Terminal split was chosen only to make",
+        "the RRMS Relapse and Maintenance_RRMS loops reachable (they were",
+        "both 0% before, i.e. dead code) so repeat EDSS follow-up visits",
+        "get recorded over time. Terminal is kept low (not a dropout after",
+        "a few years) because MS patients generally have near-normal life",
+        "expectancy with disease courses spanning decades; Terminal here",
+        "only ends this submodule's activity, not the patient's life",
+        "(mortality is handled by Synthea's core death module). Not",
+        "sourced from MS relapse-rate literature or the underlying thesis",
+        "data - replace with literature-backed rates before using this",
+        "module beyond pipeline testing."
+      ],
       "distributed_transition": [
         {
           "transition": "RRMS Relapse",
-          "distribution": 0,
+          "distribution": 0.45,
           "min_duration": {
             "quantity": 6,
             "unit": "months"
@@ -458,7 +472,7 @@
         },
         {
           "transition": "Maintenance_RRMS",
-          "distribution": 0,
+          "distribution": 0.3577,
           "min_duration": {
             "quantity": 6,
             "unit": "months"
@@ -470,7 +484,7 @@
         },
         {
           "transition": "Terminal",
-          "distribution": 0.8277
+          "distribution": 0.02
         }
       ]
     },
@@ -491,25 +505,96 @@
         "quantity": 1,
         "unit": "years"
       },
-      "actions": [
+      "direct_transition": "RRMS Recovery Gate"
+    },
+    "RRMS Recovery Gate": {
+      "type": "Simple",
+      "conditional_transition": [
         {
-          "action": "decrement_attribute",
-          "target": "EDSS",
-          "value": 0.2
+          "condition": {
+            "condition_type": "Attribute",
+            "attribute": "EDSS",
+            "operator": ">",
+            "value": 0
+          },
+          "transition": "RRMS Recovery Decrement"
+        },
+        {
+          "transition": "EDSS Follow-up RRMS"
+        }
+      ]
+    },
+    "RRMS Recovery Decrement": {
+      "type": "SetAttribute",
+      "remarks": [
+        "PLACEHOLDER VALUE - NOT CLINICALLY VALIDATED. The -0.2/year step",
+        "is illustrative only, not sourced from EDSS progression literature."
+      ],
+      "attribute": "EDSS",
+      "expression": "Round((if (#{EDSS} - 0.2) < 2 then 2 else (#{EDSS} - 0.2)) * 2) / 2",
+      "direct_transition": "EDSS Follow-up RRMS"
+    },
+    "EDSS Follow-up RRMS": {
+      "type": "Observation",
+      "category": "exam",
+      "unit": "",
+      "codes": [
+        {
+          "system": "SNOMED-CT",
+          "code": "273554001",
+          "display": "Expanded Disability Status Scale (EDSS)"
         }
       ],
-      "direct_transition": "RRMS"
+      "attribute": "EDSS",
+      "direct_transition": "RRMS EDSS 8 Check"
+    },
+    "RRMS EDSS 8 Check": {
+      "type": "Simple",
+      "remarks": [
+        "PLACEHOLDER THRESHOLD - NOT CLINICALLY VALIDATED. EDSS >= 8",
+        "(bedridden, largely dependent) is treated as a near-end-of-course",
+        "marker: once reached, the patient stops generating further",
+        "MS-specific follow-up visits instead of looping indefinitely. The",
+        "threshold value of 8 is illustrative only, not sourced from EDSS",
+        "trajectory literature - see docs/module-modifictions.md."
+      ],
+      "conditional_transition": [
+        {
+          "condition": {
+            "condition_type": "Attribute",
+            "attribute": "EDSS",
+            "operator": ">=",
+            "value": 8
+          },
+          "transition": "Terminal"
+        },
+        {
+          "transition": "RRMS"
+        }
+      ]
     },
     "Maintenance_RRMS": {
       "type": "Delay",
       "exact": {
         "quantity": 1,
-        "unit": "year"
+        "unit": "years"
       },
       "direct_transition": "RRMS"
     },
     "PPMS": {
       "type": "Simple",
+      "remarks": [
+        "PLACEHOLDER VALUE - NOT CLINICALLY VALIDATED.",
+        "PPMS Progression was 0% (dead code) before; moved most of",
+        "Terminal's probability mass to it so repeat EDSS follow-up",
+        "visits are reachable. Terminal is kept low (not a dropout after a",
+        "few years) because MS patients generally have near-normal life",
+        "expectancy with disease courses spanning decades; Terminal here",
+        "only ends this submodule's activity, not the patient's life",
+        "(mortality is handled by Synthea's core death module). Not",
+        "sourced from PPMS progression-rate literature - replace before",
+        "using this module beyond pipeline testing."
+      ],
       "distributed_transition": [
         {
           "transition": "Neurology Consultation: Transition from PPMS",
@@ -517,24 +602,35 @@
         },
         {
           "transition": "Terminal",
-          "distribution": 0.5882
+          "distribution": 0.02
         },
         {
           "transition": "PPMS Progression",
-          "distribution": 0
+          "distribution": 0.5682
         }
       ]
     },
     "SPMS": {
       "type": "Simple",
+      "remarks": [
+        "PLACEHOLDER VALUE - NOT CLINICALLY VALIDATED.",
+        "SPMS Progression was 0% (dead code) before; set high so repeat",
+        "EDSS follow-up visits are reachable. Terminal is kept low (not a",
+        "dropout after a few years) because MS patients generally have",
+        "near-normal life expectancy with disease courses spanning",
+        "decades; Terminal here only ends this submodule's activity, not",
+        "the patient's life (mortality is handled by Synthea's core death",
+        "module). Not sourced from SPMS progression-rate literature -",
+        "replace before using this module beyond pipeline testing."
+      ],
       "distributed_transition": [
         {
           "transition": "SPMS Progression",
-          "distribution": 0
+          "distribution": 0.98
         },
         {
           "transition": "Terminal",
-          "distribution": 1
+          "distribution": 0.02
         }
       ]
     },
@@ -542,19 +638,99 @@
       "type": "Delay",
       "exact": {
         "quantity": 1,
-        "unit": "year"
+        "unit": "years"
       },
-      "actions": [
+      "direct_transition": "SPMS Progression Gate"
+    },
+    "SPMS Progression Gate": {
+      "type": "Simple",
+      "conditional_transition": [
         {
-          "action": "increment_attribute",
-          "target": "EDSS",
-          "value": 0.4
+          "condition": {
+            "condition_type": "Attribute",
+            "attribute": "EDSS",
+            "operator": "<",
+            "value": 10
+          },
+          "transition": "SPMS Progression Increment"
+        },
+        {
+          "transition": "EDSS Follow-up SPMS"
+        }
+      ]
+    },
+    "SPMS Progression Increment": {
+      "type": "SetAttribute",
+      "remarks": [
+        "PLACEHOLDER VALUE - NOT CLINICALLY VALIDATED. The +0.4/year step",
+        "is illustrative only, not sourced from EDSS progression literature."
+      ],
+      "attribute": "EDSS",
+      "expression": "Round((if (#{EDSS} + 0.4) > 8 then 8 else (#{EDSS} + 0.4)) * 2) / 2",
+      "direct_transition": "EDSS Follow-up SPMS"
+    },
+    "EDSS Follow-up SPMS": {
+      "type": "Observation",
+      "category": "exam",
+      "unit": "",
+      "codes": [
+        {
+          "system": "SNOMED-CT",
+          "code": "273554001",
+          "display": "Expanded Disability Status Scale (EDSS)"
         }
       ],
-      "direct_transition": "SPMS"
+      "attribute": "EDSS",
+      "direct_transition": "SPMS EDSS 8 Check"
+    },
+    "SPMS EDSS 8 Check": {
+      "type": "Simple",
+      "remarks": [
+        "PLACEHOLDER THRESHOLD - NOT CLINICALLY VALIDATED. EDSS >= 8",
+        "(bedridden, largely dependent) is treated as a near-end-of-course",
+        "marker: once reached, the patient stops generating further",
+        "MS-specific follow-up visits instead of looping indefinitely. The",
+        "threshold value of 8 is illustrative only, not sourced from EDSS",
+        "trajectory literature - see docs/module-modifictions.md."
+      ],
+      "conditional_transition": [
+        {
+          "condition": {
+            "condition_type": "Attribute",
+            "attribute": "EDSS",
+            "operator": ">=",
+            "value": 8
+          },
+          "transition": "Terminal"
+        },
+        {
+          "transition": "SPMS"
+        }
+      ]
     },
     "Terminal": {
       "type": "Terminal"
+    },
+    "Initial EDSS PPMS Value": {
+      "type": "SetAttribute",
+      "attribute": "EDSS",
+      "distribution": {
+        "kind": "GAUSSIAN",
+        "round": false,
+        "parameters": {
+          "mean": 4.6875,
+          "standardDeviation": 2.051785,
+          "min": 2,
+          "max": 8
+        }
+      },
+      "direct_transition": "Initial EDSS PPMS Round"
+    },
+    "Initial EDSS PPMS Round": {
+      "type": "SetAttribute",
+      "attribute": "EDSS",
+      "expression": "Round(#{EDSS} * 2) / 2",
+      "direct_transition": "Initial EDSS PPMS"
     },
     "Initial EDSS PPMS": {
       "type": "Observation",
@@ -567,14 +743,7 @@
           "display": "Expanded Disability Status Scale (EDSS)"
         }
       ],
-      "distribution": {
-        "kind": "GAUSSIAN",
-        "round": false,
-        "parameters": {
-          "mean": 4.6875,
-          "standardDeviation": 2.051785
-        }
-      },
+      "attribute": "EDSS",
       "direct_transition": "Determine Treatment PPMS"
     },
     "Optic Pathways": {
@@ -651,10 +820,7 @@
           "display": "Primary progressive multiple sclerosis"
         }
       ],
-      "direct_transition": "Initial EDSS PPMS",
-      "remarks": [
-        "EDSS "
-      ]
+      "direct_transition": "Initial EDSS PPMS Value"
     },
     "Determine CIS": {
       "type": "ConditionOnset",
@@ -665,6 +831,27 @@
           "display": "Clinically isolated syndrome"
         }
       ],
+      "direct_transition": "Initial EDSS CIS Value"
+    },
+    "Initial EDSS CIS Value": {
+      "type": "SetAttribute",
+      "attribute": "EDSS",
+      "distribution": {
+        "kind": "GAUSSIAN",
+        "round": false,
+        "parameters": {
+          "mean": 2.0625,
+          "standardDeviation": 1.152895,
+          "min": 2,
+          "max": 8
+        }
+      },
+      "direct_transition": "Initial EDSS CIS Round"
+    },
+    "Initial EDSS CIS Round": {
+      "type": "SetAttribute",
+      "attribute": "EDSS",
+      "expression": "Round(#{EDSS} * 2) / 2",
       "direct_transition": "Initial EDSS CIS"
     },
     "Initial EDSS CIS": {
@@ -678,14 +865,7 @@
           "display": "Expanded Disability Status Scale (EDSS)"
         }
       ],
-      "distribution": {
-        "kind": "GAUSSIAN",
-        "round": false,
-        "parameters": {
-          "mean": 2.0625,
-          "standardDeviation": 1.152895
-        }
-      },
+      "attribute": "EDSS",
       "direct_transition": "Determine Treatment CIS"
     },
     "Transition RRMS": {
@@ -697,6 +877,27 @@
           "display": "Relapsing remitting multiple sclerosis"
         }
       ],
+      "direct_transition": "Initial EDSS RRMS Value"
+    },
+    "Initial EDSS RRMS Value": {
+      "type": "SetAttribute",
+      "attribute": "EDSS",
+      "distribution": {
+        "kind": "GAUSSIAN",
+        "round": false,
+        "parameters": {
+          "mean": 2.695455,
+          "standardDeviation": 1.528169,
+          "min": 2,
+          "max": 8
+        }
+      },
+      "direct_transition": "Initial EDSS RRMS Round"
+    },
+    "Initial EDSS RRMS Round": {
+      "type": "SetAttribute",
+      "attribute": "EDSS",
+      "expression": "Round(#{EDSS} * 2) / 2",
       "direct_transition": "Initial EDSS RRMS"
     },
     "Initial EDSS RRMS": {
@@ -710,15 +911,29 @@
           "display": "Expanded Disability Status Scale (EDSS)"
         }
       ],
+      "attribute": "EDSS",
+      "direct_transition": "Determine Treatment RRMS"
+    },
+    "Initial EDSS SPMS Value": {
+      "type": "SetAttribute",
+      "attribute": "EDSS",
       "distribution": {
         "kind": "GAUSSIAN",
         "round": false,
         "parameters": {
-          "mean": 2.695455,
-          "standardDeviation": 1.528169
+          "mean": 5.351351,
+          "standardDeviation": 1.437904,
+          "min": 2,
+          "max": 8
         }
       },
-      "direct_transition": "Determine Treatment RRMS"
+      "direct_transition": "Initial EDSS SPMS Round"
+    },
+    "Initial EDSS SPMS Round": {
+      "type": "SetAttribute",
+      "attribute": "EDSS",
+      "expression": "Round(#{EDSS} * 2) / 2",
+      "direct_transition": "Initial EDSS SPMS"
     },
     "Initial EDSS SPMS": {
       "type": "Observation",
@@ -731,14 +946,7 @@
           "display": "Expanded Disability Status Scale (EDSS)"
         }
       ],
-      "distribution": {
-        "kind": "GAUSSIAN",
-        "round": false,
-        "parameters": {
-          "mean": 5.351351,
-          "standardDeviation": 1.437904
-        }
-      },
+      "attribute": "EDSS",
       "direct_transition": "Determine Treatment SPMS"
     },
     "Transition SPMS": {
@@ -750,7 +958,7 @@
           "display": "Secondary progressive multiple sclerosis"
         }
       ],
-      "direct_transition": "Initial EDSS SPMS"
+      "direct_transition": "Initial EDSS SPMS Value"
     },
     "Transition PRMS": {
       "type": "ConditionOnset",
@@ -761,6 +969,27 @@
           "display": "Progressive relapsing multiple sclerosis"
         }
       ],
+      "direct_transition": "Initial EDSS PRMS Value"
+    },
+    "Initial EDSS PRMS Value": {
+      "type": "SetAttribute",
+      "attribute": "EDSS",
+      "distribution": {
+        "kind": "GAUSSIAN",
+        "round": false,
+        "parameters": {
+          "mean": 4.6,
+          "standardDeviation": 1.635543,
+          "min": 2,
+          "max": 8
+        }
+      },
+      "direct_transition": "Initial EDSS PRMS Round"
+    },
+    "Initial EDSS PRMS Round": {
+      "type": "SetAttribute",
+      "attribute": "EDSS",
+      "expression": "Round(#{EDSS} * 2) / 2",
       "direct_transition": "Initial EDSS PRMS"
     },
     "Initial EDSS PRMS": {
@@ -774,14 +1003,7 @@
           "display": "Expanded Disability Status Scale (EDSS)"
         }
       ],
-      "distribution": {
-        "kind": "GAUSSIAN",
-        "round": false,
-        "parameters": {
-          "mean": 4.6,
-          "standardDeviation": 1.635543
-        }
-      },
+      "attribute": "EDSS",
       "direct_transition": "Determine Treatment PRMS"
     },
     "Determine Treatment PPMS": {
@@ -846,7 +1068,7 @@
       "type": "Simple",
       "distributed_transition": [
         {
-          "transition": "Neurology Consultation: Transition from CIS",
+          "transition": "CIS Consultation Delay",
           "distribution": 0.9835
         },
         {
@@ -854,6 +1076,24 @@
           "distribution": 0.0165
         }
       ]
+    },
+    "CIS Consultation Delay": {
+      "type": "Delay",
+      "remarks": [
+        "PLACEHOLDER VALUE - NOT CLINICALLY VALIDATED. The 6-24 month",
+        "range is illustrative only, chosen to space subtype transitions",
+        "out in calendar time; not sourced from CIS-to-MS conversion",
+        "literature."
+      ],
+      "distribution": {
+        "kind": "UNIFORM",
+        "parameters": {
+          "low": 6,
+          "high": 24
+        }
+      },
+      "unit": "months",
+      "direct_transition": "Neurology Consultation: Transition from CIS"
     },
     "Neurology Consultation: Transition from CIS": {
       "type": "Encounter",
@@ -922,6 +1162,24 @@
           "display": "Neurologist"
         }
       ],
+      "direct_transition": "SPMS Transition Delay"
+    },
+    "SPMS Transition Delay": {
+      "type": "Delay",
+      "remarks": [
+        "PLACEHOLDER VALUE - NOT CLINICALLY VALIDATED. The 6-24 month",
+        "range is illustrative only, chosen to space subtype transitions",
+        "out in calendar time; not sourced from RRMS-to-SPMS conversion",
+        "literature."
+      ],
+      "distribution": {
+        "kind": "UNIFORM",
+        "parameters": {
+          "low": 6,
+          "high": 24
+        }
+      },
+      "unit": "months",
       "direct_transition": "Transition SPMS"
     },
     "Determine Treatment SPMS": {
@@ -965,6 +1223,24 @@
           "display": "Neurologist"
         }
       ],
+      "direct_transition": "PRMS Transition Delay"
+    },
+    "PRMS Transition Delay": {
+      "type": "Delay",
+      "remarks": [
+        "PLACEHOLDER VALUE - NOT CLINICALLY VALIDATED. The 6-24 month",
+        "range is illustrative only, chosen to space subtype transitions",
+        "out in calendar time; not sourced from PPMS-to-PRMS conversion",
+        "literature."
+      ],
+      "distribution": {
+        "kind": "UNIFORM",
+        "parameters": {
+          "low": 6,
+          "high": 24
+        }
+      },
+      "unit": "months",
       "direct_transition": "Transition PRMS"
     },
     "Determine Treatment PRMS": {
@@ -994,18 +1270,30 @@
     },
     "PRMS": {
       "type": "Simple",
+      "remarks": [
+        "PLACEHOLDER VALUES - NOT CLINICALLY VALIDATED.",
+        "PRMS Relapse and PRMS Progression were both 0% (dead code)",
+        "before; rebalanced so repeat EDSS follow-up visits are reachable.",
+        "Terminal is kept low (not a dropout after a few years) because MS",
+        "patients generally have near-normal life expectancy with disease",
+        "courses spanning decades; Terminal here only ends this",
+        "submodule's activity, not the patient's life (mortality is",
+        "handled by Synthea's core death module). Not sourced from PRMS",
+        "relapse/progression-rate literature - replace before using this",
+        "module beyond pipeline testing."
+      ],
       "distributed_transition": [
         {
           "transition": "Terminal",
-          "distribution": 1
+          "distribution": 0.02
         },
         {
           "transition": "PRMS Relapse",
-          "distribution": 0
+          "distribution": 0.49
         },
         {
           "transition": "PRMS Progression",
-          "distribution": 0
+          "distribution": 0.49
         }
       ]
     },
@@ -1261,13 +1549,6 @@
           "display": "Neurologist"
         }
       ],
-      "actions": [
-        {
-          "action": "set_attribute",
-          "target": "EDSS",
-          "value": 2
-        }
-      ],
       "direct_transition": "Official MS Diagnosis"
     },
     "Official MS Diagnosis": {
@@ -1404,7 +1685,73 @@
         }
       },
       "unit": "years",
-      "direct_transition": "PPMS"
+      "direct_transition": "PPMS Progression Gate"
+    },
+    "PPMS Progression Gate": {
+      "type": "Simple",
+      "conditional_transition": [
+        {
+          "condition": {
+            "condition_type": "Attribute",
+            "attribute": "EDSS",
+            "operator": "<",
+            "value": 10
+          },
+          "transition": "PPMS Progression Increment"
+        },
+        {
+          "transition": "EDSS Follow-up PPMS"
+        }
+      ]
+    },
+    "PPMS Progression Increment": {
+      "type": "SetAttribute",
+      "remarks": [
+        "PLACEHOLDER VALUE - NOT CLINICALLY VALIDATED. The +0.3/year step",
+        "is illustrative only, not sourced from EDSS progression literature."
+      ],
+      "attribute": "EDSS",
+      "expression": "Round((if (#{EDSS} + 0.3) > 8 then 8 else (#{EDSS} + 0.3)) * 2) / 2",
+      "direct_transition": "EDSS Follow-up PPMS"
+    },
+    "EDSS Follow-up PPMS": {
+      "type": "Observation",
+      "category": "exam",
+      "unit": "",
+      "codes": [
+        {
+          "system": "SNOMED-CT",
+          "code": "273554001",
+          "display": "Expanded Disability Status Scale (EDSS)"
+        }
+      ],
+      "attribute": "EDSS",
+      "direct_transition": "PPMS EDSS 8 Check"
+    },
+    "PPMS EDSS 8 Check": {
+      "type": "Simple",
+      "remarks": [
+        "PLACEHOLDER THRESHOLD - NOT CLINICALLY VALIDATED. EDSS >= 8",
+        "(bedridden, largely dependent) is treated as a near-end-of-course",
+        "marker: once reached, the patient stops generating further",
+        "MS-specific follow-up visits instead of looping indefinitely. The",
+        "threshold value of 8 is illustrative only, not sourced from EDSS",
+        "trajectory literature - see docs/module-modifictions.md."
+      ],
+      "conditional_transition": [
+        {
+          "condition": {
+            "condition_type": "Attribute",
+            "attribute": "EDSS",
+            "operator": ">=",
+            "value": 8
+          },
+          "transition": "Terminal"
+        },
+        {
+          "transition": "PPMS"
+        }
+      ]
     },
     "PRMS Relapse": {
       "type": "Delay",
@@ -1426,7 +1773,34 @@
         }
       },
       "unit": "years",
-      "direct_transition": "PRMS"
+      "direct_transition": "PRMS Progression Gate"
+    },
+    "PRMS Progression Gate": {
+      "type": "Simple",
+      "conditional_transition": [
+        {
+          "condition": {
+            "condition_type": "Attribute",
+            "attribute": "EDSS",
+            "operator": "<",
+            "value": 10
+          },
+          "transition": "PRMS Progression Increment"
+        },
+        {
+          "transition": "EDSS Follow-up PRMS"
+        }
+      ]
+    },
+    "PRMS Progression Increment": {
+      "type": "SetAttribute",
+      "remarks": [
+        "PLACEHOLDER VALUE - NOT CLINICALLY VALIDATED. The +0.3/year step",
+        "is illustrative only, not sourced from EDSS progression literature."
+      ],
+      "attribute": "EDSS",
+      "expression": "Round((if (#{EDSS} + 0.3) > 8 then 8 else (#{EDSS} + 0.3)) * 2) / 2",
+      "direct_transition": "EDSS Follow-up PRMS"
     },
     "PRMS Recovery": {
       "type": "Delay",
@@ -1437,7 +1811,73 @@
         }
       },
       "unit": "years",
-      "direct_transition": "PRMS"
+      "direct_transition": "PRMS Recovery Gate"
+    },
+    "PRMS Recovery Gate": {
+      "type": "Simple",
+      "conditional_transition": [
+        {
+          "condition": {
+            "condition_type": "Attribute",
+            "attribute": "EDSS",
+            "operator": ">",
+            "value": 0
+          },
+          "transition": "PRMS Recovery Decrement"
+        },
+        {
+          "transition": "EDSS Follow-up PRMS"
+        }
+      ]
+    },
+    "PRMS Recovery Decrement": {
+      "type": "SetAttribute",
+      "remarks": [
+        "PLACEHOLDER VALUE - NOT CLINICALLY VALIDATED. The -0.15/year step",
+        "is illustrative only, not sourced from EDSS progression literature."
+      ],
+      "attribute": "EDSS",
+      "expression": "Round((if (#{EDSS} - 0.15) < 2 then 2 else (#{EDSS} - 0.15)) * 2) / 2",
+      "direct_transition": "EDSS Follow-up PRMS"
+    },
+    "EDSS Follow-up PRMS": {
+      "type": "Observation",
+      "category": "exam",
+      "unit": "",
+      "codes": [
+        {
+          "system": "SNOMED-CT",
+          "code": "273554001",
+          "display": "Expanded Disability Status Scale (EDSS)"
+        }
+      ],
+      "attribute": "EDSS",
+      "direct_transition": "PRMS EDSS 8 Check"
+    },
+    "PRMS EDSS 8 Check": {
+      "type": "Simple",
+      "remarks": [
+        "PLACEHOLDER THRESHOLD - NOT CLINICALLY VALIDATED. EDSS >= 8",
+        "(bedridden, largely dependent) is treated as a near-end-of-course",
+        "marker: once reached, the patient stops generating further",
+        "MS-specific follow-up visits instead of looping indefinitely. The",
+        "threshold value of 8 is illustrative only, not sourced from EDSS",
+        "trajectory literature - see docs/module-modifictions.md."
+      ],
+      "conditional_transition": [
+        {
+          "condition": {
+            "condition_type": "Attribute",
+            "attribute": "EDSS",
+            "operator": ">=",
+            "value": 8
+          },
+          "transition": "Terminal"
+        },
+        {
+          "transition": "PRMS"
+        }
+      ]
     }
   }
 }

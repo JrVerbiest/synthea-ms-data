@@ -1,0 +1,20 @@
+{
+  "runID": "82043529-83e9-4221-a87c-08216be0427e",
+  "seed": 12345,
+  "clinicianSeed": 1790168739952,
+  "referenceTime": "20260923",
+  "endTime": "20260923",
+  "version": "master-branch-latest-4-g933e6cec8\n",
+  "patientCount": 413,
+  "providerCount": 1327,
+  "payerCount": 9,
+  "javaVersion": "17.0.12",
+  "generate.thread_pool_size": -1,
+  "generatorThreads": 14,
+  "runStartTime": "2026-09-23T13:05:39Z",
+  "runTimeInSeconds": 41,
+  "exporter.years_of_history": "0",
+  "age": "0-46",
+  "state": "Massachusetts",
+  "modules": "multiple_sclerosis_disease_trajectory"
+}

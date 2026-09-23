@@ -1,5 +1,7 @@
 # Synthea MS Data
 
+![Work in Progress](https://img.shields.io/badge/status-work%20in%20progress-orange.svg)
+
 [![Project website](https://img.shields.io/badge/website-EHDS%20Ready%20Data%20Product-brightgreen)](https://jrverbiest.eu/projects/get-ehds-ready/get-ehds-ready.html)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
@@ -12,49 +14,43 @@
 
 This repo provides a **synthetic** patient dataset for Multiple Sclerosis (MS), generated using [Synthea](https://github.com/synthetichealth/synthea) and the MS Disease Trajectory module.
 
-> MS Disease Trajectory module simulates the disease trajectory of Multiple Sclerosis (MS) using a data-driven, synthetic patient modelling approach. It was developed as part of a master's thesis by **N. Rabah** at Universiteit Hasselt (master in Systems and Process Innovation in Healthcare), titled *["A Data-Driven Approach to Develop a Multiple Sclerosis Disease Trajectory using Modelling Techniques for Synthetic Data"](https://documentserver.uhasselt.be/bitstream/1942/46945/1/ebb0f956-7089-4e50-bd4d-29ceb47f9906.pdf)* - [GitHub](https://github.com/UHasselt-BiomedicalDataSciences/MS-Disease-Trajectory-Synthea.git).
+> **⚠️ Usage Limitation:** This dataset is specific **developed for use in a reference data product design (see step 8).**
+> It must **NOT** be used for clinical decision-making, statistical modelling, patient care, or any production healthcare application.
+>
+> ⚠️ The MS Disease Trajectory module has been modified to support use of the dataset in both development and testing data transformation pipelines.
+> 
+> ⚠️ These modifications are **NOT CLINICALLY VALIDATED.**
 
 The repo contains everything that is needed to regenerate the dataset from scratch — the disease module, the keep filter, a notebook that corrects the raw output, and step-by-step instructions for Unix-like terminals (Linux, macOS, WSL). A fixed random seed makes every run reproducible on any machine.
 
-> ⚠️ **Usage Limitation:** This dataset is for **developing and testing data pipelines only**. It must not be used for clinical decision-making, patient care, or any production healthcare application.
-> No real patients are involved. Every record is simulated, and identifiers such as SSNs, passports and email addresses are deliberately fake — SSNs fall in the never-issued `999-xx-xxxx` range, and emails end in `@example.com`.
+> Note: The MS Disease Trajectory module simulates the disease trajectory of Multiple Sclerosis (MS) using a data-driven, synthetic patient modelling approach. It was developed as part of a master's thesis by **N. Rabah** at Universiteit Hasselt (master in Systems and Process Innovation in Healthcare), titled *["A Data-Driven Approach to Develop a Multiple Sclerosis Disease Trajectory using Modelling Techniques for Synthetic Data"](https://documentserver.uhasselt.be/bitstream/1942/46945/1/ebb0f956-7089-4e50-bd4d-29ceb47f9906.pdf)* - The unmodified MS Disease Trajectory module can be found on [GitHub](https://github.com/UHasselt-BiomedicalDataSciences/MS-Disease-Trajectory-Synthea.git).
+
+---
 
 ```text
 synthea-ms-data/
 ├── data/
-│   ├── raw/
-│   │   ├── csv/              Synthea CSV export (Step 6), unmodified
-│   │   └── metadata/         Run summary JSON (seed, patient count, module, run time)
-│   └── corrected/            CSV files after EDSS correction (written by the notebook, Step 7)
+│   ├── csv/                                          Synthea CSV export (Step 6), unmodified
+│   └── metadata/                                     Run summary JSON (seed, patient count, module, run time)
+├── docs/
+│   └── MS disease trajectory Nadia Rabah.pdf         Describing the initial module
 ├── filter/
-│   └── keep_ms.json          Keep filter — retains only patients with an active MS diagnosis (Step 4)
+│   └── keep_ms.json                                  Keep filter — retains only patients with an active MS diagnosis (Step 4)
 ├── module/
-│   ├── multiple_sclerosis_disease_trajectory.json   MS Disease Trajectory module with corrected EDSS coding (Step 2)
-│   └── MS disease trajectory Nadia Rabah.pdf, describing the module
-├── data-contract/            Data contract of the corrected dataset and how it is built (Step 9)
+│   └── multiple_sclerosis_disease_trajectory.json    MS Disease Trajectory module with modifications (Step 8)
+├── data-contract/                                    Data contract of the corrected dataset and how it is built (Step 10)
 │   ├── README.md
-│   ├── merge.yaml            What to merge, plus the hand-written parts: fundamentals, type corrections, quality rules
-│   ├── scripts/              build_dictionary.py, merge_schemas.py
-│   ├── imports/              One contract per CSV file (datacontract import csv)
-│   ├── outputs/              Generated — data-dictionary.yaml and the merged ODCS contract
-│   └── final/                The final ODCS contract, enriched by hand, and its HTML documentation
+│   ├── merge.yaml                                    What to merge, plus the hand-written parts: fundamentals, type corrections, quality rules
+│   ├── scripts/                                      build_dictionary.py, merge_schemas.py
+│   ├── imports/                                      One contract per CSV file (datacontract import csv)
+│   ├── outputs/                                      Generated — data-dictionary.yaml and the merged ODCS contract
+│   └── final/                                        The final ODCS contract, enriched by hand, and its HTML documentation
 ├── notebook/
-│   └── ms-data-correction.ipynb   Removes negative EDSS values and snaps the rest to the 0.5 grid (Step 7)
-├── requirements.txt          Python dependencies: jupyter, pandas, datacontract-cli[csv,duckdb]
-├── LICENSE                   MIT
+│   └── edss-observations.ipynb                       Notebook to explore the Expanded Disability Status Scale 
+├── requirements.txt                                  Python dependencies: jupyter, pandas, datacontract-cli[csv,duckdb]
+├── LICENSE                                           MIT
 └── README.md
 ```
-
-| Folder / file | What it is | Used in |
-|---------------|------------|---------|
-| `data/raw/csv/` | The raw synthetic dataset generated using Synthea — 13 CSV files (patients, encounters, conditions, observations, medications, …). Never modified. | Step 6 |
-| `data/raw/metadata/` | Synthea run summary: seed `12345`, 500 requested / 369 kept patients, module name, Java version, run time. | Step 6 |
-| `data/corrected/` | The cleaned dataset produced by the notebook. Same 13 CSV files, same column layout as `data/raw/csv/`. | Step 7 |
-| `filter/keep_ms.json` | Synthea keep module that discards patients without an active MS diagnosis (SNOMED CT `24700007`). | Step 4 |
-| `module/multiple_sclerosis_disease_trajectory.json` | The MS Disease Trajectory module by N. Rabah, with the corrected EDSS coding to SNOMED CT `273554001`. | Step 2 |
-| `module/MS disease trajectory Nadia Rabah.pdf` | The module is based on. | Step 2 |
-| `notebook/ms-data-correction.ipynb` | Jupyter notebook that reads `data/raw/csv`, removes patients with a negative EDSS value, rounds off-grid values to the nearest `0.5`, validates, and writes `data/corrected`. | Step 7 |
-| `requirements.txt` | `jupyter` and `pandas` for the notebook (Step 8), `datacontract-cli[csv,duckdb]` for the data contract (Step 9). | Step 7 |
 
 ## Step 1 — Clone Synthea repositories
 
@@ -65,7 +61,7 @@ git clone https://github.com/JrVerbiest/synthea.git
 cd synthea
 ```
 
-> 💡 **Shortcut:** the [`enable-csv-export-ms-module`](https://github.com/JrVerbiest/synthea/tree/enable-csv-export-ms-module) branch already contains the corrected module file (Step 2), CSV export enabled (Step 3), and the keep filter (Step 4). Checking it out lets you skip straight to Step 5.
+> 💡 **Shortcut:** the [`enable-csv-export-ms-module`](https://github.com/JrVerbiest/synthea/tree/enable-csv-export-ms-module) branch already contains the corrected module file (Step 2), `synthea.properties` changes (Step 3), and the keep filter (Step 4). Checking it out lets you skip straight to Step 5.
 >
 > ```bash
 > git clone --branch enable-csv-export-ms-module https://github.com/JrVerbiest/synthea.git
@@ -85,13 +81,25 @@ In `synthea-ms-data/module/multiple_sclerosis_disease_trajectory.json`, a correc
 
 Copy `module/multiple_sclerosis_disease_trajectory.json` (from this repo) into `synthea/src/main/resources/modules/`.
 
-## Step 3 — Enable CSV export
+## Step 3 — `synthea.properties`
 
 In `synthea/src/main/resources/synthea.properties`, set:
 
 ```text
 exporter.csv.export = true
+exporter.years_of_history = 0
 ```
+
+1. `exporter.csv.export` — enables the CSV exporter. Off by default; Synthea only writes FHIR bundles otherwise. This is what produces the `csv/` folder used in Step 6.
+
+2. `exporter.years_of_history` — The number of years of patient history to include in patient records, defaults to `10`. For example, if set to 5, then all patient histories older than 5 years (from the time you execute the program) will not be included in the exported records. Note that conditions and medications that are currently active will still be exported, regardless of this setting. Set this to 0 to keep all history in the patient record.
+
+
+> **⚠️ The MS Disease Trajectory module has been modified to generate a dataset for both development and testing data transformation pipelines.**<br>
+> **⚠️ These modifications are NOT CLINICALLY VALIDATED.**
+> 
+The applied modifications - changelog - are described in
+[`docs/module-modifictions.md`](docs/module-modifictions.md).
 
 ## Step 4 — Create a keep filter
 
@@ -154,6 +162,7 @@ To generate the dataset, run:
 ./gradlew run -Params="[  \
  '-s', '12345',          \
  '-p', '500',            \
+ '-a', '0-46',           \
  '-m', 'multiple_sclerosis_disease_trajectory', \
  '-k', 'src/main/resources/keep_modules/keep_ms.json'   \
 ]"
@@ -163,6 +172,7 @@ To generate the dataset, run:
 |-----------|-------|-------------|
 | `-s` | `12345` | Random seed — fixes the RNG for reproducibility |
 | `-p` | `500` | Number of patients to generate |
+| `-a` | `0-46` | Age range at generation time — birthdate is computed relative to today, so `0-46` puts every patient's birth year roughly between 1980 and today. |
 | `-m` | `multiple_sclerosis_disease_trajectory` | Activates the MS module alongside Synthea's core modules |
 | `-k` | `src/main/resources/keep_modules/keep_ms.json` | Discards patients without an active MS diagnosis |
 
@@ -192,7 +202,7 @@ source .venv/bin/activate
 uv pip install -r requirements.txt
 ```
 
-`--seed` adds `pip` to the environment, which uv leaves out by default; IDEs such as VS Code use it to list the installed packages. Activating before installing makes sure `uv pip` targets this environment and not another one that happens to be active.
+`--seed` adds `pip` to the environment, which uv omits by default; IDEs such as VS Code use it to list installed packages. Activating before installing ensures `uv pip` targets this environment rather than another that happens to be active.
 
 > 💡 Without uv, the standard library works as well: `python3.12 -m venv --prompt synthea-ms-data .venv && source .venv/bin/activate && pip install -r requirements.txt`.
 
@@ -205,25 +215,9 @@ datacontract --version       # 1.2.0
 
 `requirements.txt` holds `jupyter` and `pandas` for the notebook (Step 8) and `datacontract-cli[csv,duckdb]` for the data contract (Step 9).
 
-## Step 8 — Correction
+## Step 8 - Using the synthetic MS dataset in a Data Product
 
-The generated dataset contains negative `edss_score` values (an artefact of the MS Disease Trajectory module). These negative values are removed from the dataset; valid `edss_score` values lie on the `0`–`10` scale in `0.5` steps (SNOMED CT `273554001`).
-
-The notebook `ms-data-correction.ipynb` is available in the folder `notebook`, and the corrected data (CSV format) is available in `data/corrected`.
-
-To run the notebook, launch Jupyter:
-
-```bash
-jupyter notebook
-```
-
-## Step 9 — Using the synthetic MS dataset
-
-Steps 1–8 produce a reproducible synthetic MS dataset. Step 9 is all about *using* the synthetic MS dataset.
-
-### Data product
-
-> This section is still 🚧 **Work in progress**  so the content here may still change.
+This section is still 🚧 **Work in progress**, so the content here may change.
 
 The central artefact in the design of a data product is the data contract, which serves as the design specification against which the transformation pipeline is built and tested. A data contract is an agreement between a data producer and its consumers - [Andrew Jones](https://andrew-jones.com/). It specifies exactly what the data product exposes, its structure, semantics, quality rules, and service-level commitments, and is machine-readable, so it can be automatically enforced rather than just documented and forgotten.
 
