@@ -10,8 +10,6 @@
 [![Data Contract CLI](https://img.shields.io/badge/datacontract--cli-1.2.0-blue)](https://cli.datacontract.com/)
 [![ODCS](https://img.shields.io/badge/Open%20Data%20Contract%20Standard-v3.2.0-blue)](https://bitol-io.github.io/open-data-contract-standard/latest/)
 
-[![Last updated](https://img.shields.io/badge/last%20updated-2026--09--14-lightgrey.svg)](https://github.com/JrVerbiest/synthea-ms-data)
-
 This repo provides a **synthetic** patient dataset for Multiple Sclerosis (MS), generated using [Synthea](https://github.com/synthetichealth/synthea) and the MS Disease Trajectory module.
 
 > **⚠️ Usage Limitation:** This dataset is specific **developed for use in a reference data product design (see step 8).**
