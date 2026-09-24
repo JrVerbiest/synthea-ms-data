@@ -1,7 +1,8 @@
-# Input for merge_schemas.py: which per-table contracts to merge into one ODCS contract, where
-# their descriptions and keys come from, and everything that is written by hand. Paths are
-# relative to this file, except `server.path`, which `datacontract test` resolves from the
-# directory it is run in (the repository root).
+# Input for merge_schemas.py: which per-table contracts to merge into one ODCS contract and
+# everything that is written by hand. The descriptions, keys and relationships are already in the
+# per-table contracts, put there by enrich_schemas.py. Paths are relative to this file, except
+# `server.path`, which `datacontract test` resolves from the directory it is run in (the
+# repository root).
 
 # Any ODCS top-level field; set on the merged contract on every run. The fields the importer
 # fills (version, status, apiVersion, ...) are kept from the first merged table unless set here.
@@ -19,19 +20,16 @@ contract:
     - multiple-sclerosis
     - MS
 
-output: outputs/synthea-ms-data.odcs.yaml
+output: tmp/synthea-ms-data.odcs.yaml
 
 # One `local` CSV server for all tables; `datacontract test` replaces {model} with the table name.
 server:
   name: local
-  path: data/corrected/{model}.csv
+  path: data/csv/{model}.csv
 
-# Data dictionary built from the Synthea wiki by build_dictionary.py. Provides the table and
-# column descriptions, the primary keys and the foreign keys between the merged tables.
-dictionary: outputs/data-dictionary.yaml
-
-# Folder with the contracts written by `datacontract import csv`, one per table (<table>.yaml)
-imports: imports
+# Folder with the per-table contracts (<table>.yaml), written by `datacontract import csv` and
+# enriched by enrich_schemas.py
+imports: tmp
 
 # Tables to merge, in this order
 tables:
@@ -40,17 +38,10 @@ tables:
   - conditions
   - observations
 
-# Hand-written fields, applied last so they win over the importer and the dictionary.
+# Hand-written fields, applied last so they win over the importer and the dictionary. This is the
+# domain knowledge of this dataset, which neither the CSV nor the Synthea wiki carries.
 # `<table>` sets fields on the schema object, `<table>.<COLUMN>` on the column; `null` removes a field.
 overrides:
-  patients.DEATHDATE:
-    logicalType: date
-  patients.FIPS:            # a code, not a number: drop the numeric min/max the importer inferred
-    logicalType: string
-    logicalTypeOptions: null
-  patients.ZIP:
-    logicalType: string
-    logicalTypeOptions: null
   conditions.CODE:
     description: SNOMED CT code of the condition. Multiple sclerosis is 24700007.
   conditions:

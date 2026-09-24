@@ -1,4 +1,4 @@
-"""Build ``outputs/data-dictionary.yaml`` from the Synthea CSV File Data Dictionary wiki page.
+"""Build ``tmp/data-dictionary.yaml`` from the Synthea CSV File Data Dictionary wiki page.
 
 The wiki page documents every CSV file Synthea exports: a one-line description per file and,
 per column, the name, data type, whether it is required, a description and whether it is a
@@ -28,8 +28,8 @@ from pathlib import Path
 import yaml
 
 ROOT = Path(__file__).resolve().parents[1]  # data-contract/
-DATA = ROOT.parent / "data" / "corrected"
-OUTPUT = ROOT / "outputs" / "data-dictionary.yaml"
+DATA = ROOT.parent / "data" / "csv"
+OUTPUT = ROOT / "tmp" / "data-dictionary.yaml"
 PAGE_URL = "https://github.com/synthetichealth/synthea/wiki/CSV-File-Data-Dictionary"
 RAW_URL = "https://raw.githubusercontent.com/wiki/synthetichealth/synthea/CSV-File-Data-Dictionary.md"
 
@@ -118,7 +118,7 @@ def parse(markdown: str) -> dict[str, dict]:
 
 
 def main() -> None:
-    """Fetch the wiki page, parse it and write ``outputs/data-dictionary.yaml``."""
+    """Fetch the wiki page, parse it and write ``tmp/data-dictionary.yaml``."""
     with urllib.request.urlopen(RAW_URL, timeout=30) as response:
         markdown = response.read().decode("utf-8")
 

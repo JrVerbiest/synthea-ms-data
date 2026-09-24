@@ -39,10 +39,7 @@ synthea-ms-data/
 ├── data-contract/                                    Data contract of the corrected dataset and how it is built (Step 10)
 │   ├── README.md
 │   ├── merge.yaml                                    What to merge, plus the hand-written parts: fundamentals, type corrections, quality rules
-│   ├── scripts/                                      build_dictionary.py, merge_schemas.py
-│   ├── imports/                                      One contract per CSV file (datacontract import csv)
-│   ├── outputs/                                      Generated — data-dictionary.yaml and the merged ODCS contract
-│   └── final/                                        The final ODCS contract, enriched by hand, and its HTML documentation
+│   └── scripts/                                      build_dictionary.py, enrich_schemas.py, merge_schemas.py
 ├── notebook/
 │   └── edss-observations.ipynb                       Notebook to explore the Expanded Disability Status Scale 
 ├── requirements.txt                                  Python dependencies: jupyter, pandas, datacontract-cli[csv,duckdb]
