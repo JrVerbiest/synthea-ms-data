@@ -6,7 +6,9 @@ The sections below describe how to reproduce the `synthea-ms-data.odcs.yaml` dat
 
 ## Step 1 - Generate the contract for each table
 
-All commands below are run from the **repository root** (`synthea-ms-data/`): the CSV files are read from `data/csv/`, the per-table contracts land in `data-contract/tmp/`. `datacontract import` does not create the folder, so make it once:
+All commands below are run from the **repository root** (`synthea-ms-data/`): the CSV files are read from `data/csv/`, the per-table contracts land in `data-contract/tmp/`.
+
+`datacontract import` does not create the folder, so make it once:
 
 ```bash
 mkdir -p data-contract/tmp
@@ -55,7 +57,7 @@ python data-contract/scripts/enrich_schemas.py data-contract/tmp/{patients,encou
 `enrich_schemas.py` reads `data-contract/tmp/data-dictionary.yaml` and writes what it knows into the
 contracts **in place**: every file passed on the command line is overwritten.
 
-## 4. Merge
+## Step 4 - Merge
 
 The [`merge.yaml`](merge.yaml) says what to merge and holds everything that is written by hand; the *meaning* of the columns is already in the per-table contracts after step 3. Paths in the YAML are relative to the YAML file, except `server.path`, which `datacontract test` resolves from the directory it is run in. Run the script from the repository root:
 
