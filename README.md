@@ -12,12 +12,8 @@
 
 This repo provides a **synthetic** patient dataset for Multiple Sclerosis (MS), generated using [Synthea](https://github.com/synthetichealth/synthea) and the MS Disease Trajectory module.
 
-> **⚠️ Usage Limitation:** This dataset is specific **developed for use in a reference data product design (see step 8).**
-> It must **NOT** be used for clinical decision-making, statistical modelling, patient care, or any production healthcare application.
->
-> ⚠️ The MS Disease Trajectory module has been modified to support use of the dataset in both development and testing data transformation pipelines.
-> 
-> ⚠️ These modifications are **NOT CLINICALLY VALIDATED.**
+> **⚠️ Usage Limitation:** This dataset is specific **developed for use in a reference data product design (see step 8), and this for the delopment and testing of data transformation pipelines.**
+> It may **NOT** be used for clinical decision-making, statistical modelling, patient care, or any production healthcare application.
 
 The repo contains everything that is needed to regenerate the dataset from scratch — the disease module, the keep filter, a notebook that corrects the raw output, and step-by-step instructions for Unix-like terminals (Linux, macOS, WSL). A fixed random seed makes every run reproducible on any machine.
 
@@ -60,16 +56,13 @@ cd synthea
 > cd synthea
 > ```
 
-## Step 2 — MS Disease Trajectory Module
+## Step 2 — Install the MS Disease Trajectory Module
 
-### Correction: EDSS Coding in MS Disease Trajectory Module
-
-In `synthea-ms-data/module/multiple_sclerosis_disease_trajectory.json`, a correction was made to the coding of the **Expanded Disability Status Scale (EDSS) score**.
-
-- **Previous (incorrect):** LOINC `LP241977-0`
-- **Corrected to:** SNOMED CT `273554001` — *Kurtzke multiple sclerosis rating scale (assessment scale)*
-
-### Install the module
+> **⚠️ The MS Disease Trajectory module has been modified to generate a dataset for both development and testing data transformation pipelines.**<br>
+> **⚠️ These modifications are NOT CLINICALLY VALIDATED.**
+> 
+The applied modifications - changelog - are described in
+[`docs/module-modifictions.md`](docs/module-modifictions.md).
 
 Copy `module/multiple_sclerosis_disease_trajectory.json` (from this repo) into `synthea/src/main/resources/modules/`.
 
@@ -85,13 +78,6 @@ exporter.years_of_history = 0
 1. `exporter.csv.export` — enables the CSV exporter. Off by default; Synthea only writes FHIR bundles otherwise. This is what produces the `csv/` folder used in Step 6.
 
 2. `exporter.years_of_history` — The number of years of patient history to include in patient records, defaults to `10`. For example, if set to 5, then all patient histories older than 5 years (from the time you execute the program) will not be included in the exported records. Note that conditions and medications that are currently active will still be exported, regardless of this setting. Set this to 0 to keep all history in the patient record.
-
-
-> **⚠️ The MS Disease Trajectory module has been modified to generate a dataset for both development and testing data transformation pipelines.**<br>
-> **⚠️ These modifications are NOT CLINICALLY VALIDATED.**
-> 
-The applied modifications - changelog - are described in
-[`docs/module-modifictions.md`](docs/module-modifictions.md).
 
 ## Step 4 — Create a keep filter
 
@@ -207,7 +193,7 @@ datacontract --version       # 1.2.0
 
 `requirements.txt` holds `jupyter` and `pandas` for the notebook (Step 8) and `datacontract-cli[csv,duckdb]` for the data contract (Step 9).
 
-## Step 8 - Using the synthetic MS dataset in a Data Product
+## Step 8 - The use in a Data Product
 
 This section is still 🚧 **Work in progress**.
 
