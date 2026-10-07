@@ -36,10 +36,7 @@ synthea-ms-data/
 │   └── keep_ms.json                                  Keep filter — retains only patients with an active MS diagnosis (Step 4)
 ├── module/
 │   └── multiple_sclerosis_disease_trajectory.json    MS Disease Trajectory module with modifications (Step 8)
-├── data-contract/                                    Data contract of the corrected dataset and how it is built (Step 10)
-│   ├── README.md
-│   ├── merge.yaml                                    What to merge, plus the hand-written parts: fundamentals, type corrections, quality rules
-│   └── scripts/                                      build_dictionary.py, enrich_schemas.py, merge_schemas.py
+├── data-contract/                                    Data contract of the dataset, generated with data-product-onboarding (Step 8)
 ├── notebook/
 │   └── edss-observations.ipynb                       Notebook to explore the Expanded Disability Status Scale 
 ├── requirements.txt                                  Python dependencies: jupyter, pandas, datacontract-cli[csv,duckdb]
@@ -212,10 +209,6 @@ datacontract --version       # 1.2.0
 
 ## Step 8 - Using the synthetic MS dataset in a Data Product
 
-This section is still 🚧 **Work in progress**, so the content here may change.
-
-The central artefact in the design of a data product is the data contract, which serves as the design specification against which the transformation pipeline is built and tested. A data contract is an agreement between a data producer and its consumers - [Andrew Jones](https://andrew-jones.com/). It specifies exactly what the data product exposes, its structure, semantics, quality rules, and service-level commitments, and is machine-readable, so it can be automatically enforced rather than just documented and forgotten.
-
-The data contracts for the Synthea MS data are located in the [`data-contract/`](data-contract/) folder. See [data-contract/README.md](data-contract/README.md) for the full write-up. This data contract can be used in a concrete data product implementation.
+This section is still 🚧 **Work in progress**.
 
 ---
