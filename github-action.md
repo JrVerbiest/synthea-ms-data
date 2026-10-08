@@ -2,6 +2,27 @@
 
 The workflow [`.github/workflows/ci.yml`](.github/workflows/ci.yml) checks the data product on each pull request, each push to `main`, and by hand with "Run workflow" in the Actions tab. Its one job, `check`, fails when the ODPS file or the data contract is invalid, when a pull request breaks the contract, or when the CSV files in `data/csv/` no longer match the contract. That job is the gate before an upload to the landing bucket.
 
+```mermaid
+flowchart TD
+  E["Pull request, push to main, or Run workflow"] --> check
+  subgraph check["Job check, on a GitHub runner"]
+    S["Checkout, uv, Python 3.12"] --> L["Lint: ODPS file and contract"]
+    L --> Q{"Pull request?"}
+    Q -->|yes| B["Compare with main: breaking change, ODPS name"]
+    Q -->|no| T["Contract test on data/csv: 189 checks"]
+    B --> T
+  end
+  L -->|fails| X
+  B -->|fails| X
+  T -->|fails| X["Red: a pull request can't merge"]
+  T -->|passes| OK["Green: a pull request can merge"]
+  OK -.->|by hand, from your own machine| U["Upload to the landing bucket"]
+  classDef fail fill:#f8d0d0,stroke:#c62828,color:#000
+  classDef pass fill:#d4edda,stroke:#2e7d32,color:#000
+  class X fail
+  class OK pass
+```
+
 ## Steps
 
 | Step | What it does | Fails when |
