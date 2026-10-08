@@ -12,7 +12,7 @@
 
 This repo provides a **synthetic** patient dataset for Multiple Sclerosis (MS), generated using [Synthea](https://github.com/synthetichealth/synthea) and the MS Disease Trajectory module.
 
-> **⚠️ Usage Limitation:** This dataset is specific **developed for use in a reference data product design (see step 8), and this for the delopment and testing of data transformation pipelines.**
+> **⚠️ Usage Limitation:** This dataset is specific **developed for use in a reference data product design (see step 8).**
 > It may **NOT** be used for clinical decision-making, statistical modelling, patient care, or any production healthcare application.
 
 The repo contains everything that is needed to regenerate the dataset from scratch — the disease module, the keep filter, a notebook that corrects the raw output, and step-by-step instructions for Unix-like terminals (Linux, macOS, WSL). A fixed random seed makes every run reproducible on any machine.
@@ -168,7 +168,16 @@ The generated files will be in `synthea/output/`:
 
 The Data Dictionary for the CSV files can be found in the Synthea wiki page: [CSV File Data Dictionary](https://github.com/synthetichealth/synthea/wiki/CSV-File-Data-Dictionary).
 
-Copy the contents of `synthea/output/` into `data/raw`.
+From `synthea/output/` copy:
+
+- `patients.csv`
+- `conditions.csv`
+- `òbservations.csv`
+- `encounters.csv`
+- `medications.csv`
+- `procedures.csv`
+
+into `data/csv`.
 
 ## Step 7 — Create environment
 
@@ -196,5 +205,7 @@ datacontract --version       # 1.2.0
 ## Step 8 - The use in a Data Product
 
 This section is still 🚧 **Work in progress**.
+
+
 
 ---
