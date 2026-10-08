@@ -10,16 +10,20 @@
 [![Data Contract CLI](https://img.shields.io/badge/datacontract--cli-1.2.0-blue)](https://cli.datacontract.com/)
 [![ODCS](https://img.shields.io/badge/Open%20Data%20Contract%20Standard-v3.2.0-blue)](https://bitol-io.github.io/open-data-contract-standard/latest/)
 
-This repo provides a **synthetic** patient dataset for Multiple Sclerosis (MS), generated using [Synthea](https://github.com/synthetichealth/synthea) and the MS Disease Trajectory module.
+This repo provides a **synthetic** patient dataset for Multiple Sclerosis (MS) in folder `/data/csv`, generated using [Synthea](https://github.com/synthetichealth/synthea) and the MS Disease Trajectory module.
 
-> **⚠️ Usage Limitation:** This dataset is specific **developed for use in a reference data product design (see step 8).**
+> **⚠️ Usage Limitation:** This dataset is specific **developed for use in a reference data product design**.
 > It may **NOT** be used for clinical decision-making, statistical modelling, patient care, or any production healthcare application.
 
-The repo contains everything that is needed to regenerate the dataset from scratch — the disease module, the keep filter, a notebook that corrects the raw output, and step-by-step instructions for Unix-like terminals (Linux, macOS, WSL). A fixed random seed makes every run reproducible on any machine.
+---
 
-> Note: The MS Disease Trajectory module simulates the disease trajectory of Multiple Sclerosis (MS) using a data-driven, synthetic patient modelling approach. It was developed as part of a master's thesis by **N. Rabah** at Universiteit Hasselt (master in Systems and Process Innovation in Healthcare), titled *["A Data-Driven Approach to Develop a Multiple Sclerosis Disease Trajectory using Modelling Techniques for Synthetic Data"](https://documentserver.uhasselt.be/bitstream/1942/46945/1/ebb0f956-7089-4e50-bd4d-29ceb47f9906.pdf)* - The unmodified MS Disease Trajectory module can be found on [GitHub](https://github.com/UHasselt-BiomedicalDataSciences/MS-Disease-Trajectory-Synthea.git).
+## Data Product
+
+🚧 **Work in progress**.
 
 ---
+
+## Regenerate the dataset from scratch
 
 ```text
 synthea-ms-data/
@@ -27,20 +31,24 @@ synthea-ms-data/
 │   ├── csv/                                          Synthea CSV export (Step 6), unmodified
 │   └── metadata/                                     Run summary JSON (seed, patient count, module, run time)
 ├── docs/
-│   └── MS disease trajectory Nadia Rabah.pdf         Describing the initial module
+│   ├── MS disease trajectory Nadia Rabah.pdf         Describing the initial module
+│   └── module-modifications.md                       Changelog of the modifications to the MS module (Step 2)
 ├── filter/
 │   └── keep_ms.json                                  Keep filter — retains only patients with an active MS diagnosis (Step 4)
 ├── module/
-│   └── multiple_sclerosis_disease_trajectory.json    MS Disease Trajectory module with modifications (Step 8)
-├── data-contract/                                    Data contract of the dataset, generated with data-product-onboarding (Step 8)
+│   └── multiple_sclerosis_disease_trajectory.json    MS Disease Trajectory module with modifications (Step 2)
 ├── notebook/
-│   └── edss-observations.ipynb                       Notebook to explore the Expanded Disability Status Scale 
-├── requirements.txt                                  Python dependencies: jupyter, pandas, datacontract-cli[csv,duckdb]
+│   └── edss-observations.ipynb                       Notebook to explore the Expanded Disability Status Scale
+├── requirements.txt                                  Python dependencies: jupyter, pandas, matplotlib, datacontract-cli[csv,duckdb] (Step 7)
 ├── LICENSE                                           MIT
 └── README.md
 ```
 
-## Step 1 — Clone Synthea repositories
+The repo contains everything that is needed to regenerate the dataset from scratch — the disease module, the keep filter, a notebook that corrects the raw output, and step-by-step instructions for Unix-like terminals (Linux, macOS, WSL). A fixed random seed makes every run reproducible on any machine.
+
+> Note: The MS Disease Trajectory module simulates the disease trajectory of Multiple Sclerosis (MS) using a data-driven, synthetic patient modelling approach. It was developed as part of a master's thesis by **N. Rabah** at Universiteit Hasselt (master in Systems and Process Innovation in Healthcare), titled *["A Data-Driven Approach to Develop a Multiple Sclerosis Disease Trajectory using Modelling Techniques for Synthetic Data"](https://documentserver.uhasselt.be/bitstream/1942/46945/1/ebb0f956-7089-4e50-bd4d-29ceb47f9906.pdf)* - The unmodified MS Disease Trajectory module can be found on [GitHub](https://github.com/UHasselt-BiomedicalDataSciences/MS-Disease-Trajectory-Synthea.git).
+
+### Step 1 — Clone Synthea repositories
 
 This dataset was generated using [JrVerbiest/synthea](https://github.com/JrVerbiest/synthea) (a fork of [synthetichealth/synthea](https://github.com/synthetichealth/synthea)) at commit [`d9d07a6`](https://github.com/JrVerbiest/synthea/commit/d9d07a6eef91ee5144293b42ab64224d84d124f8).
 
@@ -56,17 +64,17 @@ cd synthea
 > cd synthea
 > ```
 
-## Step 2 — Install the MS Disease Trajectory Module
+### Step 2 — Install the MS Disease Trajectory Module
 
 > **⚠️ The MS Disease Trajectory module has been modified to generate a dataset for both development and testing data transformation pipelines.**<br>
 > **⚠️ These modifications are NOT CLINICALLY VALIDATED.**
 > 
 The applied modifications - changelog - are described in
-[`docs/module-modifictions.md`](docs/module-modifictions.md).
+[`docs/module-modifications.md`](docs/module-modifications.md).
 
 Copy `module/multiple_sclerosis_disease_trajectory.json` (from this repo) into `synthea/src/main/resources/modules/`.
 
-## Step 3 — `synthea.properties`
+### Step 3 — `synthea.properties`
 
 In `synthea/src/main/resources/synthea.properties`, set:
 
@@ -79,7 +87,7 @@ exporter.years_of_history = 0
 
 2. `exporter.years_of_history` — The number of years of patient history to include in patient records, defaults to `10`. For example, if set to 5, then all patient histories older than 5 years (from the time you execute the program) will not be included in the exported records. Note that conditions and medications that are currently active will still be exported, regardless of this setting. Set this to 0 to keep all history in the patient record.
 
-## Step 4 — Create a keep filter
+### Step 4 — Create a keep filter
 
 Copy `filter/keep_ms.json` (from this repo) into `synthea/src/main/resources/keep_modules/keep_ms.json`.
 
@@ -126,13 +134,13 @@ This filter discards any patient without an active MS diagnosis (SNOMED CT `2470
 }
 ```
 
-## Step 5 — Build
+### Step 5 — Build
 
 ```bash
 ./gradlew build check -x test
 ```
 
-## Step 6 — Generate the dataset
+### Step 6 — Generate the dataset
 
 To generate the dataset, run:
 
@@ -179,7 +187,7 @@ From `synthea/output/` copy:
 
 into `data/csv`.
 
-## Step 7 — Create environment
+### Step 7 — Create environment
 
 The Python environment is managed with [uv](https://docs.astral.sh/uv/). Create the virtual environment with Python 3.12, activate it and install the dependencies:
 
@@ -201,11 +209,5 @@ datacontract --version       # 1.2.0
 ```
 
 `requirements.txt` holds `jupyter` and `pandas` for the notebook (Step 8) and `datacontract-cli[csv,duckdb]` for the data contract (Step 9).
-
-## Step 8 - The use in a Data Product
-
-This section is still 🚧 **Work in progress**.
-
-
 
 ---
