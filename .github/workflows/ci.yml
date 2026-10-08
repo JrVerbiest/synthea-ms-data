@@ -1,0 +1,47 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+env:
+  ODPS: synthea-ms-data.odps.yaml
+  CONTRACT: data/synthea-ms-data.odcs.yaml
+  DATAPRODUCT: dataproduct-cli==0.3.2
+  DATACONTRACT: datacontract-cli[csv,duckdb]==1.2.4
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v7
+      - uses: astral-sh/setup-uv@v10
+        with:
+          python-version: "3.12"
+      - name: Lint
+        run: |
+          uvx --from "$DATAPRODUCT" dataproduct lint "$ODPS" --local-references
+          uvx --from "$DATACONTRACT" datacontract lint --no-inline-references "$CONTRACT"
+      - name: Compare with main
+        if: github.event_name == 'pull_request'
+        run: |
+          git fetch --quiet --depth=1 origin main
+          if git cat-file -e "FETCH_HEAD:$CONTRACT" 2>/dev/null; then
+            git show "FETCH_HEAD:$CONTRACT" > "$RUNNER_TEMP/main.odcs.yaml"
+            uvx --from "$DATACONTRACT" datacontract breaking --no-inline-references "$RUNNER_TEMP/main.odcs.yaml" "$CONTRACT"
+          fi
+          if git cat-file -e "FETCH_HEAD:$ODPS" 2>/dev/null; then
+            [ "$(git show "FETCH_HEAD:$ODPS" | grep '^name:')" = "$(grep '^name:' "$ODPS")" ] || { echo "::error::The ODPS name changed"; exit 1; }
+          fi
+      - name: Contract test on data/csv
+        run: uvx --from "$DATACONTRACT" datacontract test --no-inline-references --server local "$CONTRACT"

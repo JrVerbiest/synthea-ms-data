@@ -1,0 +1,20 @@
+apiVersion: v1.1.0
+kind: DataProduct
+id: 12d60ba3-7169-48df-b31b-6d0633a3032d
+name: synthea-ms-data
+version: 1.0.0
+status: active
+domain: neurology
+tags: [synthetic, multiple-sclerosis, MS]
+description:
+  purpose: Synthetic patient records of multiple sclerosis (MS) data.
+  usage: Pipeline development and testing of MS data product.
+  limitations: Synthetic data. Not for clinical or research conclusions.
+outputPorts:
+  - name: synthea-ms-data-csv
+    version: 1.0.0
+    contractId: f733bac0-0237-4f2a-9e28-7ad94e91e661
+    description: CSV export of the patients, encounters, conditions, observations, medications and procedures.
+    customProperties:
+      - property: dataClassification
+        value: confidential

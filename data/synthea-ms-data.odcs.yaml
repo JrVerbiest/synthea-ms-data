@@ -1,0 +1,568 @@
+version: 1.0.0
+kind: DataContract
+apiVersion: v3.1.0
+id: f733bac0-0237-4f2a-9e28-7ad94e91e661
+name: Synthea MS Data
+tags:
+- synthea
+- multiple-sclerosis
+- MS
+status: draft
+servers:
+- server: local
+  type: local
+  format: csv
+  path: data/csv/{model}.csv
+- server: rustfs
+  type: s3
+  environment: dev
+  endpointUrl: http://127.0.0.1:9000
+  format: csv
+  location: s3://synthea-ms-data/dev/v1/{model}.csv
+description:
+  usage: Pipeline development and testing of MS data products.
+  purpose: Synthetic patient, encounter, condition and observation data of a multiple
+    sclerosis (MS) cohort, generated with Synthea.
+  limitations: Synthetic data. Not for clinical or research conclusions.
+domain: clinical
+schema:
+- name: patients
+  physicalType: table
+  description: Patient demographic data.
+  logicalType: object
+  physicalName: patients
+  properties:
+  - name: Id
+    physicalType: VARCHAR
+    description: Primary Key. Unique Identifier of the patient.
+    primaryKey: true
+    logicalType: string
+    logicalTypeOptions:
+      format: uuid
+    required: true
+    unique: true
+  - name: BIRTHDATE
+    physicalType: VARCHAR
+    description: The date the patient was born.
+    logicalType: date
+    required: true
+  - name: DEATHDATE
+    physicalType: VARCHAR
+    description: The date the patient died.
+    logicalType: date
+  - name: SSN
+    physicalType: VARCHAR
+    description: Patient Social Security identifier.
+    logicalType: string
+    required: true
+    unique: true
+  - name: DRIVERS
+    physicalType: VARCHAR
+    description: Patient Drivers License identifier.
+    logicalType: string
+    unique: true
+  - name: PASSPORT
+    physicalType: VARCHAR
+    description: Patient Passport identifier.
+    logicalType: string
+    unique: true
+  - name: PREFIX
+    physicalType: VARCHAR
+    description: Name prefix, such as Mr., Mrs., Dr., etc.
+    logicalType: string
+  - name: FIRST
+    physicalType: VARCHAR
+    description: First name of the patient.
+    logicalType: string
+    required: true
+  - name: MIDDLE
+    physicalType: VARCHAR
+    description: Middle name of the patient.
+    logicalType: string
+  - name: LAST
+    physicalType: VARCHAR
+    description: Last or surname of the patient.
+    logicalType: string
+    required: true
+  - name: SUFFIX
+    physicalType: VARCHAR
+    description: Name suffix, such as PhD, MD, JD, etc.
+    logicalType: string
+  - name: MAIDEN
+    physicalType: VARCHAR
+    description: Maiden name of the patient.
+    logicalType: string
+  - name: MARITAL
+    physicalType: VARCHAR
+    description: Marital Status. M is married, S is single. Currently no support for
+      divorce (D) or widowing (W)
+    logicalType: string
+  - name: RACE
+    physicalType: VARCHAR
+    description: Description of the patient's primary race.
+    logicalType: string
+    required: true
+  - name: ETHNICITY
+    physicalType: VARCHAR
+    description: Description of the patient's primary ethnicity.
+    logicalType: string
+    required: true
+  - name: GENDER
+    physicalType: VARCHAR
+    description: Gender. M is male, F is female.
+    logicalType: string
+    required: true
+  - name: BIRTHPLACE
+    physicalType: VARCHAR
+    description: Name of the town where the patient was born.
+    logicalType: string
+    required: true
+  - name: ADDRESS
+    physicalType: VARCHAR
+    description: Patient's street address without commas or newlines.
+    logicalType: string
+    required: true
+    unique: true
+  - name: CITY
+    physicalType: VARCHAR
+    description: Patient's address city.
+    logicalType: string
+    required: true
+  - name: STATE
+    physicalType: VARCHAR
+    description: Patient's address state.
+    logicalType: string
+    required: true
+  - name: COUNTY
+    physicalType: VARCHAR
+    description: Patient's address county.
+    logicalType: string
+    required: true
+  - name: FIPS
+    physicalType: INTEGER
+    description: Patient's FIPS county code.
+    logicalType: string
+  - name: ZIP
+    physicalType: VARCHAR
+    description: Patient's zip code.
+    logicalType: string
+    required: true
+  - name: LAT
+    physicalType: DOUBLE
+    description: Latitude of Patient's address.
+    logicalType: number
+    logicalTypeOptions:
+      minimum: 41.30818837911615
+      maximum: 42.88630744742634
+    required: true
+    unique: true
+  - name: LON
+    physicalType: DOUBLE
+    description: Longitude of Patient's address.
+    logicalType: number
+    logicalTypeOptions:
+      minimum: -73.47394862577892
+      maximum: -70.07527366266154
+    required: true
+    unique: true
+  - name: HEALTHCARE_EXPENSES
+    physicalType: DOUBLE
+    description: The total lifetime cost of healthcare to the patient (i.e. what the
+      patient paid).
+    logicalType: number
+    logicalTypeOptions:
+      minimum: 850.0
+      maximum: 19300.46
+    required: true
+  - name: HEALTHCARE_COVERAGE
+    physicalType: DOUBLE
+    description: The total lifetime cost of healthcare services that were covered
+      by Payers (i.e. what the insurance company paid).
+    logicalType: number
+    logicalTypeOptions:
+      minimum: 0.0
+      maximum: 12427.66
+    required: true
+  - name: INCOME
+    physicalType: INTEGER
+    description: Annual income for the Patient
+    logicalType: number
+    required: true
+    unique: true
+- name: encounters
+  physicalType: table
+  description: Patient encounter data.
+  logicalType: object
+  physicalName: encounters
+  properties:
+  - name: Id
+    physicalType: VARCHAR
+    description: Primary Key. Unique Identifier of the encounter.
+    primaryKey: true
+    logicalType: string
+    logicalTypeOptions:
+      format: uuid
+    required: true
+    unique: true
+  - name: START
+    physicalType: VARCHAR
+    description: The date and time the encounter started.
+    logicalType: timestamp
+    required: true
+  - name: STOP
+    physicalType: VARCHAR
+    description: The date and time the encounter concluded.
+    logicalType: timestamp
+    required: true
+  - name: PATIENT
+    physicalType: VARCHAR
+    description: Foreign key to the Patient.
+    logicalType: string
+    logicalTypeOptions:
+      format: uuid
+    required: true
+    relationships:
+    - type: foreignKey
+      to: patients.Id
+  - name: ORGANIZATION
+    physicalType: VARCHAR
+    description: Foreign key to the Organization.
+    logicalType: string
+    logicalTypeOptions:
+      format: uuid
+    required: true
+  - name: PROVIDER
+    physicalType: VARCHAR
+    description: Foreign key to the Provider.
+    logicalType: string
+    logicalTypeOptions:
+      format: uuid
+    required: true
+  - name: PAYER
+    physicalType: VARCHAR
+    description: Foreign key to the Payer.
+    logicalType: string
+    logicalTypeOptions:
+      format: uuid
+    required: true
+  - name: ENCOUNTERCLASS
+    physicalType: VARCHAR
+    description: The class of the encounter, such as ambulatory, emergency, inpatient,
+      wellness, or urgentcare
+    logicalType: string
+    required: true
+  - name: CODE
+    physicalType: INTEGER
+    description: Encounter code from SNOMED-CT
+    logicalType: string
+    required: true
+  - name: DESCRIPTION
+    physicalType: VARCHAR
+    description: Description of the type of encounter.
+    logicalType: string
+    required: true
+  - name: BASE_ENCOUNTER_COST
+    physicalType: DOUBLE
+    description: The base cost of the encounter, **not** including any line item costs
+      related to medications, immunizations, procedures, or other services.
+    logicalType: number
+    logicalTypeOptions:
+      minimum: 136.8
+      maximum: 142.58
+    required: true
+  - name: TOTAL_CLAIM_COST
+    physicalType: DOUBLE
+    description: The total cost of the encounter, including all line items.
+    logicalType: number
+    logicalTypeOptions:
+      minimum: 136.8
+      maximum: 952.8
+    required: true
+  - name: PAYER_COVERAGE
+    physicalType: DOUBLE
+    description: The amount of cost covered by the Payer.
+    logicalType: number
+    logicalTypeOptions:
+      minimum: 0.0
+      maximum: 852.8
+    required: true
+  - name: REASONCODE
+    physicalType: VARCHAR
+    description: Diagnosis code from SNOMED-CT, **only if** this encounter targeted
+      a specific condition.
+    logicalType: string
+  - name: REASONDESCRIPTION
+    physicalType: VARCHAR
+    description: Description of the reason code.
+    logicalType: string
+- name: conditions
+  physicalType: table
+  description: Patient conditions or diagnoses.
+  logicalType: object
+  physicalName: conditions
+  properties:
+  - name: START
+    physicalType: VARCHAR
+    description: The date the condition was diagnosed.
+    logicalType: date
+    required: true
+  - name: STOP
+    physicalType: VARCHAR
+    description: The date the condition resolved, if applicable.
+    logicalType: date
+  - name: PATIENT
+    physicalType: VARCHAR
+    description: Foreign key to the Patient.
+    logicalType: string
+    logicalTypeOptions:
+      format: uuid
+    required: true
+    relationships:
+    - type: foreignKey
+      to: patients.Id
+  - name: ENCOUNTER
+    physicalType: VARCHAR
+    description: Foreign key to the Encounter when the condition was diagnosed.
+    logicalType: string
+    logicalTypeOptions:
+      format: uuid
+    required: true
+    relationships:
+    - type: foreignKey
+      to: encounters.Id
+  - name: SYSTEM
+    physicalType: VARCHAR
+    description: Specifies the code system, typically SNOMED
+    logicalType: string
+    required: true
+  - name: CODE
+    physicalType: BIGINT
+    description: SNOMED CT code of the condition. Multiple sclerosis is 24700007.
+    logicalType: string
+    required: true
+  - name: DESCRIPTION
+    physicalType: VARCHAR
+    description: Description of the condition.
+    logicalType: string
+    required: true
+- name: observations
+  physicalType: table
+  description: Patient observations including vital signs and lab reports.
+  logicalType: object
+  physicalName: observations
+  properties:
+  - name: DATE
+    physicalType: VARCHAR
+    description: The date and time the observation was performed.
+    logicalType: timestamp
+    required: true
+  - name: PATIENT
+    physicalType: VARCHAR
+    description: Foreign key to the Patient.
+    logicalType: string
+    logicalTypeOptions:
+      format: uuid
+    required: true
+    relationships:
+    - type: foreignKey
+      to: patients.Id
+  - name: ENCOUNTER
+    physicalType: VARCHAR
+    description: Foreign key to the Encounter where the observation was performed.
+    logicalType: string
+    logicalTypeOptions:
+      format: uuid
+    relationships:
+    - type: foreignKey
+      to: encounters.Id
+  - name: CATEGORY
+    physicalType: VARCHAR
+    description: Observation category.
+    logicalType: string
+  - name: CODE
+    physicalType: VARCHAR
+    description: Observation or Lab code from LOINC
+    logicalType: string
+    required: true
+  - name: DESCRIPTION
+    physicalType: VARCHAR
+    description: Description of the observation or lab.
+    logicalType: string
+    required: true
+  - name: VALUE
+    physicalType: DOUBLE
+    description: The recorded value of the observation. Often numeric, but some values
+      can be verbose, for example, multiple-choice questionnaire responses.
+    logicalType: string
+    required: true
+  - name: UNITS
+    physicalType: VARCHAR
+    description: The units of measure for the value.
+    logicalType: string
+  - name: TYPE
+    physicalType: VARCHAR
+    description: 'The datatype of Value: text or numeric'
+    logicalType: string
+    required: true
+- name: medications
+  physicalType: table
+  description: Patient medication data.
+  logicalType: object
+  physicalName: medications
+  properties:
+  - name: START
+    physicalType: VARCHAR
+    description: The date and time the medication was prescribed.
+    logicalType: timestamp
+    required: true
+    unique: true
+  - name: STOP
+    physicalType: VARCHAR
+    description: The date and time the prescription ended, if applicable.
+    logicalType: timestamp
+  - name: PATIENT
+    physicalType: VARCHAR
+    description: Foreign key to the Patient.
+    logicalType: string
+    logicalTypeOptions:
+      format: uuid
+    required: true
+    relationships:
+    - type: foreignKey
+      to: patients.Id
+  - name: PAYER
+    physicalType: VARCHAR
+    description: Foreign key to the Payer.
+    logicalType: string
+    logicalTypeOptions:
+      format: uuid
+    required: true
+  - name: ENCOUNTER
+    physicalType: VARCHAR
+    description: Foreign key to the Encounter where the medication was prescribed.
+    logicalType: string
+    logicalTypeOptions:
+      format: uuid
+    required: true
+    unique: true
+    relationships:
+    - type: foreignKey
+      to: encounters.Id
+  - name: CODE
+    physicalType: INTEGER
+    description: Medication code from RxNorm.
+    logicalType: string
+    required: true
+  - name: DESCRIPTION
+    physicalType: VARCHAR
+    description: Description of the medication.
+    logicalType: string
+    required: true
+  - name: BASE_COST
+    physicalType: DOUBLE
+    description: The line item cost of the medication.
+    logicalType: number
+    logicalTypeOptions:
+      minimum: 129.94
+      maximum: 129.94
+    required: true
+  - name: PAYER_COVERAGE
+    physicalType: DOUBLE
+    description: The amount covered or reimbursed by the Payer.
+    logicalType: number
+    logicalTypeOptions:
+      minimum: 0.0
+      maximum: 103.95
+    required: true
+  - name: DISPENSES
+    physicalType: INTEGER
+    description: The number of times the prescription was filled.
+    logicalType: number
+    required: true
+  - name: TOTALCOST
+    physicalType: DOUBLE
+    description: The total cost of the prescription, including all dispenses.
+    logicalType: number
+    logicalTypeOptions:
+      minimum: 129.94
+      maximum: 63930.48
+    required: true
+  - name: REASONCODE
+    physicalType: VARCHAR
+    description: Diagnosis code from SNOMED-CT specifying why this medication was
+      prescribed.
+    logicalType: string
+  - name: REASONDESCRIPTION
+    physicalType: VARCHAR
+    description: Description of the reason code.
+    logicalType: string
+- name: procedures
+  physicalType: table
+  description: Patient procedure data including surgeries.
+  logicalType: object
+  physicalName: procedures
+  properties:
+  - name: START
+    physicalType: VARCHAR
+    description: The date and time the procedure was performed.
+    logicalType: timestamp
+    required: true
+    unique: true
+  - name: STOP
+    physicalType: VARCHAR
+    description: The date and time the procedure was completed, if applicable.
+    logicalType: timestamp
+    required: true
+    unique: true
+  - name: PATIENT
+    physicalType: VARCHAR
+    description: Foreign key to the Patient.
+    logicalType: string
+    logicalTypeOptions:
+      format: uuid
+    required: true
+    relationships:
+    - type: foreignKey
+      to: patients.Id
+  - name: ENCOUNTER
+    physicalType: VARCHAR
+    description: Foreign key to the Encounter where the procedure was performed.
+    logicalType: string
+    logicalTypeOptions:
+      format: uuid
+    required: true
+    unique: true
+    relationships:
+    - type: foreignKey
+      to: encounters.Id
+  - name: SYSTEM
+    physicalType: VARCHAR
+    description: Terminology system for the Code, typically SNOMED-CT.
+    logicalType: string
+    required: true
+  - name: CODE
+    physicalType: BIGINT
+    description: Procedure code from SNOMED-CT
+    logicalType: string
+    required: true
+  - name: DESCRIPTION
+    physicalType: VARCHAR
+    description: Description of the procedure.
+    logicalType: string
+    required: true
+  - name: BASE_COST
+    physicalType: DOUBLE
+    description: The line item cost of the procedure.
+    logicalType: number
+    logicalTypeOptions:
+      minimum: 431.4
+      maximum: 431.4
+    required: true
+  - name: REASONCODE
+    physicalType: VARCHAR
+    description: Diagnosis code from SNOMED-CT specifying why this procedure was performed.
+    logicalType: string
+  - name: REASONDESCRIPTION
+    physicalType: VARCHAR
+    description: Description of the reason code.
+    logicalType: string

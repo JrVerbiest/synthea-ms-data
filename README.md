@@ -7,10 +7,10 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Synthea](https://img.shields.io/badge/built%20with-Synthea-blue)](https://github.com/JrVerbiest/synthea)
 [![Python 3.12](https://img.shields.io/badge/python-3.12-blue.svg)](https://www.python.org/)
-[![Data Contract CLI](https://img.shields.io/badge/datacontract--cli-1.2.0-blue)](https://cli.datacontract.com/)
-[![ODCS](https://img.shields.io/badge/Open%20Data%20Contract%20Standard-v3.2.0-blue)](https://bitol-io.github.io/open-data-contract-standard/latest/)
+[![Data Contract CLI](https://img.shields.io/badge/datacontract--cli-1.2.4-blue)](https://cli.datacontract.com/)
+[![ODCS](https://img.shields.io/badge/Open%20Data%20Contract%20Standard-v3.1.0-blue)](https://bitol-io.github.io/open-data-contract-standard/latest/)
 
-This repo provides a **synthetic** patient dataset for Multiple Sclerosis (MS) in folder `/data/csv`, generated using [Synthea](https://github.com/synthetichealth/synthea) and the MS Disease Trajectory module.
+This repo provides a **synthetic** Multiple Sclerosis (MS) patient dataset. The data can be found in folder `/data/csv`. It is generated using [Synthea](https://github.com/synthetichealth/synthea) and the MS Disease Trajectory module.
 
 > **⚠️ Usage Limitation:** This dataset is specific **developed for use in a reference data product design**.
 > It may **NOT** be used for clinical decision-making, statistical modelling, patient care, or any production healthcare application.
@@ -19,30 +19,37 @@ This repo provides a **synthetic** patient dataset for Multiple Sclerosis (MS) i
 
 ## Data Product
 
-🚧 **Work in progress**.
+This repo is also the data product `synthea-ms-data` with a the data product manifest, data contract, and the about page. 
+
+The docs in [`docs/`](docs/) explain each step. Read them with [Quarto](https://quarto.org):
+
+```bash
+cd docs && quarto preview
+```
+
+### Data Product Manifest
+
+The ODPS file (data product manifest) describes the data product and its output port and is written according the [Open Data Product Standard](https://github.com/bitol-io/open-data-product-standard) (ODPS) v1.1.0.
+
+```sh
+dataproduct lint synthea-ms-data.odps.yaml --local-references
+```
+
+It checks the file against the ODPS JSON schema. With `--local-references` it also looks in the repo for the contract with the `id` in `contractId`, prints `resolvable: Found at data/synthea-ms-data.odcs.yaml`, and lints that contract. It ends with `🟢 Data product is valid.`
+
+dataproduct-cli 0.3.2 lints contracts up to ODCS v3.1.0: it fails a v3.2.0 contract, yet exits `0`. Hence `apiVersion: v3.1.0` in the contract settings.
+
+### Data Contract
+
+The ODCS file (data contract) describes the 6 tables according the [Open Data Contract Standard](https://bitol-io.github.io/open-data-contract-standard/) (ODCS) v3.1.0: per column its type, description and keys, and where the data is. A script generates a first version from the CSV files and Synthea's data dictionary.
+
+The data contract can be found in: `data/synthea-ms-data.odcs.yaml`.
+
+How to regenerate, review, lint and test it: [data-contract/data-contract.md](data-contract/data-contract.md).
 
 ---
 
 ## Regenerate the dataset from scratch
-
-```text
-synthea-ms-data/
-├── data/
-│   ├── csv/                                          Synthea CSV export (Step 6), unmodified
-│   └── metadata/                                     Run summary JSON (seed, patient count, module, run time)
-├── docs/
-│   ├── MS disease trajectory Nadia Rabah.pdf         Describing the initial module
-│   └── module-modifications.md                       Changelog of the modifications to the MS module (Step 2)
-├── filter/
-│   └── keep_ms.json                                  Keep filter — retains only patients with an active MS diagnosis (Step 4)
-├── module/
-│   └── multiple_sclerosis_disease_trajectory.json    MS Disease Trajectory module with modifications (Step 2)
-├── notebook/
-│   └── edss-observations.ipynb                       Notebook to explore the Expanded Disability Status Scale
-├── requirements.txt                                  Python dependencies: jupyter, pandas, matplotlib, datacontract-cli[csv,duckdb] (Step 7)
-├── LICENSE                                           MIT
-└── README.md
-```
 
 The repo contains everything that is needed to regenerate the dataset from scratch — the disease module, the keep filter, a notebook that corrects the raw output, and step-by-step instructions for Unix-like terminals (Linux, macOS, WSL). A fixed random seed makes every run reproducible on any machine.
 
@@ -70,7 +77,7 @@ cd synthea
 > **⚠️ These modifications are NOT CLINICALLY VALIDATED.**
 > 
 The applied modifications - changelog - are described in
-[`docs/module-modifications.md`](docs/module-modifications.md).
+[`module-modifications.md`](module-modifications.md).
 
 Copy `module/multiple_sclerosis_disease_trajectory.json` (from this repo) into `synthea/src/main/resources/modules/`.
 
@@ -180,7 +187,7 @@ From `synthea/output/` copy:
 
 - `patients.csv`
 - `conditions.csv`
-- `òbservations.csv`
+- `observations.csv`
 - `encounters.csv`
 - `medications.csv`
 - `procedures.csv`
@@ -205,9 +212,16 @@ Verify the installation:
 
 ```bash
 uv pip show jupyter pandas   # or: pip show jupyter pandas
-datacontract --version       # 1.2.0
+datacontract --version       # 1.2.4
+dataproduct --version        # 0.3.2
 ```
 
-`requirements.txt` holds `jupyter` and `pandas` for the notebook (Step 8) and `datacontract-cli[csv,duckdb]` for the data contract (Step 9).
+`requirements.txt` holds `jupyter`, `pandas` and `matplotlib` for the notebook, and `datacontract-cli[csv,duckdb]` and `dataproduct-cli` for the [Data Product](#data-product), pinned so a reproduction uses the same versions.
 
 ---
+
+## GitHub Action
+
+A GitHub Actions workflow checks every pull request and every push to `main`: it lints the ODPS file and the data contract, fails a pull request with a breaking change to the contract, and runs the contract test on `data/csv/`.
+
+How it works and how to require the check: [github-action.md](github-action.md).

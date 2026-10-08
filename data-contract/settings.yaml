@@ -1,0 +1,45 @@
+# Settings of generate_contract.py. Paths are relative to the repo root, where you run it and `datacontract test`.
+data: data/csv
+output: data-contract/synthea-ms-data.odcs.yaml
+
+# Tables to merge, in this order
+tables:
+  - patients
+  - encounters
+  - conditions
+  - observations
+  - medications
+  - procedures
+
+# Any ODCS top-level field, set on the contract. v3.1.0: the newest ODCS version dataproduct-cli 0.3.2 accepts.
+contract:
+  apiVersion: v3.1.0
+  id: synthea-ms-data
+  name: Synthea MS Data
+  domain: clinical
+  status: draft
+  description:
+    purpose: Synthetic patient, encounter, condition and observation data of a multiple sclerosis (MS) cohort, generated with Synthea.
+    usage: Pipeline development and testing of MS data products.
+    limitations: Synthetic data. Not for clinical or research conclusions.
+  tags:
+    - synthea
+    - multiple-sclerosis
+    - MS
+  # {model} is the table name. `local` is the CSV files in this repo, `rustfs` the landing bucket.
+  servers:
+    - server: local
+      type: local
+      format: csv
+      path: data/csv/{model}.csv
+    - server: rustfs
+      type: s3
+      environment: dev
+      format: csv
+      location: s3://synthea-ms-data/dev/v1/{model}.csv
+      endpointUrl: http://127.0.0.1:9000
+
+# Hand-written fields, applied last. `<table>` sets fields on the schema object, `<table>.<COLUMN>` on the column.
+overrides:
+  conditions.CODE:
+    description: SNOMED CT code of the condition. Multiple sclerosis is 24700007.

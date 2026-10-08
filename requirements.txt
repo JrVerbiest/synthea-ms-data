@@ -1,4 +1,5 @@
 jupyter
 pandas
 matplotlib
-datacontract-cli[csv,duckdb]
+datacontract-cli[csv,duckdb]==1.2.4
+dataproduct-cli==0.3.2
