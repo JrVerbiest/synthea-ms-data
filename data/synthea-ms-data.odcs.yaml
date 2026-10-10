@@ -1,6 +1,6 @@
 version: 1.0.0
 kind: DataContract
-apiVersion: v3.1.0
+apiVersion: v3.2.0
 id: f733bac0-0237-4f2a-9e28-7ad94e91e661
 name: Synthea MS Data
 tags:

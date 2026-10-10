@@ -8,7 +8,7 @@
 [![Synthea](https://img.shields.io/badge/built%20with-Synthea-blue)](https://github.com/JrVerbiest/synthea)
 [![Python 3.12](https://img.shields.io/badge/python-3.12-blue.svg)](https://www.python.org/)
 [![Data Contract CLI](https://img.shields.io/badge/datacontract--cli-1.2.4-blue)](https://cli.datacontract.com/)
-[![ODCS](https://img.shields.io/badge/Open%20Data%20Contract%20Standard-v3.1.0-blue)](https://bitol-io.github.io/open-data-contract-standard/latest/)
+[![ODCS](https://img.shields.io/badge/Open%20Data%20Contract%20Standard-v3.2.0-blue)](https://bitol-io.github.io/open-data-contract-standard/latest/)
 
 This repo provides a **synthetic** Multiple Sclerosis (MS) patient dataset. The data can be found in folder `/data/csv`. It is generated using [Synthea](https://github.com/synthetichealth/synthea) and the MS Disease Trajectory module.
 
@@ -37,11 +37,11 @@ dataproduct lint synthea-ms-data.odps.yaml --local-references
 
 It checks the file against the ODPS JSON schema. With `--local-references` it also looks in the repo for the contract with the `id` in `contractId`, prints `resolvable: Found at data/synthea-ms-data.odcs.yaml`, and lints that contract. It ends with `🟢 Data product is valid.`
 
-dataproduct-cli 0.3.2 lints contracts up to ODCS v3.1.0: it fails a v3.2.0 contract, yet exits `0`. Hence `apiVersion: v3.1.0` in the contract settings.
+dataproduct-cli lints the contract with the `datacontract` on the PATH. The contract is ODCS v3.2.0, which needs datacontract-cli 1.2.4 from `requirements.txt`: an older one, such as 1.0.2, fails the contract, yet `dataproduct lint` exits `0`. So run it in the repo's virtual environment.
 
 ### Data Contract
 
-The ODCS file (data contract) describes the 6 tables according the [Open Data Contract Standard](https://bitol-io.github.io/open-data-contract-standard/) (ODCS) v3.1.0: per column its type, description and keys, and where the data is. A script generates a first version from the CSV files and Synthea's data dictionary.
+The ODCS file (data contract) describes the 6 tables according the [Open Data Contract Standard](https://bitol-io.github.io/open-data-contract-standard/) (ODCS) v3.2.0: per column its type, description and keys, and where the data is. A script generates a first version from the CSV files and Synthea's data dictionary.
 
 The data contract can be found in: `data/synthea-ms-data.odcs.yaml`.
 

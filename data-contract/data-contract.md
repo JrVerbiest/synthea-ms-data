@@ -1,6 +1,6 @@
 # Data contract
 
-The ODCS file (data contract) describes the 6 tables according the [Open Data Contract Standard](https://bitol-io.github.io/open-data-contract-standard/) (ODCS) v3.1.0: per column its type, description and keys, and where the data is. A script generates a first version from the CSV files and Synthea's data dictionary; after review it moves to `data/synthea-ms-data.odcs.yaml`.
+The ODCS file (data contract) describes the 6 tables according the [Open Data Contract Standard](https://bitol-io.github.io/open-data-contract-standard/) (ODCS) v3.2.0: per column its type, description and keys, and where the data is. A script generates a first version from the CSV files and Synthea's data dictionary; after review it moves to `data/synthea-ms-data.odcs.yaml`.
 
 | File | What |
 |---|---|
@@ -38,7 +38,7 @@ The same CSV files, wiki page, settings and datacontract-cli version always give
 | `output` | Where the contract is written: `data-contract/synthea-ms-data.odcs.yaml` |
 | `tables` | The tables, in the order they appear in the contract |
 | `contract` | ODCS top-level fields, set on the contract: `apiVersion`, `id`, `name`, `domain`, `status`, `description`, `tags` and `servers` |
-| `contract.apiVersion` | `v3.1.0`: the newest ODCS version that dataproduct-cli 0.3.2 accepts when it lints the ODPS file ([Lint](odps-about.qmd#lint)) |
+| `contract.apiVersion` | `v3.2.0`. It needs datacontract-cli 1.2.4 from `requirements.txt`, also on the PATH: dataproduct-cli lints the contract with the `datacontract` it finds there, and 1.0.2 rejects v3.2.0 ([Lint](odps-about.qmd#lint)) |
 | `contract.servers` | Where the data is; `{model}` is the table name. `local`: the CSV files in this repo, `data/csv/{model}.csv`. `rustfs`: the landing bucket, `s3://synthea-ms-data/dev/v1/{model}.csv` ([Landing bucket](landing-bucket.qmd)) |
 | `overrides` | Fields applied last: `<table>` sets fields on the schema object, `<table>.<COLUMN>` on a column. Today one: the description of `conditions.CODE` |
 
