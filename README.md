@@ -77,7 +77,7 @@ cd synthea
 > **⚠️ These modifications are NOT CLINICALLY VALIDATED.**
 > 
 The applied modifications - changelog - are described in
-[`module-modifications.md`](module-modifications.md).
+[`module/module-modifications.md`](module/module-modifications.md).
 
 Copy `module/multiple_sclerosis_disease_trajectory.json` (from this repo) into `synthea/src/main/resources/modules/`.
 
